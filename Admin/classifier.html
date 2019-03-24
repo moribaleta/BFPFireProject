@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>BFP admin</title>
+
+    <!-- CSS  -->
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <script src="js/jquery-3.0.0.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <link href="css/main-style.css" rel="stylesheet">
+    <script src="js/vue.js"></script>
+    <script src="js/datahandler.js"></script>
+    <script src="js/regression.js"></script>
+    <script src="js/classifier.js"></script>
+    <script src="js/generateclassifier.js"></script>
+
+    <style>
+        .classifier-content {
+            height: 100%;
+            min-height: 500px;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-inverse navbar-fixed-top" id="header">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="index.html">BFP admin (Classifier)</a>
+            </div>
+        </div>
+    </nav>
+    <div class="container content" id="classifier-container">
+        <div id="newClassifierModal" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title">Retrain Classifier</h4>
+                    </div>
+                    <div class="modal-body">
+                        <p>learning_rate</p>
+                        <input type="text" name="learning_rate" v-model="input_model.alpha">
+                        <br>
+                        <p>iterations</p>
+                        <input type="text" name="iterations" v-model="input_model.iterations">
+                        <br>
+                        <p>error_rate</p>
+                        <input type="text" name="error_rate" v-model="input_model.lambda">
+                        <br>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal" v-on:click="newClassifier">Save</button>
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div id="newClassifierResultModal" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title">Training Result</h4>
+                    </div>
+                    <div class="modal-body">
+                        <div class="loader" v-if="loading"></div>
+                        <ul class="list" v-if="!loading && classifier_result != null">
+                            <li class="row">
+                                <p class="col-sm-1 list-title">#</p>
+                                <!-- <p class="col-sm-3 list-title">model</p> -->
+                                <p class="col-sm-4 list-title">accuracy</p>
+                                <p class="col-sm-1 list-title">errror</p>
+                            </li>
+                            <li class="row" v-for='(classifier,index) in classifier_result.models'>
+                                <p class="col-sm-1 list-title">{{(index + 1)}}</p>
+                                <!-- <p class="col-sm-3 list-title">{{classifier.classifier}}</p> -->
+                                <p class="col-sm-4 list-title">{{classifier.accuracy}}</p>
+                                <p class="col-sm-1 list-title">{{classifier.error}}</p>
+                            </li>
+
+                            <li class="row">
+                                <p class="col-sm-1 list-title">winner: </p>
+                                <!-- <p class="col-sm-3 list-title">{{classifier_result.final.classifier}}</p> -->
+                                <p class="col-sm-4 list-title">{{classifier_result.final.accuracy}}</p>
+                                <!-- <p class="col-sm-1 list-title">{{classifier_result.final.error}}</p> -->
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal" v-on:click="saveClassifier">Save</button>
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div id="testClassifierModal" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title">Test Classifier</h4>
+                    </div>
+                    <div class="modal-body">
+                        <div class="loader-container">
+                            <div class="loader" v-if="loading"></div>
+                            <p v-if="!loading">accuracy : {{test.accuracy}}</p>
+                            <p v-if="!loading"># errors : {{test.error}}</p>
+                            <p v-if="!loading"># test : {{test.count}}</p>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" v-on:click="testClassifier">Start</button>
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <ul class="list">
+            <li class="row">
+                <p class="col-sm-1 list-title">id</p>
+                <p class="col-sm-2 list-title">alpha (learning rate)</p>
+                <p class="col-sm-2 list-title">iterations (# of training)</p>
+                <p class="col-sm-2 list-title">lambda (error rate)</p>
+                <p class="col-sm-2 list-title">dim (# of attributes)</p>
+                <p class="col-sm-3 list-title">date</p>
+            </li>
+            <li class="row" v-for='classifier in classifiers'>
+                <p class="col-sm-1 list-title">{{classifier.id}}</p>
+                <p class="col-sm-2 list-title">{{classifier.model.alpha}}</p>
+                <p class="col-sm-2 list-title">{{classifier.model.iterations}}</p>
+                <p class="col-sm-2 list-title">{{classifier.model.lambda}}</p>
+                <p class="col-sm-2 list-title">{{classifier.model.dim}}</p>
+                <p class="col-sm-3 list-title">{{classifier.date}}</p>
+            </li>
+        </ul>
+        <div class="fixed-action-btn">
+            <button type="button" id="add-report" class="button-view btn btn-success" data-toggle="modal" data-target="#testClassifierModal">test
+                classifier
+            </button>
+            <button type="button" id="add-report" class="button-view btn btn-warning" data-toggle="modal" data-target="#newClassifierModal">retrain
+                classifier
+            </button>
+        </div>
+    </div>
+
+    <script>
+        var app = new Vue({
+            el: '#classifier-container',
+            data: {
+                classifiers: [],
+                input_model: {
+                    alpha: 0,
+                    iterations: 0,
+                    lambda: 0
+                },
+                test: {
+                    accuracy: null,
+                    count: null,
+                    error: null
+                },
+                classifier_result: null,
+                test_data: [],
+                training_data: [],
+                loading: false,
+            },
+            methods: {
+                initClassifier() {
+                    getClassifier(this.setClassifierData)
+                },
+                setClassifierData: function (data) {
+                    classifierGenerate(data)
+                    data = JSON.parse(data)
+                    this.classifiers = data.map((item) => {
+                        var classifier = item
+                        classifier.model = JSON.parse(classifier.model)
+                        return classifier
+                    }).reverse()
+                },
+                setDataset(training_data, test_data) {
+                    this.training_data = training_data
+                    this.test_data = test_data
+                },
+                newClassifier() {
+                    $("#newClassifierResultModal").modal()
+                    console.log(this.input_model)
+                    this.loading = true
+                    //generateClassifierFromDataSetWithSetting(this.training_data, this.input_model, this.initClassifier)
+                    var promise1 = new Promise(function (resolve, reject) {
+                        setTimeout(function () {
+                            let output = generateNewClassifierModel(app.training_data, app.input_model)
+                            resolve(output);
+                        }, 300);
+                    });
+
+                    promise1.then((output) => {
+                        app.setTrainingResult(output)
+                    })
+
+                },
+                setTrainingResult(result) {
+                    this.loading = false
+                    this.classifier_result = result
+                },
+                saveClassifier() {
+                    saveClassifier(JSON.stringify(this.classifier_result.final.classifier), this.initClassifier)
+                    this.classifier_result = null
+                    location.reload()
+                },
+                testClassifier() {
+                    this.loading = true
+
+                    var promise1 = new Promise(function (resolve, reject) {
+                        setTimeout(function () {
+                            var error = 0
+                            var test_data = app.test_data
+                            var error_log = []
+
+                            let result = test_data.map((test) => {
+                                var actual = test.pop()
+                                var predicted = classifier_model.transform(test)
+                                predicted = predicted.sort(compare)
+                                return {
+                                    predicted: predicted,
+                                    actual: actual
+                                }
+                            })
+
+                            var error = result.filter((item) => {
+                                let halfWayThough = Math.floor(item.predicted.length /
+                                    2) + 1
+                                let arrayFirstHalf = item.predicted.slice(0,
+                                    halfWayThough);
+                                let arraySecondHalf = item.predicted.slice(
+                                    halfWayThough, item.predicted.length);
+
+                                for (var i = 0; i < arrayFirstHalf.length; i++) {
+                                    if (arrayFirstHalf[i].class == item.actual)
+                                        return false
+                                }
+
+                                console.log(arrayFirstHalf)
+                                console.log(arraySecondHalf)
+                                return true
+                            })
+                            console.log(result)
+                            console.log(error)
+                            let accuracy = ((result.length - error.length) / result.length) *
+                                100
+                            console.log(accuracy)
+
+                            var test = {
+                                accuracy: accuracy,
+                                error: error.length,
+                                count: test_data.length
+                            }
+
+                            resolve(test);
+                        }, 300);
+                    });
+
+                    promise1.then(function (value) {
+                        app.setTestResult(value)
+                    });
+                },
+
+                setTestResult(testResult) {
+                    this.test = testResult
+                    this.loading = false
+                }
+
+
+            }
+        })
+    </script>
+    <script>
+        var map_report = {
+            time: [],
+            day: [],
+            month: [],
+            cause: [],
+            alarm: [],
+            temp: [],
+            type: [],
+            district: []
+        }
+        var districts = {}
+
+        function setDistricts(district) {
+            if (districts[district] == undefined) {
+                districts[district] = 1
+            } else {
+                districts[district]++
+            }
+        }
+
+        function getClass(index) {
+            let district = map_report.district[index]
+            return district
+        }
+
+        function getValue(key, value) {
+            value += ""
+            let map = map_report[key].map((item) => {
+                return item.toLowerCase()
+            })
+            return map.indexOf(value.toLowerCase())
+        }
+
+        function generateMap(key, data) {
+            if (!map_report[key].includes(data)) {
+                map_report[key].push(data)
+            }
+            return map_report[key].indexOf(data)
+        }
+
+        function main(reports_reabable) {
+            var training_data = []
+            var test_data = []
+
+            reports_reabable.forEach(element => {
+                //generateMap("date", element.date)
+                let time_value = generateMap("time", element.time)
+                let day_value = generateMap("day", element.day)
+                let month_value = generateMap("month", element.month)
+                let cause_value = generateMap("cause", element.cause)
+                let alarm_value = generateMap("alarm", element.alarm_level)
+                let temp_value = generateMap("temp", element.temp)
+                /* let type_value = generateMap("type", element.type) */
+                let type_value = generateMap("type", element.establishment_type)
+                let district_value = generateMap("district", element.district)
+
+                training_data.push(
+                    [time_value,
+                        day_value,
+                        month_value,
+                        cause_value,
+                        alarm_value,
+                        temp_value,
+                        type_value,
+                        district_value
+                    ]
+                )
+            });
+            console.log(map_report)
+
+            let testcount = 0.3 * training_data.length
+            for (var i = 0; i < testcount; i++) {
+                var sample = training_data.sample()
+                while (test_data.includes(sample)) {
+                    sample = training_data.sample()
+                }
+                test_data.push(sample)
+                let index = training_data.indexOf(sample)
+                training_data.splice(index, 1);
+            }
+
+            app.setDataset(training_data, test_data)
+
+        }
+
+
+        Array.prototype.sample = function () {
+            return this[Math.floor(Math.random() * this.length)];
+        }
+    </script>
+
+    <script>
+        var header = new Vue({
+            el: '#header',
+            methods: {
+                onStart() {
+                    let user = sessionStorage.getItem('user')
+                    console.log(user)
+                    if (user) {
+                        console.log('success')
+                        getReports(true, main)
+                        app.initClassifier()
+
+                    } else {
+                        alert('login user account')
+                        this.onLogout()
+                    }
+                },
+                onLogout() {
+                    sessionStorage.removeItem('user')
+                    window.open('login.html', '_self')
+                }
+            }
+        })
+
+        header.onStart()
+    </script>
+
+</body>
+
+</html>

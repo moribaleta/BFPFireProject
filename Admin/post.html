@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>BFP admin (Post)</title>
+
+    <!-- CSS  -->
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <script src="js/jquery-3.0.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.2.2/jquery.form.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <link href="css/main-style.css" rel="stylesheet">
+    <script src="js/vue.js"></script>
+    <script src="js/datahandler.js"></script>
+
+</head>
+
+<body>
+    <nav class="navbar navbar-inverse navbar-fixed-top" id="header">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="index.html">BFP admin</a>
+            </div>
+            <ul class="nav navbar-nav">
+                <li  class="active"><a href="#">POST</a></li>
+                <li><a href="gallery.html">GALLERY</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container" id="post-container">
+        <div id="myModal" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title">Add New Post</h4>
+                    </div>
+                    <div class="modal-body">
+                        <form method="post" id="postform" enctype="multipart/form-data" action="https://bfpforecast.000webhostapp.com/phdfire/addPost.php">
+                            <p>Title</p>
+                            <input class="titlearea" id="input_title" type="text" name="title" placeholder="input title"
+                                v-model="post_input.title"><br><br>
+                            <p>Content</p>
+                            <textarea form="postform" name="content" id="textarea" class="textarea" cols="35" wrap="soft"
+                                v-model="post_input.content"></textarea><br><br>
+                            <p v-if="!isPostEdit">Add Images</p>
+                            <input v-if="!isPostEdit" type="file" id="input_images" name="files[]" multiple>
+                            <br><br>
+                        </form>
+                        <li class="list-item row" v-for="(item,index) in post_input.images">
+                            <p class="col-sm-1">{{(index + 1)}}</p>
+                            <img class="col-sm-3" v-bind:src="item">
+                            <p class="col-sm-2">
+                                <a class="list-item-action" v-on:click="deleteImage(index)">delete</a>
+                            </p>
+                        </li>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal" v-on:click="uploadPost()">Save</button>
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="section">
+            <ul class="list">
+
+                <li class="list-item row" v-for="(item,index) in posts">
+                    <p class="col-sm-1">{{(index + 1)}}</p>
+                    <p class="col-sm-1 table-bordered">{{item.id}}</p>
+                    <p class="col-sm-2 table-bordered">{{item.title}}</p>
+                    <p class="col-sm-3 table-bordered">{{item.content}}</p>
+                    <p class="col-sm-3 table-bordered">{{item.images}}</p>
+                    <p class="col-sm-2">
+                        <a class="list-item-action" v-on:click="viewItem(index)">view</a>
+                        <a class="list-item-action" v-on:click="editItem(index)">edit</a>
+                        <a class="list-item-action" v-on:click="deleteItem(index)">delete</a>
+                    </p>
+                </li>
+            </ul>
+        </div>
+        <div class="fixed-action-btn">
+            <!-- <button id="add_post" class="button-view" v-on:click="addPost" data-target="#myModal">add
+                report
+            </button> -->
+            <button type="button" id="add_post" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Add
+                Post</button>
+        </div>
+    </div>
+
+
+    <!--  Scripts-->
+
+    <script src="js/materialize.js"></script>
+    <script src="js/init.js"></script>
+
+    <script>
+        var image_url = "https://bfpforecast.000webhostapp.com/phdfire/uploads"
+        var user = null
+        var header = new Vue({
+            el: '#header',
+            methods: {
+                onStart() {
+                    user = JSON.parse(sessionStorage.getItem('user'))
+                    console.log(user)
+                    if (user) {
+                        console.log('success')
+                        //vue_app.initApp()
+                    } else {
+                        alert('login user account')
+                        this.onLogout()
+                    }
+                },
+                onLogout() {
+                    sessionStorage.removeItem('user')
+                    window.open('login.html', '_self')
+                }
+            }
+        })
+
+        header.onStart()
+
+
+
+        var vue_app = new Vue({
+            el: '#post-container',
+            data: {
+                posts: ['a', 'b', 'c'],
+                isPostEdit: false,
+                post_input: {
+                    title: null,
+                    content: null,
+                    images: null
+                }
+            },
+            methods: {
+                uploadPost: function () {
+                    if (!this.isPostEdit) {
+                        submitForm()
+                    }
+                },
+
+                initApp: function () {
+                    getPost(null, user.id, this.loadData)
+                },
+
+                addPost: function () {
+
+                    this.isPostEdit = false
+                    this.post_input.id = ""
+                    this.post_input.title = ""
+                    this.post_input.content = ""
+                    this.post_input.images = []
+                    document.getElementById('add_post').click()
+                },
+
+                loadData: function (posts) {
+                    this.posts = JSON.parse(posts)
+                },
+                editItem: function (index) {
+                    this.isPostEdit = true
+                    this.post_input.id = this.posts[index].id
+                    this.post_input.title = this.posts[index].title
+                    this.post_input.content = this.posts[index].content
+
+                    let images = JSON.parse(this.posts[index].images)
+
+                    this.post_input.images = images.map((image) => {
+                        return image_url + image
+                    })
+                    document.getElementById('add_post').click()
+                },
+                deleteImage: function (index) {
+                    var r = confirm("Continue to Delete image " + this.post_input.images[index]);
+                    if (r == true) {
+                        var image = this.post_input.images[index]
+                        image = image.replace(image_url, "")
+                        deleteImage(image, null)
+                        this.post_input.images = this.post_input.images.splice(index, 1)
+                        var images = this.post_input.images.map(image => {
+                            return image.replace(image_url, "")
+                        })
+                        images = JSON.stringify(images)
+                        editPost(this.post_input.id, this.post_input.title, this.post_input.content, images,
+                            this.initApp)
+                    }
+                },
+                deleteItem: function (index) {
+                    var r = confirm("Continue to Delete item # " + (index + 1));
+                    if (r == true) {
+                        deletePost(this.posts[index].id, this.initApp)
+                    }
+                },
+                viewItem(index) {
+                    sessionStorage.setItem('post', JSON.stringify(this.posts[index]))
+                    window.open('viewPost.html', '_self')
+                }
+            }
+        })
+
+        vue_app.initApp()
+
+
+        var url = "https://bfpforecast.000webhostapp.com/phdfire/addPost.php"
+        var form = document.getElementById('postform')
+
+        const submitForm = () => {
+
+            const title = document.getElementById('input_title').value
+
+            const content = document.getElementById('textarea').value
+
+            const files = document.querySelector('[type=file]').files;
+            const formData = new FormData();
+            console.log(user.id)
+            formData.append('userid', user.id)
+            formData.append('title', title)
+            formData.append('content', content)
+
+            for (let i = 0; i < files.length; i++) {
+                let file = files[i];
+                formData.append('files[]', file);
+            }
+
+            $.ajax({
+                url: url,
+                type: "POST",
+                data: formData,
+                contentType: false,
+                cache: false,
+                processData: false,
+                success: function (data) {
+                    console.log(data)
+                    location.reload()
+                    //alert(data)
+                },
+                error: function (e) {
+                    console.log(e)
+                },
+                complete: function (e) {
+                    vue_app.initApp()
+                }
+            });
+
+        };
+    </script>
+</body>
+
+</html>

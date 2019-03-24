@@ -1,0 +1,1023 @@
+<html>
+
+<head>
+    <title>Generate Recommendations</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="css/main-style.css" rel="stylesheet">
+    <script src="js/jquery-3.0.0.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="js/vue.js"></script>
+    <script src="js/datahandler.js"></script>
+    <script src="js/DTClassifier.1.js"></script>
+    <!-- <script src="js/classifier.js"></script> -->
+    <!-- <script src="js/regression.js"></script> -->
+    <style>
+        .input{
+            width: 150px;
+        }
+
+        .btn{
+            margin-bottom: 2px;
+        }
+
+        .input-label{
+            margin-top: 5px;
+        }
+
+        .filter_div{
+            display: flex;
+            flex-direction: column;
+            align-items: stretch;
+            justify-content: start;
+        }
+
+        .filter_item {
+            display: flex;
+            flex-direction: row;
+            align-items: stretch;
+            justify-content: start;
+        }
+
+        .filter_item input {
+            margin-right: 10px;
+        }
+
+
+
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-inverse navbar-fixed-top" id="header">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="index.html">BFP admin (Generate Recommendations)</a>
+            </div>
+        </div>
+    </nav>
+    <div id='content' style="padding-top: 50px">
+        <div class="container">
+            <div class="section">
+                <h2>Generate Recommendations</h2>
+
+                <p class="input-label">year</p>
+                <select id="input-type" class="input input-select" v-model="data_input.year">
+                    <option v-for="(item,index) in map_report.year" :selected="index == data_input.year ? true : false">{{item
+                        ? item : "NOT AVAILABLE"}}</option>
+                </select>
+                <br>
+                <p class="input-label">month</p>
+                <select id="input-type" class="input input-select" v-model="data_input.month">
+                    <option v-for="(item,index) in months" :selected="index == data_input.month ? true : false">{{item}}</option>
+                </select>
+                <br>
+                <p class="input-label">weekday</p>
+                <select id="input-type" class="input input-select" v-model="data_input.day">
+                    <option v-for="(item,index) in map_report.day" :selected="index == data_input.day ? true : false">{{item
+                        ? item : "NOT AVAILABLE"}}</option>
+                </select>
+
+                <p class="input-label">district</p>
+                <select id="input-district" class="input input-select" v-model="data_input.district">
+                    <option v-for="(item,index) in districts" :selected="index == data_input.district ? true : false">{{item}}</option>
+                </select>
+                <br>
+                <br>
+
+                <button type="button" id="add-report" class="btn btn-success button-view" v-on:click="generateData()">generate
+                    Recommendations
+                </button>
+                <!-- <button type="button" id="add-report" class="btn btn-success button-view" v-on:click="download(true)">
+                    download xls
+                </button>
+                <button type="button" id="add-report" class="btn btn-success button-view" v-on:click="download(false)">
+                    download pdf
+                </button> -->
+
+            </div>
+
+            <div class="section" id="table_container" style="width: 100%; min-height: 500px; border: solid 1px lightgray; margin-bottom: 100px; overflow: auto">
+                <!-- <table class="table">
+                    <thead>
+                        <tr>
+                            <th scope="col" v-for="item in display_header">
+                                {{item}}
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr v-for="item in display_data">
+                            <td scope="col" v-for="key in display_header">
+                                {{item[key]}}
+                            </td>
+                        </tr>
+                    </tbody>
+                </table> -->
+                <div class="panel panel-default" v-for="key,index in district_header">
+                    <div class="panel-heading">
+                        <h3>{{key}}</h3></div>
+                    <div class="panel-body">
+                        <div class="row">
+                            <div class="col col-md-6">
+                                <h4>Existing</h4>
+                                <ul class="list-group">
+                                    <li class="list-group-item" v-for="item in display_data[key].existing">{{item}}</li>
+                                </ul>
+                            </div>
+                            <div class="col col-md-6">
+                                <h3>Recommendations</h3>
+                                <ul class="list-group">
+                                    <li class="list-group-item" v-for="item in display_data[key].recommendation">{{item}}</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <button type="button" class="btn btn-success" data-toggle="collapse" v-bind:data-target="'#'+index">View Reports</button>
+                        <div v-bind:id="index" class="panel-collapse collapse">
+                            <h4>Reports</h4>
+                            <table class="table" class="collapse" v-bind:id="key">
+                                <thead>
+                                    <tr>
+                                        <th scope="col" v-for="item in display_header">
+                                            {{item}}
+                                        </th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr v-for="item in display_data[key].reports">
+                                        <td scope="col" v-for="key in display_header">
+                                            {{item[key]}}
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        var vue_app = new Vue({
+            el: '#content',
+            data: {
+                data: [],
+                map_report: {},
+                type: ['all', 'cause', 'establishment_type', 'alarm_level'],
+                data_input: {
+                    day: null,
+                    year: null,
+                    month: null,
+                    district: null
+                },
+                display_header: [],
+                district_header: [],
+                districts: [
+                    'all',
+                    'Sampaloc',
+                    'Tondo',
+                    'Ermita',
+                    'Paco',
+                    'Port Area',
+                    'Pandacan',
+                    'Santa Ana',
+                    'Santa Cruz',
+                    'Quiapo',
+                    'San Miguel',
+                    'Binondo',
+                    'San Andres',
+                    'Malate',
+                    'Intramuros',
+                    'San Nicolas',
+                    'Santa Mesa',
+                    'NOT AVAILABLE',
+                ],
+                filter_types: [
+                    'TIME',
+                    'DATE',
+                    'MONTH',
+                    'YEAR',
+                    'DAY',
+                    'DISTRICT',
+                    'CAUSE',
+                    'ESTABLISHMENT',
+                    'ALERT_LEVEL',
+                    'LATITUDE',
+                    'LONGITUDE',
+                    'AMOUNT_OF_DAMAGE',
+                    'COMPLETE_ADDRESS',
+                ],
+                months: [
+                    'all',
+                    'JANUARY',
+                    'FEBRUARY',
+                    'MARCH',
+                    'APRIL',
+                    'MAY',
+                    'JUNE',
+                    'JULY',
+                    'AUGUST',
+                    'SEPTEMBER',
+                    'OCTOBER',
+                    'NOVEMBER',
+                    'DECEMBER',
+                    'NOT AVAILABLE',
+                ],
+
+
+                filter_added: [],
+
+                display_data: [],
+                display_header: [],
+                title: null
+            },
+            methods: {
+                setData(data, map_report) {
+                    this.data = data
+                    this.map_report = map_report
+
+                    this.map_report.year = this.map_report.year.sort()
+
+                    console.log(this.map_report)
+                },
+
+                update_filter_list(value) {
+                    console.log("entered %o", value)
+                    let filter_index = this.filter_added.indexOf(value)
+                    if (filter_index !== -1) {
+                        this.filter_added.splice(filter_index, 1)
+                    } else {
+                        this.filter_added.push(value)
+                    }
+                },
+
+                getChecked(value) {
+                    return this.filter_added.includes(value)
+                },
+
+                filter_list(data) {
+                    this.filter_types.map((key) => {
+                        if (!this.filter_added.includes(key)) {
+                            console.log('removing %o', key)
+                            data = data.map((item) => {
+                                if (item) {
+                                    delete item[key]
+                                }
+                                return item
+                            })
+                        }
+                    })
+                    return data
+                },
+
+
+                generateData() {
+                    $("html, body").animate({
+                        scrollTop: $(document).height()
+                    }, "fast");
+                    let data = this.data
+                    var title = ""
+                    if (this.data_input.day != 'all' && this.data_input.day != null) {
+                        let filter_day = this.data_input.day
+                        console.log(filter_day)
+                        data = data.filter((item) => {
+                            return (item.DAY != null) ? item.DAY.toLowerCase().includes(filter_day.toLowerCase()) :
+                                false
+                        })
+                        title += filter_day + "_"
+                    }
+
+                    if (this.data_input.year != 'all' && this.data_input.year != null) {
+                        let filter_year = this.data_input.year
+                        console.log(filter_year)
+                        data = data.filter((item) => {
+                            return (item.YEAR != null) ? item.YEAR.includes(filter_year) : false
+                        })
+                        title += filter_year + "_"
+                    }
+                    if (this.data_input.month != 'all' && this.data_input.month != null) {
+                        let filter_month = this.data_input.month
+                        console.log(filter_month)
+                        data = data.filter((item) => {
+                            return (item.MONTH != null) ? item.MONTH.toLowerCase().includes(
+                                filter_month.toLowerCase()) : false
+                        })
+                        title += filter_month + "_"
+                    }
+                    if (this.data_input.district != 'all' && this.data_input.district != null) {
+                        let filter_district = this.data_input.district
+                        console.log(filter_district)
+                        data = data.filter((item) => {
+                            return (item.DISTRICT != null) ? item.DISTRICT.toLowerCase().includes(
+                                filter_district.toLowerCase()) : false
+                        })
+                        title += filter_district
+                    }
+
+                    console.log(data)
+
+                    if (data.length > 0) {
+                        this.title = title
+                        console.log(data)
+                        this.convertData(data)
+                    }
+                },
+
+                download(isXls) {
+                    if (this.display_data.length > 0 && this.display_header.length > 0) {
+                        if (isXls) {
+                            ExportExcel(this.display_data, this.title)
+                        } else {
+                            JSONToCSVConvertor(this.display_data, this.title, true);
+                        }
+                    } else {
+                        alert('no data available')
+                    }
+                },
+
+
+                convertData(report_data) {
+
+                    var predictions = report_data.map(report => {
+                        let features = {
+                            'January': {
+                                exist: 0
+                            },
+                            'February': {
+                                exist: 0
+                            },
+                            'March': {
+                                exist: 0
+                            },
+                            'April': {
+                                exist: 0
+                            },
+                            'May': {
+                                exist: 0
+                            },
+                            'June': {
+                                exist: 0
+                            },
+                            'July': {
+                                exist: 0
+                            },
+                            'August': {
+                                exist: 0
+                            },
+                            'September': {
+                                exist: 0
+                            },
+                            'October': {
+                                exist: 0
+                            },
+                            'November': {
+                                exist: 0
+                            },
+                            'December': {
+                                exist: 0
+                            },
+                            'Monday': {
+                                exist: 0
+                            },
+                            'Tuesday': {
+                                exist: 0
+                            },
+                            'Wednesday': {
+                                exist: 0
+                            },
+                            'Thursday': {
+                                exist: 0
+                            },
+                            'Friday': {
+                                exist: 0
+                            },
+                            'Saturday': {
+                                exist: 0
+                            },
+                            'Sunday': {
+                                exist: 0
+                            },
+                            'x1': {
+                                exist: 0
+                            },
+                            'x2': {
+                                exist: 0
+                            },
+                            'x3': {
+                                exist: 0
+                            },
+                            'x4': {
+                                exist: 0
+                            },
+                            'x5': {
+                                exist: 0
+                            },
+                            'x6': {
+                                exist: 0
+                            },
+                            'x7': {
+                                exist: 0
+                            },
+                            'x8': {
+                                exist: 0
+                            },
+                            'x9': {
+                                exist: 0
+                            },
+                            'x10': {
+                                exist: 0
+                            },
+                            'x11': {
+                                exist: 0
+                            },
+                            'x12': {
+                                exist: 0
+                            },
+                            'x13': {
+                                exist: 0
+                            },
+                            'x14': {
+                                exist: 0
+                            },
+                            'x15': {
+                                exist: 0
+                            },
+                            'x16': {
+                                exist: 0
+                            },
+                            'x17': {
+                                exist: 0
+                            },
+                            'x18': {
+                                exist: 0
+                            },
+                            'x19': {
+                                exist: 0
+                            },
+                            'x20': {
+                                exist: 0
+                            },
+                            'x21': {
+                                exist: 0
+                            },
+                            'x22': {
+                                exist: 0
+                            },
+                            'x23': {
+                                exist: 0
+                            },
+                            'x24': {
+                                exist: 0
+                            },
+                            'x25': {
+                                exist: 0
+                            },
+                            'x26': {
+                                exist: 0
+                            },
+                            'x27': {
+                                exist: 0
+                            },
+                            'x28': {
+                                exist: 0
+                            },
+                            'x29': {
+                                exist: 0
+                            },
+                            'x30': {
+                                exist: 0
+                            },
+                            'x31': {
+                                exist: 0
+                            },
+                            '1AM': {
+                                exist: 0
+                            },
+                            '2AM': {
+                                exist: 0
+                            },
+                            '3AM': {
+                                exist: 0
+                            },
+                            '4AM': {
+                                exist: 0
+                            },
+                            '5AM': {
+                                exist: 0
+                            },
+                            '6AM': {
+                                exist: 0
+                            },
+                            '7AM': {
+                                exist: 0
+                            },
+                            '8AM': {
+                                exist: 0
+                            },
+                            '9AM': {
+                                exist: 0
+                            },
+                            '10AM': {
+                                exist: 0
+                            },
+                            '11AM': {
+                                exist: 0
+                            },
+                            '12AM': {
+                                exist: 0
+                            },
+                            '1PM': {
+                                exist: 0
+                            },
+                            '2PM': {
+                                exist: 0
+                            },
+                            '3PM': {
+                                exist: 0
+                            },
+                            '4PM': {
+                                exist: 0
+                            },
+                            '5PM': {
+                                exist: 0
+                            },
+                            '6PM': {
+                                exist: 0
+                            },
+                            '7PM': {
+                                exist: 0
+                            },
+                            '8PM': {
+                                exist: 0
+                            },
+                            '9PM': {
+                                exist: 0
+                            },
+                            '10PM': {
+                                exist: 0
+                            },
+                            '11PM': {
+                                exist: 0
+                            },
+                            '12PM': {
+                                exist: 0
+                            },
+                            'Sampaloc': {
+                                exist: 0
+                            },
+                            'Tondo': {
+                                exist: 0
+                            },
+                            'Ermita': {
+                                exist: 0
+                            },
+                            'Port Area': {
+                                exist: 0
+                            },
+                            'Santa Cruz': {
+                                exist: 0
+                            },
+                            'Pandacan': {
+                                exist: 0
+                            },
+                            'San Miguel': {
+                                exist: 0
+                            },
+                            'Binondo': {
+                                exist: 0
+                            },
+                            'Malate': {
+                                exist: 0
+                            },
+                            'Paco': {
+                                exist: 0
+                            },
+                            'Santa Ana': {
+                                exist: 0
+                            },
+                            'Quiapo': {
+                                exist: 0
+                            },
+                            'Intramuros': {
+                                exist: 0
+                            },
+                            'San Nicolas': {
+                                exist: 0
+                            },
+                            'Residential': {
+                                exist: 0
+                            },
+                            'Commercial': {
+                                exist: 0
+                            },
+                            'Vehicle': {
+                                exist: 0
+                            },
+                            'Rubbish': {
+                                exist: 0
+                            },
+                            'Electrical': {
+                                exist: 0
+                            },
+                            'Unclear': {
+                                exist: 0
+                            },
+                            'Recom': {
+                                exist: 0
+                            },
+                            'Grassfire': {
+                                exist: 0
+                            },
+                            'Chemical': {
+                                exist: 0
+                            },
+                            'Educational': {
+                                exist: 0
+                            },
+                            'Healthcare': {
+                                exist: 0
+                            },
+                            'Industrial': {
+                                exist: 0
+                            },
+                            'Forest': {
+                                exist: 0
+                            },
+                            'Assembly': {
+                                exist: 0
+                            },
+                            'Hotel': {
+                                exist: 0
+                            },
+                            'General Alarm': {
+                                exist: 0
+                            },
+                            'Verification': {
+                                exist: 0
+                            },
+                            'Fire Cracker': {
+                                exist: 0
+                            },
+                            'Electrical Connection': {
+                                exist: 0
+                            },
+                            'LPG Leak': {
+                                exist: 0
+                            },
+                            'Under Investigation': {
+                                exist: 0
+                            },
+                            'Cigarette Butt': {
+                                exist: 0
+                            },
+                            'Arson': {
+                                exist: 0
+                            },
+                            'Candle': {
+                                exist: 0
+                            },
+                            'Aircon-AirCooler': {
+                                exist: 0
+                            },
+                            'Matress Fire': {
+                                exist: 0
+                            },
+                            'Open Flame': {
+                                exist: 0
+                            },
+                            'Electrical Appliances': {
+                                exist: 0
+                            },
+                            'Acetylene': {
+                                exist: 0
+                            },
+                            'Lamp': {
+                                exist: 0
+                            },
+                            'Battery Related': {
+                                exist: 0
+                            },
+                            'Spontaneous Combustion': {
+                                exist: 0
+                            },
+                            'Chimney Fire': {
+                                exist: 0
+                            },
+                            'Others': {
+                                exist: 0
+                            },
+                        }
+
+                        Object.keys(features).map(feature => {
+                            Object.keys(report).map(attribute => {
+                                if (attribute == "DATE") {
+                                    let date = 'x' + report[attribute].split("-")[0]
+                                    if (date == feature) {
+                                        features[feature].exist = 1
+                                    }
+                                } else if (report[attribute]) {
+                                    try {
+                                        if (report[attribute].toLowerCase() == feature.toLowerCase()) {
+                                            features[feature].exist = 1
+                                        }
+                                    } catch {
+                                        console.log("report %o attribute %o", report,
+                                            attribute)
+                                    }
+                                }
+                            })
+                        })
+                        console.log(features)
+                        console.log(Object.keys(features).length)
+
+                        let converted_data = Object.keys(features).map(key => {
+                            return features[key].exist
+                        })
+
+                        if (report.AMOUNT_OF_DAMAGE) {
+                            converted_data.push(Number(report.AMOUNT_OF_DAMAGE))
+                        }
+                        console.log(converted_data)
+                        let prediction = validateForm(converted_data, report)
+                        console.log(prediction)
+                        var target = ""
+                        switch (prediction.prediction) {
+                            case 0:
+                                target = "1st Alarm"
+                                break
+                            case 1:
+                                target = "2nd Alarm"
+                                break
+                            case 2:
+                                target = "3rd Alarm"
+                                break
+                            case 3:
+                                target = "Others"
+                                break
+                        }
+
+                        report['ALERT LEVEL'] = target
+
+                        var existing = prediction.recommendation ? prediction.recommendation.existing :
+                            []
+                        ""
+
+                        report['EXISTING'] = existing
+
+                        var suggested = prediction.recommendation ? prediction.recommendation.suggested :
+                            []
+                        report['RECOMMENDATION'] = suggested
+
+                        delete report['ALERT_LEVEL']
+                        delete report['ID']
+                        delete report['LATITUDE']
+                        delete report['LONGITUDE']
+                        delete report['AMOUNT_OF_DAMAGE']
+                        delete report['COMPLETE_ADDRESS']
+                        delete report['FATALITY']
+                        delete report['INJURED']
+                        return report
+                    })
+
+                    predictions = predictions.filter((item) => {
+                        return item.RECOMMENDATION.length > 0
+                    })
+
+
+                    var districts = {}
+
+                    predictions.map((item) => {
+                        if (districts[item.DISTRICT]) {
+                            districts[item.DISTRICT].reports.push(item)
+                        } else {
+                            districts[item.DISTRICT] = {
+                                reports: [item],
+                                recommendation: item.RECOMMENDATION,
+                                existing: item.EXISTING
+                            }
+
+                        }
+                    })
+
+                    console.log(districts)
+                    var header_sample = predictions[0]
+                    this.display_data = districts
+                    delete header_sample['RECOMMENDATION']
+                    delete header_sample['EXISTING']
+                    this.district_header = Object.keys(districts)
+                    this.display_header = Object.keys(header_sample)
+                    console.log(this.display_header)
+                    console.log(this.display_data)
+                    console.log(this.district_header)
+                }
+            }
+        })
+
+        function cleanData(type, data) {
+
+            if (type == 'alarm_level') {
+                data = data.map((item) => {
+                    delete item.cause
+                    delete item.establishment_type
+                    return item
+                })
+            } else if (type == 'cause') {
+                data = data.map((item) => {
+                    delete item.alarm_level
+                    delete item.establishment_type
+                    return item
+                })
+            } else {
+                data = data.map((item) => {
+                    delete item.cause
+                    delete item.alarm_level
+                    return item
+                })
+            }
+            console.log(data)
+            return data
+        }
+
+        var map_report = {
+            month: [],
+            year: [],
+            cause: [],
+            alarm: [],
+            temp: [],
+            type: [],
+            district: [],
+            day: []
+        }
+
+        function generateMap(key, data) {
+            if (map_report[key].includes(data)) {
+                return
+            } else {
+                map_report[key].push(data)
+            }
+        }
+
+        function onHandleData(data) {
+            console.log(data)
+            if (user.type != 'Admin') {
+                data = data.filter((item) => {
+                    return item.USERID == user.id
+                })
+
+            }
+            data = data.map((item) => {
+                if (item) {
+                    delete item.USERID
+                }
+                return item
+            })
+            console.log(data)
+
+            generateMap("year", "all")
+            generateMap("month", "all")
+            generateMap("alarm", "all")
+            generateMap("district", "all")
+            generateMap("day", "all")
+
+            data.map(element => {
+                generateMap("day", element.DAY ? element.DAY.toUpperCase() : null)
+                generateMap("year", element.YEAR)
+                generateMap("month", element.MONTH ? element.MONTH.toUpperCase() : null)
+                generateMap("cause", element.CAUSE ? element.CAUSE.toLowerCase() : null)
+                generateMap("alarm", element.ALERT_LEVEL ? element.ALERT_LEVEL.toLowerCase() : null)
+                generateMap("type", element.ESTABLISHMENT ? element.ESTABLISHMENT.toLowerCase() : null)
+                generateMap("district", element.DISTRICT ? element.DISTRICT.toLowerCase() : null)
+            })
+            console.log(map_report)
+            vue_app.setData(data, map_report)
+
+        }
+    </script>
+    <script>
+        var user = null
+        var header = new Vue({
+            el: '#header',
+            methods: {
+                onStart() {
+                    user = JSON.parse(sessionStorage.getItem('user'))
+                    console.log(user)
+
+                    if (user) {
+                        console.log('success')
+                        getReports(true, onHandleData)
+                    } else {
+                        alert('login user account')
+                        this.onLogout()
+                    }
+                },
+                onLogout() {
+                    sessionStorage.removeItem('user')
+                    window.open('login.html', '_self')
+                }
+            }
+        })
+
+        header.onStart()
+    </script>
+    <script type="text/javascript">
+        function JSONToCSVConvertor(JSONData, ReportTitle, ShowLabel) {
+            //If JSONData is not an object then JSON.parse will parse the JSON string in an Object
+            var arrData = typeof JSONData != 'object' ? JSON.parse(JSONData) : JSONData;
+
+            var CSV = '';
+            //Set Report title in first row or line
+
+            CSV += ReportTitle + '\r\n\n';
+
+            //This condition will generate the Label/Header
+            if (ShowLabel) {
+                var row = "";
+
+                //This loop will extract the label from 1st index of on array
+                for (var index in arrData[0]) {
+
+                    //Now convert each value to string and comma-seprated
+                    console.log(index)
+                    try {
+                        let text = index + ""
+                        row += text.centerText(10) + ':{exist: 0},';
+                    } catch (err) {
+                        row += index + ':{exist: 0},';
+                    }
+
+
+                }
+
+                row = row.slice(0, -1);
+
+                //append Label row with line break
+                CSV += row + '\r\n';
+            }
+
+            //1st loop is to extract each row
+            for (var i = 0; i < arrData.length; i++) {
+                var row = "";
+
+                //2nd loop will extract each column and convert it in string comma-seprated
+                for (var index in arrData[i]) {
+                    let data = arrData[i][index] ? arrData[i][index] : ""
+                    row += '"' + data.centerText(10) + '",';
+                }
+
+                row.slice(0, row.length - 1);
+
+                //add a line break after each row
+                CSV += row + '\r\n';
+            }
+
+            if (CSV == '') {
+                alert("Invalid data");
+                return;
+            }
+
+            //Generate a file name
+            var fileName = "BFPFireReport_";
+            //this will remove the blank-spaces from the title and replace it with an underscore
+            fileName += ReportTitle.replace(/ /g, "_");
+            ExportPDF(CSV)
+        }
+
+        String.prototype.centerText = function (numberOfSpaces) {
+            try {
+                var text = this;
+                text = text.trim();
+                var l = text.length;
+                var w2 = Math.floor(numberOfSpaces / 2);
+                var l2 = Math.floor(l / 2);
+                var s = new Array(w2 - l2 + 1).join(" ");
+                text = s + text + s;
+                if (text.length < numberOfSpaces) {
+                    text += new Array(numberOfSpaces - text.length + 1).join(" ");
+                }
+                return text;
+            } catch (err) {
+                return this
+            }
+        };
+    </script>
+
+    <script src="js/xlsexport.js"></script>
+
+    <script>
+        function ExportExcel(data, title) {
+            var xls = new XlsExport(data);
+            xls.exportToXLS('BFPFireReport_' + title + '.xls');
+        }
+
+        function ExportPDF(data) {
+            window.sessionStorage.setItem('pdftoprint', data)
+            window.open('sample.html', '_blank')
+        }
+    </script>
+
+</body>
+
+</html>

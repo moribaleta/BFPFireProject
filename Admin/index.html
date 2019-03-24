@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>BFP admin</title>
+
+    <!-- CSS  -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href='open-iconic-master/font/css/open-iconic-bootstrap.css' rel="stylesheet">
+    <script src="js/jquery-3.0.0.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <link href="css/main-style.css" rel="stylesheet">
+    <script src="js/vue.js"></script>
+    <script src="js/datahandler.js"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-inverse navbar-fixed-top" id="home">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">BFP admin</a>
+            </div>
+            <ul class="nav navbar-nav">
+                <li><a v-on:click="onLogout">Logout</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container" id="homepage">
+
+        <div class="row">
+            <div class="col-md-4 card-item">
+                <a href="post.html">
+                    <div class="icon-block">
+                        <h2 class="center black-text"><i class="material-icons">flash_on</i></h2>
+                        <!-- <span class="oi oi-people"></span> -->
+                        <h5 class="center">Posts</h5>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-4 card-item">
+                <a href="documents.html">
+                    <div class="icon-block">
+                        <h2 class="center black-text"><i class="material-icons">description</i></h2>
+                        <h5 class="center">Documents</h5>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-4 card-item" v-if="user_type=='Admin'">
+                <a href="users.html">
+                    <div class="icon-block">
+                        <h2 class="center black-text"><i class="material-icons">group</i></h2>
+                        <h5 class="center">Users</h5>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-4 card-item">
+                <a href="reports.html">
+                    <div class="icon-block">
+                        <h2 class="center black-text"><i class="material-icons">equalizer</i></h2>
+                        <h5 class="center">Reports</h5>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-4 card-item">
+                <a href="statistics.html">
+                    <div class="icon-block">
+                        <h2 class="center black-text"><i class="material-icons">multiline_chart</i></h2>
+                        <h5 class="center">Charts</h5>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-4 card-item" v-if="user_type=='Admin'">
+                <a href="classifier_2.html">
+                    <div class="icon-block">
+                        <h2 class="center black-text"><i class="material-icons">settings</i></h2>
+                        <h5 class="center">Generate Recommendations</h5>
+                    </div>
+                </a>
+            </div>
+
+        </div>
+
+    </div>
+
+    <!--  Scripts-->
+    <script>
+        var app = new Vue({
+            el: '#home',
+            data: {
+                user_type: null
+            },
+            methods: {
+                onStart() {
+                    let user = JSON.parse(sessionStorage.getItem('user'))
+                    console.log(user)
+                    if (user) {
+                        console.log('success')
+                        this.user_type = user.type
+                    } else {
+                        alert('login user account')
+                        this.onLogout()
+                    }
+                },
+                onLogout() {
+                    sessionStorage.removeItem('user')
+                    window.open('login.html', '_self')
+                }
+            }
+        })
+
+        app.onStart()
+    </script>
+</body>
+
+</html>

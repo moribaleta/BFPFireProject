@@ -1,0 +1,611 @@
+<html>
+
+<head>
+    <title>generate reports</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="css/main-style.css" rel="stylesheet">
+    <script src="js/jquery-3.0.0.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="js/vue.js"></script>
+    <script src="js/datahandler.js"></script>
+    <script src="js/classifier.js"></script>
+    <script src="js/regression.js"></script>
+    <style>
+        .input{
+            width: 150px;
+        }
+
+        .btn{
+            margin-bottom: 2px;
+        }
+
+        .input-label{
+            margin-top: 5px;
+        }
+
+        .filter_div{
+            display: flex;
+            flex-direction: column;
+            align-items: stretch;
+            justify-content: start;
+        }
+
+        .filter_item {
+            display: flex;
+            flex-direction: row;
+            align-items: stretch;
+            justify-content: start;
+        }
+
+        .filter_item input {
+            margin-right: 10px;
+        }
+
+
+
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-inverse navbar-fixed-top" id="header">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="index.html">BFP admin (Reports/Generate Reports)</a>
+            </div>
+        </div>
+    </nav>
+    <div id='content' style="padding-top: 50px">
+        <div class="container">
+            <div class="section">
+                <h2>Generate Reports</h2>
+                <!-- <p class="input-label">type</p>
+                <select id="input-type" class="input input-select" v-model="data_input.type">
+                    <option v-for="(item,index) in type" :selected="index == data_input.type ? true : false">{{item}}</option>
+                </select>
+
+                <p class="input-label">year</p>
+                <select id="input-type" class="input input-select" v-model="data_input.year">
+                    <option v-for="(item,index) in map_report.year" :selected="index == data_input.year ? true : false">{{item}}</option>
+                </select>
+
+                <p class="input-label">month</p>
+                <select id="input-type" class="input input-select" v-model="data_input.month">
+                    <option v-for="(item,index) in map_report.month" :selected="index == data_input.month ? true : false">{{item}}</option>
+                </select>
+
+                <p class="input-label">district</p>
+                <select id="input-district" class="input input-select" v-model="data_input.district">
+                    <option v-for="(item,index) in districts" :selected="index == data_input.district ? true : false">{{item}}</option>
+                </select>
+                <br><br> -->
+
+                <a href="#demo" data-toggle="collapse">Show Filter</a>
+
+                <div id="demo" class="collapse">
+                    <div class="filter-div">
+                        <!--  <div>
+                                    <input type="radio" id="huey" name="drone" value="huey" checked>
+                                    <label for="huey">Huey</label>
+                                </div>-->
+                        <div class="filter_item" v-for="filter_type,index of filter_types">
+                            <input type="radio" class="radio" :value="filter_type" v-on:click="update_filter_list(filter_type)"
+                                :checked="getChecked(filter_type)">
+                            <label :for="filter_type">{{filter_type}}</label>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+                <p class="input-label">year</p>
+                <select id="input-type" class="input input-select" v-model="data_input.year">
+                    <option v-for="(item,index) in map_report.year" :selected="index == data_input.year ? true : false">{{item
+                        ? item : "NOT AVAILABLE"}}</option>
+                </select>
+                <br>
+                <p class="input-label">month</p>
+                <select id="input-type" class="input input-select" v-model="data_input.month">
+                    <option v-for="(item,index) in months" :selected="index == data_input.month ? true : false">{{item}}</option>
+                </select>
+                <br>
+                <p class="input-label">weekday</p>
+                <select id="input-type" class="input input-select" v-model="data_input.day">
+                    <option v-for="(item,index) in map_report.day" :selected="index == data_input.day ? true : false">{{item
+                        ? item : "NOT AVAILABLE"}}</option>
+                </select>
+
+                <p class="input-label">district</p>
+                <select id="input-district" class="input input-select" v-model="data_input.district">
+                    <option v-for="(item,index) in districts" :selected="index == data_input.district ? true : false">{{item}}</option>
+                </select>
+                <br>
+                <br>
+
+
+                <button type="button" id="add-report" class="btn btn-success button-view" v-on:click="generateData()">generate
+                    report
+                </button>
+                <button type="button" id="add-report" class="btn btn-success button-view" v-on:click="download(true)">
+                    download xls
+                </button>
+                <button type="button" id="add-report" class="btn btn-success button-view" v-on:click="download(false)">
+                    download pdf
+                </button>
+
+            </div>
+            <!-- <div class="section" style="width: 100%; overflow: auto">
+                <div  style="width: 300px; overflow-x: scroll">
+                    <div class="row">
+                        <div class="col col-xs-1" style="min-width: 150;" v-for="item in display_header">
+                            <p>{{item}}</p>
+                        </div>
+                    </div>
+                    <div class="row" v-for="item in display_data">
+                        <div class="col col-xs-1" style="min-width: 150;" v-for="key in display_header">
+                            <p>{{item[key]}}</p>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+            <div class="section">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th scope="col" v-for="item in display_header">
+                                {{item}}
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr v-for="item in display_data">
+                            <td scope="col" v-for="key in display_header">
+                                {{item[key]}}
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        var vue_app = new Vue({
+            el: '#content',
+            data: {
+                data: [],
+                map_report: {},
+                type: ['all', 'cause', 'establishment_type', 'alarm_level'],
+                data_input: {
+                    day: null,
+                    year: null,
+                    month: null,
+                    district: null
+                },
+                districts: [
+                    'all',
+                    'Sampaloc',
+                    'Tondo',
+                    'Ermita',
+                    'Paco',
+                    'Port Area',
+                    'Pandacan',
+                    'Santa Ana',
+                    'Santa Cruz',
+                    'Quiapo',
+                    'San Miguel',
+                    'Binondo',
+                    'San Andres',
+                    'Malate',
+                    'Intramuros',
+                    'San Nicolas',
+                    'Santa Mesa',
+                    'NOT AVAILABLE',
+                ],
+                filter_types: [
+                    'TIME',
+                    'DATE',
+                    'MONTH',
+                    'YEAR',
+                    'DAY',
+                    'DISTRICT',
+                    'CAUSE',
+                    'ESTABLISHMENT',
+                    'ALERT_LEVEL',
+                    'LATITUDE',
+                    'LONGITUDE',
+                    'AMOUNT_OF_DAMAGE',
+                    'COMPLETE_ADDRESS',
+                ],
+                months: [
+                    'all',
+                    'JANUARY',
+                    'FEBRUARY',
+                    'MARCH',
+                    'APRIL',
+                    'MAY',
+                    'JUNE',
+                    'JULY',
+                    'AUGUST',
+                    'SEPTEMBER',
+                    'OCTOBER',
+                    'NOVEMBER',
+                    'DECEMBER',
+                    'NOT AVAILABLE',
+                ],
+
+
+                filter_added: [],
+
+                display_data: [],
+                display_header: [],
+                title: null
+            },
+            methods: {
+                setData(data, map_report) {
+                    this.data = data
+                    this.map_report = map_report
+
+                    this.map_report.year = this.map_report.year.sort()
+
+                    console.log(this.map_report)
+                },
+
+                update_filter_list(value) {
+                    console.log("entered %o", value)
+                    let filter_index = this.filter_added.indexOf(value)
+                    if (filter_index !== -1) {
+                        this.filter_added.splice(filter_index, 1)
+                    } else {
+                        this.filter_added.push(value)
+                    }
+                },
+
+                getChecked(value) {
+                    //return this.filter_added.indexOf(index) !== -1
+                    return this.filter_added.includes(value)
+                },
+
+                filter_list(data) {
+                    /* this.filter_added.map((key) => {
+                        delete data[key]
+                    }) */
+                    this.filter_types.map((key) => {
+                        if (!this.filter_added.includes(key)) {
+                            console.log('removing %o', key)
+                            data = data.map((item) => {
+                                if (item) {
+                                    delete item[key]
+                                }
+                                return item
+                            })
+                        }
+                    })
+                    return data
+                },
+
+
+                generateData() {
+                    let data = this.data
+                    var title = ""
+                    if (this.data_input.day != 'all' && this.data_input.day != null) {
+                        let filter_day = this.data_input.day
+                        console.log(filter_day)
+                        data = data.filter((item) => {
+                            return (item.DAY != null) ? item.DAY.toLowerCase().includes(filter_day.toLowerCase()) :
+                                false
+                        })
+                        title += filter_day + "_"
+                    }
+
+                    if (this.data_input.year != 'all' && this.data_input.year != null) {
+                        let filter_year = this.data_input.year
+                        console.log(filter_year)
+                        data = data.filter((item) => {
+                            return (item.YEAR != null) ? item.YEAR.includes(filter_year) : false
+                        })
+                        title += filter_year + "_"
+                    }
+                    if (this.data_input.month != 'all' && this.data_input.month != null) {
+                        let filter_month = this.data_input.month
+                        console.log(filter_month)
+                        data = data.filter((item) => {
+                            return (item.MONTH != null) ? item.MONTH.toLowerCase().includes(
+                                filter_month.toLowerCase()) : false
+                        })
+                        title += filter_month + "_"
+                    }
+                    if (this.data_input.district != 'all' && this.data_input.district != null) {
+                        let filter_district = this.data_input.district
+                        console.log(filter_district)
+                        data = data.filter((item) => {
+                            return (item.DISTRICT != null) ? item.DISTRICT.toLowerCase().includes(
+                                filter_district.toLowerCase()) : false
+                        })
+                        title += filter_district
+                    }
+
+                    console.log(data)
+
+                    if (data.length > 0) {
+
+                        if (this.filter_added.length > 0) {
+                            data = this.filter_list(data)
+                            console.log('filtered %o', data)
+
+                        }
+
+                        this.title = title
+                        this.display_data = data
+                        this.display_header = Object.keys(data[0])
+
+                        console.log(this.display_header)
+                        console.log(data)
+
+                    }
+
+
+                    /* var data = this.data
+                    var title = ""
+                    if (this.data_input.type != 'all' && this.data_input.type != null) {
+                        let filter_type = this.data_input.type
+                        console.log(filter_type)
+                        data = cleanData(filter_type, data)
+                        title += filter_type + "_"
+                    }
+
+                    if (this.data_input.year != 'all' && this.data_input.year != null) {
+                        let filter_year = this.data_input.year
+                        console.log(filter_year)
+                        data = data.filter((item) => {
+                            return item.year == filter_year
+                        })
+                        title += filter_year + "_"
+                    }
+                    if (this.data_input.month != 'all' && this.data_input.month != null) {
+                        let filter_month = this.data_input.month
+                        console.log(filter_month)
+                        data = data.filter((item) => {
+                            return item.month == filter_month
+                        })
+                        title += filter_month + "_"
+                    }
+                    if (this.data_input.district != 'all' && this.data_input.district != null) {
+                        let filter_district = this.data_input.district
+                        console.log(filter_district)
+                        data = data.filter((item) => {
+                            return item.district == filter_district
+                        })
+                        title += filter_district
+                    }
+                    if (data.length > 0) {
+                        this.title = title
+                        this.display_data = data
+                        this.display_header = Object.keys(data[0])
+                    } */
+
+
+                },
+
+                download(isXls) {
+                    if (this.display_data.length > 0 && this.display_header.length > 0) {
+
+                        if (isXls) {
+                            ExportExcel(this.display_data, this.title)
+                        } else {
+                            JSONToCSVConvertor(this.display_data, this.title, true);
+                        }
+                    } else {
+                        alert('no data available')
+                    }
+                }
+            }
+        })
+
+        function cleanData(type, data) {
+
+            if (type == 'alarm_level') {
+                data = data.map((item) => {
+                    delete item.cause
+                    delete item.establishment_type
+                    return item
+                })
+            } else if (type == 'cause') {
+                data = data.map((item) => {
+                    delete item.alarm_level
+                    delete item.establishment_type
+                    return item
+                })
+            } else {
+                data = data.map((item) => {
+                    delete item.cause
+                    delete item.alarm_level
+                    return item
+                })
+            }
+            console.log(data)
+            return data
+        }
+
+        var map_report = {
+            month: [],
+            year: [],
+            cause: [],
+            alarm: [],
+            temp: [],
+            type: [],
+            district: [],
+            day: []
+        }
+
+        function generateMap(key, data) {
+            if (map_report[key].includes(data)) {
+                return
+            } else {
+                map_report[key].push(data)
+            }
+        }
+
+        function onHandleData(data) {
+            console.log(data)
+            if (user.type != 'Admin') {
+                data = data.filter((item) => {
+                    return item.USERID == user.id
+                })
+
+            }
+            data = data.map((item) => {
+                if (item) {
+                    delete item.USERID
+                }
+                return item
+            })
+            console.log(data)
+
+            generateMap("year", "all")
+            generateMap("month", "all")
+            generateMap("alarm", "all")
+            generateMap("district", "all")
+            generateMap("day", "all")
+
+            data.map(element => {
+                generateMap("day", element.DAY ? element.DAY.toUpperCase() : null)
+                generateMap("year", element.YEAR)
+                generateMap("month", element.MONTH ? element.MONTH.toUpperCase() : null)
+                generateMap("cause", element.CAUSE ? element.CAUSE.toLowerCase() : null)
+                generateMap("alarm", element.ALERT_LEVEL ? element.ALERT_LEVEL.toLowerCase() : null)
+                generateMap("type", element.ESTABLISHMENT ? element.ESTABLISHMENT.toLowerCase() : null)
+                generateMap("district", element.DISTRICT ? element.DISTRICT.toLowerCase() : null)
+            })
+            console.log(map_report)
+            vue_app.setData(data, map_report)
+
+        }
+    </script>
+    <script>
+        var user = null
+        var header = new Vue({
+            el: '#header',
+            methods: {
+                onStart() {
+                    user = JSON.parse(sessionStorage.getItem('user'))
+                    console.log(user)
+
+                    if (user) {
+                        console.log('success')
+                        getReports(true, onHandleData)
+                    } else {
+                        alert('login user account')
+                        this.onLogout()
+                    }
+                },
+                onLogout() {
+                    sessionStorage.removeItem('user')
+                    window.open('login.html', '_self')
+                }
+            }
+        })
+
+        header.onStart()
+    </script>
+    <script type="text/javascript">
+        function JSONToCSVConvertor(JSONData, ReportTitle, ShowLabel) {
+            //If JSONData is not an object then JSON.parse will parse the JSON string in an Object
+            var arrData = typeof JSONData != 'object' ? JSON.parse(JSONData) : JSONData;
+
+            var CSV = '';
+            //Set Report title in first row or line
+
+            CSV += ReportTitle + '\r\n\n';
+
+            //This condition will generate the Label/Header
+            if (ShowLabel) {
+                var row = "";
+
+                //This loop will extract the label from 1st index of on array
+                for (var index in arrData[0]) {
+
+                    //Now convert each value to string and comma-seprated
+                    console.log(index)
+                    try {
+                        let text = index + ""
+                        row += text.centerText(10) + ',';
+                    } catch (err) {
+                        row += index + ',';
+                    }
+
+
+                }
+
+                row = row.slice(0, -1);
+
+                //append Label row with line break
+                CSV += row + '\r\n';
+            }
+
+            //1st loop is to extract each row
+            for (var i = 0; i < arrData.length; i++) {
+                var row = "";
+
+                //2nd loop will extract each column and convert it in string comma-seprated
+                for (var index in arrData[i]) {
+                    let data = arrData[i][index] ? arrData[i][index] : ""
+                    row += '"' + data.centerText(10) + '",';
+                }
+
+                row.slice(0, row.length - 1);
+
+                //add a line break after each row
+                CSV += row + '\r\n';
+            }
+
+            if (CSV == '') {
+                alert("Invalid data");
+                return;
+            }
+
+            //Generate a file name
+            var fileName = "BFPFireReport_";
+            //this will remove the blank-spaces from the title and replace it with an underscore
+            fileName += ReportTitle.replace(/ /g, "_");
+            ExportPDF(CSV)
+        }
+
+        String.prototype.centerText = function (numberOfSpaces) {
+            try {
+                var text = this;
+                text = text.trim();
+                var l = text.length;
+                var w2 = Math.floor(numberOfSpaces / 2);
+                var l2 = Math.floor(l / 2);
+                var s = new Array(w2 - l2 + 1).join(" ");
+                text = s + text + s;
+                if (text.length < numberOfSpaces) {
+                    text += new Array(numberOfSpaces - text.length + 1).join(" ");
+                }
+                return text;
+            } catch (err) {
+                return this
+            }
+        };
+    </script>
+
+    <script src="js/xlsexport.js"></script>
+
+    <script>
+        function ExportExcel(data, title) {
+            var xls = new XlsExport(data);
+            xls.exportToXLS('BFPFireReport_' + title + '.xls');
+        }
+
+        function ExportPDF(data) {
+            window.sessionStorage.setItem('pdftoprint', data)
+            window.open('sample.html', '_blank')
+        }
+    </script>
+
+</body>
+
+</html>

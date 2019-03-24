@@ -1,0 +1,1691 @@
+<html>
+
+<head>
+    <title>charts</title>
+    <script src="js/jquery-3.0.0.min.js"></script>
+    <script src="js/vue.js"></script>
+    <script src="js/Chart.min.js"></script>
+    <script src="js/Chart.Bar.Funnel.js"></script>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="js/datahandler.js"></script>
+    <!-- <script src="js/aggregate_functions.js"></script> -->
+    <style>
+        .tab-content>.tab-pane {
+            display: block;
+            height: 0;
+            overflow: hidden;
+        }
+
+        .tab-content>.tab-pane.active {
+            height: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-inverse navbar-fixed-top" id="header">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="index.html">BFP admin (Charts)</a>
+            </div>
+        </div>
+    </nav>
+    <div class="content" style="padding-top: 100px;">
+        <ul class="nav nav-tabs">
+            <li class="active"><a data-toggle="tab" href="#home">General</a></li>
+            <li><a data-toggle="tab" href="#menu_cause">Cause</a></li>
+            <li><a data-toggle="tab" href="#menu_establishment">Establishment</a></li>
+            <li><a data-toggle="tab" href="#menu_location">Location</a></li>
+            <li><a data-toggle="tab" href="#menu_district">District</a></li>
+            <li><a href="heatmap.html">Heatmap</a></li>
+        </ul>
+        <div class="tab-content">
+            <div id="home" class="tab-pane fade in active">
+                <h3>HOME</h3>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="header" id="title">General</h3>
+                        Summary Report
+                    </div>
+                    <!-- <div class="panel-body" id="summary">
+                            <ul class="list-group">
+                                <li class="list-group-item">
+                                    <div class="row">
+                                        <div class="col col-xs-2">
+                                            number of reports:
+                                        </div>
+                                        <div class="col col-xs-3" id="reports_data">
+    
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="list-group-item">
+                                    <div class="row">
+                                        <div class="col col-xs-2">
+                                            most common incident:
+                                        </div>
+                                        <div class="col col-xs-3" id="incident_data">
+    
+                                        </div>
+                                    </div>
+                                </li>
+    
+                                <li class="list-group-item">
+                                    <div class="row">
+                                        <div class="col col-xs-3">
+                                            the month with the highest number of reports:
+                                        </div>
+                                        <div class="col" id="months_data">
+    
+                                        </div>
+                                    </div>
+    
+                                </li>
+                            </ul>
+                        </div> -->
+                </div>
+                <div class="panel panel-default">
+                    <div class="row">
+                        <div class="col col-md-6">
+                            <div class="panel_1" style="height: auto; width: 100%">
+                                <canvas id="chart1"></canvas>
+                            </div>
+                        </div>
+                        <div class="col col-md-6">
+                            <div class="panel_2" style="height: auto; width: 100%">
+                                <canvas id="chart2"></canvas>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="panel_3" style="height: auto;">
+                        <canvas id="chart3"></canvas>
+                    </div>
+                    <div class="panel_4" style="height: auto;">
+                        <canvas id="chart4"></canvas>
+                    </div>
+                    <div class="panel_5" style="height: auto;">
+                        <canvas id="chart5"></canvas>
+                    </div>
+                    <div class="panel_5" style="height: auto;">
+                        <canvas id="chart5"></canvas>
+                    </div>
+                    <div class="panel_6" style="height: auto;">
+                        <canvas id="chart6"></canvas>
+                    </div>
+                    <div class="panel_7" style="height: auto;">
+                        <canvas id="chart7"></canvas>
+                    </div>
+                </div>
+            </div>
+            <div id="menu_cause" class="tab-pane fade">
+                <h3>Cause</h3>
+                <div id="Causes" class="panel panel-default">
+                    <div class="panel-body">
+                        <div class="panel_1" style="height: auto; width: 100%">
+                            <canvas id="cause_1"></canvas>
+                        </div>
+                        <div class="panel_2" style="height: auto; width: 100%">
+                            <canvas id="cause_2"></canvas>
+                        </div>
+                        <div class="panel_3" style="height: auto; width: 100%">
+                            <canvas id="cause_3"></canvas>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="menu_establishment" class="tab-pane fade">
+                <h3>Establishment</h3>
+                <div id="Establishment" class="panel panel-default">
+                    <div class="panel-body">
+                        <div class="panel_1" style="height: auto; width: 100%">
+                            <canvas id="establishment_1"></canvas>
+                        </div>
+                        <div class="panel_2" style="height: auto; width: 100%">
+                            <canvas id="establishment_2"></canvas>
+                        </div>
+                        <div class="panel_3" style="height: auto; width: 100%">
+                            <canvas id="establishment_3"></canvas>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="menu_location" class="tab-pane fade">
+                <h3>Location</h3>
+                <div id="Location" class="panel-default">
+                    <div class="panel-body">
+                        <div class="panel_1" style="height: auto; width: 100%">
+                            <canvas id="location_1"></canvas>
+                        </div>
+                        <div class="panel_2" style="height: auto; width: 100%">
+                            <canvas id="location_2"></canvas>
+                        </div>
+                        <div class="panel_3" style="height: auto; width: 100%">
+                            <canvas id="location_3"></canvas>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="menu_district" class="tab-pane fade">
+                <h3>Districts</h3>
+                <div id="Districts" class="panel-default">
+                    <div class="panel-body">
+                        <div class="row">
+                            <div class="col col-md-3">
+                                <div class="container" id="district" style="width: 100%;">
+                                    <h3 v-if="selectedDistrict">Districts of {{selectedDistrict}}</h3>
+                                    <div class="list-group districts" style="width: 100%;">
+                                        <a class="list-group-item" v-for="item,index in district_names" v-bind:class="getClass(item)"
+                                            v-on:click="setDistrict(item)">
+                                            {{item}}
+                                            <!-- <a v-on:click="setDistrict(item)">{{item}}</a> -->
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col col-md-9">
+                                <div class="panel_1" style="height: auto; width: 100%">
+                                    <canvas id="district_1"></canvas>
+                                </div>
+                                <div class="panel_2" style="height: auto; width: 100%">
+                                    <canvas id="district_2"></canvas>
+                                </div>
+
+                            </div>
+                            <div class="col col-md-12">
+                                <div class="panel_3" style="height: auto; width: 100%">
+                                    <canvas id="district_3"></canvas>
+                                </div>
+                                <div class="panel_4" style="height: auto; width: 100%">
+                                    <canvas id="district_4"></canvas>
+                                </div>
+                                <div class="panel_5" style="height: auto; width: 100%">
+                                    <canvas id="district_5"></canvas>
+                                </div>
+
+                                <div class="panel_6" style="height: auto; width: 100%">
+                                    <canvas id="district_6"></canvas>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script>
+        var chart_1 = document.getElementById("chart1");
+        var chart_2 = document.getElementById("chart2");
+        var chart_3 = document.getElementById("chart3");
+        var chart_4 = document.getElementById("chart4");
+        var chart_5 = document.getElementById("chart5");
+        var chart_6 = document.getElementById("chart6");
+        var chart_7 = document.getElementById("chart7");
+        var chart_1_view
+        var chart_2_view
+        var chart_3_view
+        var chart_4_view
+        var chart_5_view
+        var chart_6_view
+        var chart_7_view
+
+
+        var district_1 = document.getElementById("district_1");
+        var district_2 = document.getElementById("district_2");
+        var district_3 = document.getElementById("district_3");
+        var district_4 = document.getElementById("district_4");
+        var district_5 = document.getElementById("district_5");
+        var district_6 = document.getElementById("district_6");
+        var district_1_view
+        var district_2_view
+        var district_3_view
+        var district_4_view
+        var district_5_view
+        var district_6_view
+
+
+        function getRandomColor() {
+            var letters = '0123456789ABCDEF';
+            var color = '#';
+            for (var i = 0; i < 6; i++) {
+                color += letters[Math.floor(Math.random() * 16)];
+            }
+            return color;
+        }
+
+
+        function getColor(value) {
+            const colors = [{
+                    degree: 0,
+                    color: '#00ff00'
+                },
+                {
+                    degree: 20,
+                    color: '#48ff00'
+                },
+                {
+                    degree: 50,
+                    color: '#90ff00'
+                },
+                {
+                    degree: 100,
+                    color: '#bfff00'
+                },
+                {
+                    degree: 200,
+                    color: '#ddff00'
+                },
+                {
+                    degree: 400,
+                    color: '#fff600'
+                },
+                {
+                    degree: 500,
+                    color: '#ffbb00'
+                },
+                {
+                    degree: 700,
+                    color: '#ff8c00'
+                },
+                {
+                    degree: 900,
+                    color: '#ff6600'
+                },
+                {
+                    degree: 1000,
+                    color: '#ff4300'
+                }
+            ]
+            var degree = null
+            for (var i = 0; i < colors.length - 1; i++) {
+                if (colors[i].degree <= value && colors[i + 1].degree > value) {
+                    return colors[i].color
+                }
+            }
+            return colors[colors.length - 1].color
+        }
+
+        function hexToRgb(hex) {
+            var result = /^#?([a-f\d]{2})([a-f\d]{2})([a-f\d]{2})$/i.exec(hex);
+            return result ? {
+                r: parseInt(result[1], 16),
+                g: parseInt(result[2], 16),
+                b: parseInt(result[3], 16),
+                a: 0.5
+            } : null;
+        }
+
+        function setChart(district_data) {
+            console.log(district_data)
+            //inicidents chart
+            var time = {
+                '12AM': {
+                    count: 0
+                },
+                '1AM': {
+                    count: 0
+                },
+                '2AM': {
+                    count: 0
+                },
+                '3AM': {
+                    count: 0
+                },
+                '4AM': {
+                    count: 0
+                },
+                '5AM': {
+                    count: 0
+                },
+                '6AM': {
+                    count: 0
+                },
+                '7AM': {
+                    count: 0
+                },
+                '8AM': {
+                    count: 0
+                },
+                '9AM': {
+                    count: 0
+                },
+                '10AM': {
+                    count: 0
+                },
+                '11AM': {
+                    count: 0
+                },
+                '12PM': {
+                    count: 0
+                },
+                '1PM': {
+                    count: 0
+                },
+                '2PM': {
+                    count: 0
+                },
+                '3PM': {
+                    count: 0
+                },
+                '4PM': {
+                    count: 0
+                },
+                '5PM': {
+                    count: 0
+                },
+                '6PM': {
+                    count: 0
+                },
+                '7PM': {
+                    count: 0
+                },
+                '8PM': {
+                    count: 0
+                },
+                '9PM': {
+                    count: 0
+                },
+                '10PM': {
+                    count: 0
+                },
+                '11PM': {
+                    count: 0
+                },
+            }
+            //var cause_data = []
+
+            district_data.map((item) => {
+                var time_data = item.TIME
+                if (time_data) {
+                    time_data = time_data.toUpperCase()
+                }
+                if (time[time_data] == undefined) {
+                    time[time_data] = {
+                        count: 1
+                    }
+                } else {
+                    time[time_data].count++
+                }
+            })
+
+
+            var time_data = Object.keys(time).map(function (key) {
+                return {
+                    label: key,
+                    data: time[key].count,
+                    color: getColor(time[key].count)
+                }
+            })
+
+            if (district_1_view)
+                district_1_view.destroy()
+            district_1_view = new Chart(district_1, {
+                type: 'radar',
+                data: {
+                    labels: time_data.map(item => {
+                        return item.label
+                    }),
+                    datasets: [{
+                        label: '# of incidents in time of ',
+                        data: time_data.map(item => {
+                            return item.data
+                        }),
+                        borderColor: getColor(district_data.length)
+                        /* backgroundColor: time_data.map(item => {
+                            return item.color
+                        }) */
+                    }]
+
+                },
+                title: {
+                    display: true,
+                    text: '# of Incident per hour of the day'
+                }
+            })
+
+
+
+            var day = {
+                null: {
+                    count: 0
+                },
+                'Monday': {
+                    count: 0
+                },
+                'Tuesday': {
+                    count: 0
+                },
+                'Wednesday': {
+                    count: 0
+                },
+                'Thursday': {
+                    count: 0
+                },
+                'Friday': {
+                    count: 0
+                },
+                'Saturday': {
+                    count: 0
+                },
+                'Sunday': {
+                    count: 0
+                }
+            }
+            //var cause_data = []
+
+            district_data.map((item) => {
+                var day_data = item.DAY
+                day[day_data].count++
+            })
+
+
+            var day_data = Object.keys(day).map(function (key) {
+                return {
+                    label: key,
+                    data: day[key].count,
+                    color: getColor(day[key].count)
+                }
+            })
+
+            if (district_2_view)
+                district_2_view.destroy()
+            district_2_view = new Chart(district_2, {
+                type: 'pie',
+                data: {
+                    labels: day_data.map(item => {
+                        return item.label
+                    }),
+                    datasets: [{
+                        label: '# of incidents in time of ',
+                        data: day_data.map(item => {
+                            return item.data
+                        }),
+                        backgroundColor: day_data.map(item => {
+                            return item.color
+                        })
+                    }]
+
+                },
+                options: {
+                    title: {
+                        display: true,
+                        text: '# of Incident per day of the week'
+                    }
+                }
+            })
+
+
+
+
+
+            var months = {
+                'JANUARY': {
+                    count: 0,
+                },
+                'FEBRUARY': {
+                    count: 0
+                },
+                'MARCH': {
+                    count: 0
+                },
+                'APRIL': {
+                    count: 0
+                },
+                'MAY': {
+                    count: 0
+                },
+                'JUNE': {
+                    count: 0
+                },
+                'JULY': {
+                    count: 0
+                },
+                'AUGUST': {
+                    count: 0
+                },
+                'SEPTEMBER': {
+                    count: 0
+                },
+                'OCTOBER': {
+                    count: 0
+                },
+                'NOVEMBER': {
+                    count: 0
+                },
+                'DECEMBER': {
+                    count: 0
+                },
+            };
+
+
+            var max = 0
+            var month_winner = null
+
+            district_data.map((item) => {
+                var month_item = item.MONTH || null
+                if (month_item) {
+                    month_item = month_item.toUpperCase()
+                }
+                months[month_item].count++
+            })
+
+            let month_data = Object.keys(months).map((key) => {
+                if (months[key].count > max) {
+                    max = months[key].count
+                    month_winner = key
+                }
+
+                return {
+                    label: key,
+                    data: months[key].count,
+                    color: getColor(months[key].count)
+                }
+            })
+
+            //document.getElementById("months_data").innerHTML = month_winner + " - " + max
+
+            //generate chart
+            if (district_3_view)
+                district_3_view.destroy()
+            district_3_view = new Chart(district_3, {
+                type: 'bar',
+                data: {
+                    labels: month_data.map((item) => {
+                        return item.label
+                    }),
+                    datasets: [{
+                        label: '# of incidents per month',
+                        data: month_data.map((item) => {
+                            return item.data
+                        }),
+                        backgroundColor: month_data.map((item) => {
+                            return item.color
+                        }),
+
+                    }, {
+                        label: '# of incidents per month',
+                        data: month_data.map((item) => {
+                            return item.data
+                        }),
+                        borderColor: getRandomColor(),
+                        fill: false,
+                        type: 'line'
+                    }]
+                },
+                options: {
+                    scales: {
+                        yAxes: [{
+                            ticks: {
+                                beginAtZero: true
+                            }
+                        }]
+                    },
+                    title: {
+                        display: true,
+                        text: '# of Incident per day of the month'
+                    }
+                },
+            })
+
+
+            var years = []
+            district_data.map((item) => {
+                //var dates = item.date.split("-")
+                var year = item.YEAR
+                if (!years.includes(year)) {
+                    years.push(year)
+                }
+            })
+
+            var years_data = []
+            var years_colors = []
+
+            years.map((year) => {
+                var count = 0
+                district_data.map((item) => {
+                    if (item.YEAR == year) {
+                        count++
+                    }
+                })
+                //years_data.push(count)
+                years_data.push({
+                    data: year,
+                    label: count
+                })
+                years_colors.push(getColor(count))
+            })
+
+            years_data.sort(compare)
+
+            if (district_4_view)
+                district_4_view.destroy()
+            //generate chart
+            chart_4_view = new Chart(district_4, {
+                type: 'bar',
+                data: {
+                    labels: years_data.map((item) => {
+                        return item.data
+                    }),
+                    datasets: [{
+                        label: '# of incidents per year',
+                        data: years_data.map((item) => {
+                            return item.label
+                        }),
+                        backgroundColor: years_colors,
+                    }]
+                },
+                options: {
+                    scales: {
+                        /* yAxes: [{
+                            ticks: {
+                                beginAtZero: true
+                            }
+                        }] */
+                    },
+                    title: {
+                        display: true,
+                        text: '# of Incident per year'
+                    }
+                }
+            })
+
+
+            var establishment = {}
+
+            district_data.map((item) => {
+                if (establishment[item.ESTABLISHMENT] != null) {
+                    establishment[item.ESTABLISHMENT]++
+                } else {
+                    establishment[item.ESTABLISHMENT] = 1
+                }
+            })
+
+            var establishment_data = []
+            var other = {
+                label: 'other/unclear/ no info',
+                data: 0,
+                color: null
+            }
+            Object.keys(establishment).map(function (key) {
+                if (establishment[key] > 5 && key != '' && key != 'null' && key != 'unclear') {
+                    establishment_data.push({
+                        label: key,
+                        data: establishment[key],
+                        color: getColor(establishment[key])
+                    })
+                } else {
+                    other.data += establishment[key]
+                }
+            })
+
+            other.color = getColor(other.data)
+
+            establishment_data.push(other)
+
+            establishment_data.sort(compareData)
+            establishment_data = establishment_data.reverse()
+
+            dataset = establishment_data.map((item) => {
+                return {
+                    label: item.label,
+                    data: [item.data],
+                    backgroundColor: getRandomColor(),
+                    borderColor: 'white',
+                    borderWidth: 5
+                }
+            })
+            console.log("establishment %o", dataset)
+            if (district_5_view)
+                district_5_view.destroy()
+            district_5_view = new Chart(district_5, {
+                type: 'horizontalBar',
+                data: {
+                    /* labels: establishment_data.map((item) => {
+                        return item.label
+                    }), */
+                    labels: ['type of establishments'],
+                    datasets: dataset
+                    /*  [{
+                        label: '# of incident per establishment',
+                        data: establishment_data.map((item) => {
+                            return item.data
+                        }),
+                        backgroundColor: establishment_data.map((item) => {
+                            return item.color
+                        })
+                    }] */
+                },
+                options: {
+                    scales: {
+                        xAxes: [{
+                            stacked: true
+                        }],
+                        yAxes: [{
+                            stacked: true
+                        }]
+                    }
+                }
+            })
+
+
+
+            //inicidents chart
+            var cause = {}
+            //var cause_data = []
+
+            district_data.map((item) => {
+                if (cause[item.CAUSE] == undefined) {
+                    cause[item.CAUSE] = 1
+                } else {
+                    cause[item.CAUSE]++
+                }
+            })
+
+            var incident_data = []
+            var others = {
+                label: 'other',
+                data: 0,
+                color: null
+            }
+            Object.keys(cause).map((key) => {
+                if (cause[key] < 5) {
+                    others.data += cause[key]
+                } else {
+                    incident_data.push({
+                        label: key,
+                        data: cause[key],
+                        color: getColor(cause[key])
+                    })
+                }
+            })
+
+            others.color = getColor(others.data)
+
+            incident_data.push(others)
+
+            incident_data.sort(compareData)
+
+            if (district_6_view)
+                district_6_view.destroy()
+            district_6_view = new Chart(district_6, {
+                type: 'horizontalBar',
+                data: {
+                    labels: incident_data.map((item) => {
+                        return item.label
+                    }),
+                    datasets: [{
+                        label: '# of incidents per type of cause ',
+                        data: incident_data.map(item => {
+                            return item.data
+                        }),
+                        backgroundColor: incident_data.map(item => {
+                            return item.color
+                        })
+                    }]
+                },
+                options: {
+                    scales: {
+                        yAxes: [{
+                            ticks: {
+                                beginAtZero: true
+                            }
+                        }]
+                    },
+                    title: {
+                        display: true,
+                        text: '# of Incident per type of cause'
+                    }
+                }
+            })
+
+        }
+
+        /* setGeneral */
+        function setGeneral(data) {
+
+            document.getElementById("title").innerHTML = "General"
+
+            var labels = []
+            console.log(data)
+
+            data.forEach(element => { //gets the names of districts
+                //let district = element.district.replace("_"," ")
+                let district = element.DISTRICT
+                if (!labels.includes(district)) {
+                    labels.push(district)
+                }
+            });
+
+            console.log(labels)
+
+            var district_data = []
+            var colors = []
+            labels.map((district) => { //generates array of fire reports each districts
+                var count = 0
+                data.forEach((element) => {
+                    if (element.DISTRICT == district) {
+                        count++
+                    }
+                })
+                district_data.push(count) //push number of fire of a district
+                colors.push(getRandomColor()) //push new color
+            })
+
+            console.log("labels %o", labels)
+            console.log("district_data %o", district_data)
+
+            var labels_day = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
+            var days_count = []
+            var day_color = []
+
+            labels_day.map((day) => {
+                var count = 0
+                data.map((item) => {
+                    if (item.DAY) {
+                        if (item.DAY.toLowerCase() == day.toLowerCase()) {
+                            count++
+                        }
+                    }
+                })
+
+                days_count.push(count)
+                day_color.push(getRandomColor()) //push new color
+                //colors.push(getColor(count))
+            })
+
+            console.log(days_count)
+
+            if (chart_1_view) {
+                chart_1_view.destroy()
+            }
+
+            chart_1_view = new Chart(chart_1, {
+                type: 'doughnut',
+                data: {
+                    labels: labels_day,
+                    datasets: [{
+                        label: '# of reports per day',
+                        data: days_count,
+                        backgroundColor: day_color,
+                        borderColor: 'white',
+                        fill: false
+                    }]
+                },
+                options: {
+                    scales: {
+                        yAxes: [{
+                            ticks: {
+                                beginAtZero: true
+                            }
+                        }]
+                    },
+                    elements: {
+                        line: {
+                            tension: 0, // disables bezier curves
+                        }
+                    }
+                }
+            })
+
+            var months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September',
+                'October', 'November', 'December'
+            ];
+            var months_data = []
+            var months_color = []
+
+            months.map((month) => {
+                var count = 0
+                data.map(item => {
+                    if (item.MONTH) {
+                        if (month.toLowerCase() == item.MONTH.toLowerCase()) {
+                            count++
+                        }
+                    }
+                })
+                months_data.push(count)
+                months_color.push(getColor(count))
+            })
+
+            console.log({
+                months,
+                months_data,
+                months_color
+            })
+
+            if (chart_2_view) {
+                chart_2_view.destroy()
+            }
+
+            chart_2_view = new Chart(chart_2, {
+                type: 'bar',
+                data: {
+                    labels: months,
+                    datasets: [{
+                        label: '# of incidents per month',
+                        data: months_data,
+                        backgroundColor: months_color
+                    }]
+                },
+                options: {
+                    title: {
+                        display: true,
+                        text: 'Number of incidents per month'
+                    },
+                    scales: {
+                        yAxes: [{
+                            ticks: {
+                                beginAtZero: true
+                            },
+                        }]
+                    }
+                }
+            })
+
+
+            var years_data = []
+            var years_colors = []
+
+            var years = []
+
+            data.map(item => {
+                if (!years.includes(item.YEAR)) {
+                    years.push(item.YEAR)
+                }
+            })
+
+            console.log(years)
+
+            years.sort(compare)
+
+            years.map((year) => {
+                var count = 0
+                data.map(item => {
+                    if (year == item.YEAR) {
+                        count++
+                    }
+                })
+                years_data.push(count)
+                years_colors.push(getColor(count))
+            })
+
+            console.log({
+                years,
+                years_data,
+                years_colors
+            })
+
+
+            //years_data.sort(compare)
+            if (chart_3_view) {
+                chart_3_view.destroy()
+            }
+            //generate chart
+            chart_3_view = new Chart(chart_3, {
+                type: 'radar',
+                data: {
+                    labels: years.map((item) => {
+
+                        return item || "unnavailable"
+                    }),
+                    datasets: [{
+                        label: '# of incidents per year',
+                        data: years_data,
+                        backgroundColor: 'red',
+                        borderColor: 'red',
+                        fill: false,
+                    }]
+                },
+                options: {
+                    title: {
+                        display: true,
+                        text: 'Number of incidents per year'
+                    },
+                    scales: {
+                        yAxes: [{
+                            ticks: {
+                                beginAtZero: true
+                            }
+                        }]
+                    },
+                    elements: {
+                        line: {
+                            tension: 0, // disables bezier curves
+                        }
+                    }
+                }
+            })
+
+
+
+            var hours = [
+                null,
+                "1AM",
+                "2AM",
+                "3AM",
+                "4AM",
+                "5AM",
+                "6AM",
+                "7AM",
+                "8AM",
+                "9AM",
+                "10AM",
+                "11AM",
+                "12PM",
+                "1PM",
+                "2PM",
+                "3PM",
+                "4PM",
+                "5PM",
+                "6PM",
+                "7PM",
+                "8PM",
+                "10PM",
+                "9PM",
+                "11PM",
+                "12AM",
+            ];
+            var hours_data = []
+            var hours_color = []
+
+            hours.sort(compare)
+            hours.map((hour) => {
+                var count = 0
+                data.map(item => {
+
+                    if (item.TIME == null && hour == null) {
+                        count++;
+                    } else if (item.TIME && hour) {
+                        if (item.TIME.toUpperCase().includes(hour)) {
+                            count++
+                        }
+                    }
+                })
+                hours_data.push(count)
+                hours_color.push(getColor(count))
+            })
+
+            console.log({
+                hours,
+                hours_data,
+                hours_data
+            })
+
+            if (chart_4_view) {
+                chart_4_view.destroy()
+            }
+
+            chart_4_view = new Chart(chart_4, {
+                type: 'bar',
+                data: {
+                    labels: hours,
+                    datasets: [{
+                        label: '# of incidents per hour',
+                        data: hours_data,
+                        backgroundColor: hours_color
+                    }]
+                },
+                options: {
+
+                    title: {
+                        display: true,
+                        text: 'Number of incidents per hour'
+                    },
+                    scales: {
+                        yAxes: [{
+                            ticks: {
+                                beginAtZero: true
+                            },
+                        }]
+                    }
+                }
+            })
+
+
+
+            var cluster_years = {
+
+            }
+            var alert_levels = []
+
+            data.map(item => {
+                if (cluster_years[item.YEAR]) {
+                    cluster_years[item.YEAR].items.push(item)
+                } else {
+                    cluster_years[item.YEAR] = {
+                        items: [item],
+                        month_data: [],
+                        alert_data: []
+                    }
+                }
+                let alert_level = item.ALERT_LEVEL ? item.ALERT_LEVEL.toUpperCase() : null
+                if (!alert_levels.includes(alert_level)) {
+                    alert_levels.push(alert_level)
+                }
+            })
+
+
+            months.map(month => {
+                for (var key in cluster_years) {
+                    var count = 0
+                    cluster_years[key].items.map((item) => {
+                        if (item.MONTH) {
+                            if (item.MONTH.toLowerCase() == month.toLowerCase()) {
+                                count++
+                            }
+                        }
+                    })
+                    cluster_years[key].month_data.push(count)
+                }
+            })
+
+            var dataset = []
+
+            for (var key in cluster_years) {
+                dataset.push({
+                    label: '# of incidents per month of ' + key,
+                    data: cluster_years[key].month_data,
+                    backgroundColor: getRandomColor(),
+                    borderColor: getRandomColor(),
+                    fill: false,
+                })
+            }
+
+            console.log(cluster_years)
+
+
+
+            //years_data.sort(compare)
+            if (chart_5_view) {
+                chart_5_view.destroy()
+            }
+            //generate chart
+            chart_5_view = new Chart(chart_5, {
+                type: 'line',
+                data: {
+                    labels: months,
+                    datasets: dataset
+                },
+                options: {
+                    title: {
+                        display: true,
+                        text: 'Number of incidents per year'
+                    },
+                    scales: {
+                        yAxes: [{
+                            ticks: {
+                                beginAtZero: true
+                            }
+                        }]
+                    },
+                }
+            })
+
+            for (var key in cluster_years) {
+                alert_levels.map(alert_level => {
+                    var count = 0;
+                    cluster_years[key].items.map((item) => {
+                        if (item.ALERT_LEVEL && alert_level) {
+                            if (item.ALERT_LEVEL.toUpperCase() == alert_level.toUpperCase()) {
+                                count++
+                            }
+                        } else if (!item.ALERT_LEVEL && !alert_level) {
+                            count++
+                        }
+                    })
+                    cluster_years[key].alert_data.push({
+                        alert_level,
+                        count
+                    })
+                })
+            }
+
+            var alert_dataset = []
+
+            var cluster_alert_level = {}
+            for (var key in cluster_years) {
+                cluster_years[key].alert_data.map((alert) => {
+                    if (cluster_alert_level[alert.alert_level]) {
+                        cluster_alert_level[alert.alert_level].push(alert.count)
+                    } else {
+                        cluster_alert_level[alert.alert_level] = [alert.count]
+                    }
+                })
+            }
+
+            console.log(cluster_alert_level)
+
+            for (var key in cluster_alert_level) {
+                let color = getRandomColor()
+                alert_dataset.push({
+                    label: '# of alerts per year of ' + key,
+                    data: cluster_alert_level[key],
+                    backgroundColor: color,
+                    borderColor: color
+                })
+            }
+
+            console.log(alert_dataset)
+
+
+            //years_data.sort(compare)
+            if (chart_6_view) {
+                chart_6_view.destroy()
+            }
+            //generate chart
+            chart_6_view = new Chart(chart_6, {
+                type: 'horizontalBar',
+                data: {
+                    labels: years,
+                    datasets: alert_dataset
+                },
+                options: {
+                    title: {
+                        display: true,
+                        text: 'Number of incidents per year in alert levels'
+                    },
+                    scales: {
+                        yAxes: [{
+                            ticks: {
+                                beginAtZero: true
+                            }
+                        }],
+                        yAxes: [{
+                            stacked: true
+                        }]
+                    },
+                }
+            })
+
+            if (chart_7_view) {
+                chart_7_view.destroy()
+            }
+            //generate chart
+            chart_7_view = new Chart(chart_7, {
+                type: 'bar',
+                data: {
+                    labels: years,
+                    datasets: alert_dataset
+                },
+                options: {
+                    title: {
+                        display: true,
+                        text: 'Number of incidents per year in alert levels'
+                    },
+                    scales: {
+                        yAxes: [{
+                            ticks: {
+                                beginAtZero: true
+                            }
+                        }],
+                    },
+                }
+            })
+        }
+
+
+        function setDateOfPanel(data, element, variable) {
+            console.log({
+                data,
+                element,
+                variable
+            })
+            var container_1 = document.getElementById(element + "_1");
+            var container_2 = document.getElementById(element + "_2");
+            var container_3 = document.getElementById(element + "_3");
+
+            var container_1_view
+            var container_2_view
+            var container_3_view
+
+            var general = {}
+            var days = {}
+            var months = {}
+
+            data.map((item) => {
+                if (general[item[variable]]) {
+                    general[item[variable]].data.push(item)
+                } else {
+                    general[item[variable]] = {
+                        data: [item]
+                    }
+                }
+
+                if (days[item.DAY]) {
+                    days[item.DAY].data.push(item)
+                } else {
+                    days[item.DAY] = {
+                        data: [item]
+                    }
+                }
+
+                if (item.MONTH) {
+                    let _month = item.MONTH.toUpperCase()
+                    if (months[_month]) {
+                        months[_month].data.push(item)
+                    } else {
+                        months[_month] = {
+                            data: [item]
+                        }
+                    }
+                }
+
+            })
+
+            var general_data = []
+
+            var other = {
+                label: 'other',
+                data: 0,
+                color: null
+            }
+
+            for (var key in general) {
+                if (general[key]) {
+                    let count = general[key].data.length
+                    if (count > 10) {
+                        general_data.push({
+                            label: key,
+                            data: count,
+                            color: getColor(count)
+                        })
+                    } else {
+                        other.data += count
+                    }
+                }
+            }
+
+            other.color = getColor(other.data)
+            general_data.push(other)
+
+
+            container_1_view = new Chart(container_1, {
+                type: 'bar',
+                data: {
+                    labels: general_data.map((item) => {
+                        return item.label
+                    }),
+                    datasets: [{
+                        label: '# of reports per ' + element,
+                        data: general_data.map((item) => {
+                            return item.data
+                        }),
+                        backgroundColor: general_data.map((item) => {
+                            return item.color
+                        })
+                    }]
+                },
+                options: {
+                    scales: {
+                        yAxes: [{
+                            ticks: {
+                                beginAtZero: true,
+                                autoSkip: false
+                            }
+                        }],
+                        xAxes: [{
+                            ticks: {
+                                autoSkip: false
+                            }
+                        }]
+                    },
+                }
+            })
+
+
+
+
+            var days_info = []
+
+            for (var key in days) {
+                var value_day = {}
+                days[key].data.map((item) => {
+                    if (value_day[item[variable]]) {
+                        value_day[item[variable]].data.push(item)
+                    } else {
+                        value_day[item[variable]] = {
+                            data: [item]
+                        }
+                    }
+                })
+                var max = 0
+                var item = {}
+                for (var key_value in value_day) {
+                    if (value_day[key_value]) {
+                        if (max < value_day[key_value].data.length) {
+                            max = value_day[key_value].data.length
+                            item = {
+                                label: key_value,
+                                count: max
+                            }
+                        }
+                    }
+                }
+
+                console.log({
+                    day: key,
+                    item
+                })
+
+                days_info.push({
+                    day: key,
+                    item
+                })
+            }
+
+            console.log({
+                days,
+                days_info
+            })
+
+            container_2_view = new Chart(container_2, {
+                type: 'horizontalBar',
+                data: {
+                    labels: days_info.map((item) => {
+                        return item.day + '(' + item.item.label + ')'
+                    }),
+                    datasets: [{
+                        label: 'most common report',
+                        data: days_info.map((item) => {
+                            return item.item.count
+                        }),
+                        backgroundColor: days_info.map((item) => {
+                            return getColor(item.item.count)
+                        })
+                    }]
+                },
+                options: {
+                    /*  scales: {
+                         yAxes: [{
+                             ticks: {
+                                 beginAtZero: true
+                             }
+                         }]
+                     }, */
+                    scales: {
+                        xAxes: [{
+                            stacked: true
+                        }],
+                        yAxes: [{
+                            stacked: true
+                        }]
+                    }
+
+                }
+            })
+
+
+
+            var month_info = []
+
+            for (var key in months) {
+                var value_day = {}
+                months[key].data.map((item) => {
+                    if (value_day[item[variable]]) {
+                        value_day[item[variable]].data.push(item)
+                    } else {
+                        value_day[item[variable]] = {
+                            data: [item]
+                        }
+                    }
+                })
+                var max = 0
+                var item = {}
+                for (var key_value in value_day) {
+                    if (value_day[key_value]) {
+                        if (max < value_day[key_value].data.length) {
+                            max = value_day[key_value].data.length
+                            item = {
+                                label: key_value,
+                                count: max
+                            }
+                        }
+                    }
+                }
+
+                console.log({
+                    day: key,
+                    item
+                })
+
+                month_info.push({
+                    month: key,
+                    item
+                })
+            }
+
+            let line_color = getRandomColor()
+            container_3_view = new Chart(container_3, {
+                type: 'line',
+                data: {
+                    labels: month_info.map((item) => {
+                        return item.month + '(' + item.item.label + ')'
+                    }),
+                    datasets: [{
+                        label: 'most common report',
+                        data: month_info.map((item) => {
+                            return item.item.count
+                        }),
+                        borderColor: line_color,
+                        backgroundColor: line_color,
+                        /* backgroundOpacity: 0.5 */
+                        fill: false
+                    }]
+                },
+                options: {
+                    scales: {
+                        yAxes: [{
+                            ticks: {
+                                beginAtZero: true
+                            }
+                        }]
+                    },
+                }
+            })
+        }
+
+
+        var vue_app = new Vue({
+            el: '#district',
+            data: {
+                data: {},
+                district_names: [],
+                district_data: {},
+                selected: null,
+                selectedDistrict: null
+            },
+
+            methods: {
+                initApp() {
+                    let data = localStorage.getItem('data')
+                    if (data) {
+                        onDataHandle(JSON.parse(data))
+                    } else {
+                        getReports(true, onDataHandle)
+                    }
+                },
+                setData(data) {
+                    this.data = data
+                    var district = {}
+                    this.data.map((item) => {
+                        if (district[item.DISTRICT]) {
+                            district[item.DISTRICT].push(item)
+                        } else {
+                            district[item.DISTRICT] = [item]
+                        }
+                    })
+                    this.district_data = district
+                    this.district_names = Object.keys(district)
+                    setTimeout(() => {
+                        this.setDistrict(this.district_names[0])
+                    }, 1000)
+
+                },
+                setSelected(item) {
+                    if (this.selected != item) {
+                        this.selected = item
+                        if (item == undefined) {
+                            onDataHandle(this.data.data)
+                        } else {
+                            setChart(this.selected, this.data.data)
+                        }
+                    }
+                },
+                getClass(district) {
+                    /* 'list-group-item item + (selectedDistrict == item) ? 'active': '' */
+                    let classItem = 'list-group-item item  '
+                    if (district == this.selectedDistrict) {
+                        classItem += "active"
+                    }
+                    return classItem
+                },
+                setDistrict(item) {
+                    console.log("selected")
+                    this.selectedDistrict = item
+                    setChart(this.district_data[item])
+                }
+            }
+        })
+
+        vue_app.initApp()
+
+
+
+
+        /* init */
+        function onDataHandle(data) {
+
+            localStorage.setItem('data', JSON.stringify(data))
+
+            setGeneral(data)
+
+            setDateOfPanel(data, 'location', 'DISTRICT')
+            setDateOfPanel(data, 'cause', 'CAUSE')
+            setDateOfPanel(data, 'establishment', 'ESTABLISHMENT')
+
+            vue_app.setData(data)
+        }
+
+
+        function compare(a, b) {
+            if (a < b)
+                return -1;
+            if (a > b)
+                return 1;
+            return 0;
+        }
+
+        function compareData(a, b) {
+            if (a.data < b.data)
+                return -1;
+            if (a.data > b.data)
+                return 1;
+            return 0;
+        }
+    </script>
+</body>
+
+</html>

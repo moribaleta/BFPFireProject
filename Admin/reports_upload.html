@@ -1,0 +1,279 @@
+<html>
+
+<head>
+    <title>upload report documents</title>
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/main-style.css" rel="stylesheet">
+    <script src="js/jquery-3.0.0.min.js"></script>
+    <script src="js/vue.js"></script>
+
+    <script src="js/datahandler.js"></script>
+    <script src="js/classifier.js"></script>
+    <script src="js/regression.js"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-inverse navbar-fixed-top" id="header">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="index.html">BFP admin (Reports)</a>
+            </div>
+        </div>
+    </nav>
+    <div class="container" id="content">`
+        <form method="post" enctype="multipart/form-data">
+            <input type="file" name="files[]" multiple>
+            <input type="submit" value="Upload File" name="submit">
+        </form>
+        <p id="app"></p>
+        <div id="file_list">
+            <h1>files</h1>
+            <ul class="list">
+                <li class="list-item row" v-for="(item, index) in files">
+                    <p class="col-sm-1">{{(index + 1)}}</p>
+                    <p class="col-sm-3">{{item.filename +" " +item.date}}</p>
+                    <p class="col-sm-2">
+                        <a class="list-item-action download-button" v-on:click="download(index)">download</a>
+                        <a class="list-item-action download-button" v-on:click="delete_item(index)">delete</a>
+                    </p>
+                </li>
+            </ul>
+            <br>
+        </div>
+    </div>
+    <script src="js/xlsx.full.min.js"></script>
+    <script>
+        const url = 'http://localhost/phdfireproject/phdfire/upload_fire_reports.php';
+        const form = document.querySelector('form');
+        var user = null
+
+
+        let vue_app = new Vue({
+            el: "#file_list",
+            data: {
+                files: []
+            },
+            methods: {
+                setList: function (files) {
+                    this.files = files
+                    console.log("files: %o", this.files)
+                },
+                init: function () {
+                    getReportsFile(user.id, this.setList)
+                },
+                download: function (index) {
+                    let file = this.files[index]
+                    var link = document.createElement("a");
+                    link.download = file.filename;
+                    link.href = host + "/" + file.filepath;
+                    link.click();
+                },
+                delete_item: function (index) {
+                    let file = this.files[index]
+                    var r = confirm("Delete " + file.filename + "?");
+                    if (r == true) {
+                        deleteFile(file.id, file.filepath, this.init)
+                    }
+                },
+            }
+        })
+
+
+
+
+
+        form.addEventListener('submit', e => {
+            e.preventDefault();
+
+            const files = document.querySelector('[type=file]').files;
+            const formData = new FormData();
+            formData.append('userid', user.id)
+            for (let i = 0; i < files.length; i++) {
+                let file = files[i];
+                formData.append('files[]', file);
+            }
+
+            $.ajax({
+                url: url,
+                type: "POST",
+                data: formData,
+                contentType: false,
+                cache: false,
+                processData: false,
+                success: function (data) {
+                    console.log(data)
+
+                    if (data.includes("__")) {
+                        alert("successfully uploaded file")
+                        generateJSON('http://localhost/phdfireproject/phdfire/uploads/' + files[
+                                0].name,
+                            savenewreport)
+                    }
+                },
+                error: function (e) {
+                    console.log(e)
+                },
+                complete: function (e) {
+                    vue_app.init()
+                }
+            });
+
+        });
+    </script>
+
+    <script>
+        function saved_data() {
+            alert("added new reports")
+            location.reload()
+        }
+
+
+
+        function generateJSON(url, savenewreport) {
+            var oReq = new XMLHttpRequest();
+
+            oReq.open("GET", url, true);
+            oReq.responseType = "arraybuffer";
+            oReq.onload = function (e) {
+                console.log("hello")
+                var arraybuffer = oReq.response;
+
+                /* convert data to binary string */
+                var data = new Uint8Array(arraybuffer);
+                var arr = new Array();
+                for (var i = 0; i != data.length; ++i) arr[i] = String.fromCharCode(data[i]);
+                var bstr = arr.join("");
+
+                /* Call XLSX */
+                var workbook = XLSX.read(bstr, {
+                    type: "binary"
+                });
+
+                /* DO SOMETHING WITH workbook HERE */
+                var first_sheet_name = workbook.SheetNames[0];
+                /* Get worksheet */
+                var worksheet = workbook.Sheets[first_sheet_name];
+                let output_json = XLSX.utils.sheet_to_json(worksheet, {
+                    raw: true
+                })
+                savenewreport(output_json, saved_data)
+            }
+            oReq.send();
+        }
+
+        function savenewreport(output_json, callback) {
+            console.log("%o", output_json)
+            //var reports = []
+            /* output_json.map(element => {
+                let causes = element.cause.split(";")
+                if (causes.length > 0) {
+                    causes.forEach(cause => {
+                        let new_element = element
+                        new_element.cause = cause
+                        reports.push(new_element)
+                    })
+                } else {
+                    reports.push(new_element)
+                }
+            }); */
+
+            var new_reports = []
+            output_json.map((element) => {
+                /*  var date = element.date.split("_")
+                 var time = date[0]
+                 date = date[1].split("-")
+                 var day = date[0]
+                 var month = date[1]
+                 var year = date[2] */
+
+                /*  return {
+                     time: time,
+                     day: day,
+                     month: month,
+                     year: year,
+                     cause: element.cause,
+                     temp: element.temp,
+                     alarm: element.alarm.toLowerCase(),
+                     type: element.type,
+                     district: element.district
+                 } */
+
+                let date = element.DATE.split("_").join("-")
+
+                if (element.CAUSES.split(",").length > 0) {
+                    element.CAUSES.split(",").map((cause) => {
+                        let item = {
+                            ALERT_LEVEL: element.ALERT_LEVEL,
+                            AMOUNT_OF_DAMAGE: element.AMOUNT_OF_DAMAGE,
+                            CAUSE: cause,
+                            COMPLETE_ADDRESS: element.COMPLETE_ADDRESS,
+                            DATE: date,
+                            DAY: element.DAY,
+                            DISTRICT: element.DISTRICT,
+                            ESTABLISHMENT: element.ESTABLISHMENT,
+                            LATITUDE: element.LONGITUDE,
+                            LONGITUDE: element.LONGITUDE,
+                            MONTH: element.MONTH,
+                            TIME: element.TIME,
+                            YEAR: element.YEAR,
+                            FATALITY: element.FATALITY,
+                            INJURED: element.INJURED
+                        }
+
+                        new_reports.push(item)
+                    })
+                } else {
+                    let item = {
+                        ALERT_LEVEL: element.ALERT_LEVEL,
+                        AMOUNT_OF_DAMAGE: element.AMOUNT_OF_DAMAGE,
+                        CAUSE: element.CAUSES,
+                        COMPLETE_ADDRESS: element.COMPLETE_ADDRESS,
+                        DATE: date,
+                        DAY: element.DAY,
+                        DISTRICT: element.DISTRICT,
+                        ESTABLISHMENT: element.ESTABLISHMENT,
+                        LATITUDE: element.LONGITUDE,
+                        LONGITUDE: element.LONGITUDE,
+                        MONTH: element.MONTH,
+                        TIME: element.TIME,
+                        YEAR: element.YEAR,
+                        FATALITY: element.FATALITY,
+                        INJURED: element.INJURED
+                    }
+                    new_reports.push(item)
+                }
+            })
+
+            console.log("reports %o", new_reports)
+
+            saveMultipleReports(new_reports, user.id, callback)
+        }
+    </script>
+
+    <script>
+        var header = new Vue({
+            el: '#header',
+            methods: {
+                onStart() {
+                    user = JSON.parse(sessionStorage.getItem('user'))
+                    console.log(user)
+                    if (user) {
+                        console.log('success')
+                        vue_app.init()
+                    } else {
+                        alert('login user account')
+                        this.onLogout()
+                    }
+                },
+                onLogout() {
+                    sessionStorage.removeItem('user')
+                    window.open('login.html', '_self')
+                }
+            }
+        })
+
+        header.onStart()
+    </script>
+</body>
+
+</html>

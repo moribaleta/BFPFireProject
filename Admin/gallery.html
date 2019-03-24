@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>BFP admin (Post)</title>
+
+    <!-- CSS  -->
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <script src="js/jquery-3.0.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.2.2/jquery.form.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <link href="css/main-style.css" rel="stylesheet">
+    <script src="js/vue.js"></script>
+    <script src="js/datahandler.js"></script>
+
+</head>
+
+<body>
+    <nav class="navbar navbar-inverse navbar-fixed-top" id="header">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="index.html">BFP admin</a>
+            </div>
+            <ul class="nav navbar-nav">
+                <li><a href="post.html">POST</a></li>
+                <li class="active"><a href="#">GALLERY</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container" id="post-container">
+       
+        <div class="section">
+            <ul class="list row">
+                <li class="col col-sm-3 list-image" v-for="(item,index) in gallery">
+                    <a :href="image_url + item" class="image">
+                    <img :src="image_url + item" class="image">
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+
+    <!--  Scripts-->
+
+    <script src="js/materialize.js"></script>
+    <script src="js/init.js"></script>
+
+    <script>
+        var user = null
+        var header = new Vue({
+            el: '#header',
+            methods: {
+                onStart() {
+                    user = JSON.parse(sessionStorage.getItem('user'))
+                    console.log(user)
+                    if (user) {
+                        console.log('success')
+                        //vue_app.initApp()
+                    } else {
+                        alert('login user account')
+                        this.onLogout()
+                    }
+                },
+                onLogout() {
+                    sessionStorage.removeItem('user')
+                    window.open('login.html', '_self')
+                }
+            }
+        })
+
+        header.onStart()
+
+
+
+        var vue_app = new Vue({
+            el: '#post-container',
+            data: {
+                posts: ['a', 'b', 'c'],
+                gallery: [],
+                post_input: {
+                    id: "",
+                    title: "",
+                    content: "",
+                    images: []
+                },
+                image_url: "https://bfpforecast.000webhostapp.com/phdfire/uploads/"
+            },
+            methods: {
+                initApp: function () {
+                    getPost(null, user.id, this.loadData)
+                },
+                loadData: function (posts) {
+                    posts = JSON.parse(posts)
+                    var images = []
+                    posts.map((item) => {
+                        JSON.parse(item.images).map(image => {
+                            images.push(image)
+                        })
+                    })
+                    this.gallery = images
+                    console.log(this.gallery)
+                },
+                viewItem(index) {
+                    sessionStorage.setItem('post', JSON.stringify(this.posts[index]))
+                    window.open('viewPost.html', '_self')
+                }
+            }
+        })
+
+        vue_app.initApp()
+
+
+        var url = "http://localhost/phdfireproject/phdfire/addPost.php"
+        var form = document.getElementById('postform')
+
+        const submitForm = () => {
+
+            const title = document.getElementById('input_title').value
+
+            const content = document.getElementById('textarea').value
+
+            const files = document.querySelector('[type=file]').files;
+            const formData = new FormData();
+            console.log(user.id)
+            formData.append('userid', user.id)
+            formData.append('title', title)
+            formData.append('content', content)
+
+            for (let i = 0; i < files.length; i++) {
+                let file = files[i];
+                formData.append('files[]', file);
+            }
+
+            $.ajax({
+                url: url,
+                type: "POST",
+                data: formData,
+                contentType: false,
+                cache: false,
+                processData: false,
+                success: function (data) {
+                    console.log(data)
+                    alert(data)
+                },
+                error: function (e) {
+                    console.log(e)
+                },
+                complete: function (e) {
+                    vue_app.initApp()
+                }
+            });
+
+        };
+    </script>
+</body>
+
+</html>

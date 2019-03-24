@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>BFP: Bureau of Fire Protection</title>
+    <link rel="shortcut icon" href="resources/images/logo.png" />
+
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <script src="js/jquery-3.0.0.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <link href="css/main-style.css" rel="stylesheet">
+    <script src="js/vue.js"></script>
+    <script src="js/datahandler.js"></script>
+
+    <style>
+        .section{
+            margin-bottom: 50px;
+        }
+
+        #myCarousel{
+            height: 400px;
+        }
+
+        #myCarousel .item{
+            min-height: 250px;
+            height: 100%;
+        }
+
+        #myCarousel .item img{
+            min-height: 250px;
+            height: 100%;
+            width: auto;
+        }
+
+        #myCarousel .carousel-inner{
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+        @media only screen and (max-width: 440px) {
+            #myCarousel .item img{
+                height: auto;
+                width: 100%;
+            }
+
+            #myCarousel{
+                height: 250px;
+            }
+        }
+
+        @media only screen and (min-width: 440px) and (max-width: 650px){
+            .day_item {
+                width: 48%;
+                margin-right: 0;
+            }
+
+            .day_item:last-child{
+                width: 98%;
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+    <nav class="navbar navbar-light bg-light navbar-fixed-top" id="header">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">
+                    <!-- <img class="img-large" src="resources/images/logo1.png">
+                    <img class="img-small" src="resources/images/logo.png"> -->
+                    <p class="img-large">GOV PH</p>
+                    <img class="img-small" src="resources/images/logo.png">
+                </a>
+                <!-- 
+                    BFP: Bureau of Fire Protection</a> -->
+            </div>
+
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <img class="img-small" src="resources/images/logo1.png">
+                <ul class="nav navbar-nav">
+
+                    <li class="active"><a href="index.html">HOME</a></li>
+                    <li><a href="gallery.html">GALLERY</a></li>
+                    <li><a href="heatmap.html">MAP</a></li>
+                    <li><a href="documents.html">DOCUMENTS</a></li>
+                    <li><a href="about.html">ABOUTS</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="https://bfpforecast.000webhostapp.com/admin/login.html?"><span class="glyphicon glyphicon-user"></span>
+                            Login</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container" id="content">
+        <div class="section">
+            <h1>{{header}}</h1>
+            <p>{{date}}</p>
+            <br>
+            <br>
+            <p>{{body}}</p>
+        </div>
+
+        <!--  <ul class="list">
+            <li class="list-item row" v-for="(item,index) in images">
+                <img class="col-md-5" v-bind:src="item">
+            </li>
+        </ul> -->
+        <div class="section">
+            <div id="myCarousel" class="carousel" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" v-for="(item,index) in images" v-bind:data-slide-to="index" :class="index == 0 ? 'active' : ''"></li>
+                </ol>
+
+                <div class="carousel-inner">
+                    <div class="item" v-for="(item,index) in images" :class="index == 0 ? 'active' : ''">
+                        <img :src="item" alt="image">
+                    </div>
+                </div>
+
+                <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <img class="footer-img" src="resources/images/govph-seal-mono-footer.jpg">
+        <div class="footer-item">
+            <p class="footer-label">REPUBLIC OF THE PHILIPPINES</p>
+            <p>All content is in the public domain unless otherwise stated.</p>
+        </div>
+    </div>
+
+    <script>
+        var app = new Vue({
+            el: '#content',
+            data: {
+                header: null,
+                images: [],
+                date: null,
+                body: null,
+                image_url: "https://bfpforecast.000webhostapp.com/phdfire/uploads/"
+            },
+            methods: {
+                initApp() {
+                    var item = JSON.parse(sessionStorage.getItem('post'))
+                    console.log(item)
+                    this.header = item.title
+                    this.body = item.content
+                    this.date = item.date
+
+                    this.images = item.images.map((image) => {
+                        return this.image_url + image
+                    })
+                },
+            }
+        })
+        app.initApp()
+    </script>
+
+</body>
+
+</html>

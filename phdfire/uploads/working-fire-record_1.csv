@@ -1,0 +1,3465 @@
+date,cause,temp,district
+12AM 1-Jan-11,Firecracker,27,Sampaloc
+12AM 1-Jan-11,Electrical connection,27,Sampaloc
+2AM 1-Jan-11,"LPG Leak, Gas, Keresone, Charcoal Stove",27,Sampaloc
+8AM 1-Jan-11,"LPG Leak, Gas, Keresone, Charcoal Stove",27,Tondo
+8AM 1-Jan-11,Electrical connection,27,Ermita
+10AM 1-Jan-11,Under Investigation,27,Ermita
+11AM 1-Jan-11,Electrical connection,27,Sampaloc
+9AM 3-Jan-11,Electrical connection,24.33,Paco
+3PM 3-Jan-11,Cigarette Butt,24.33,Sampaloc
+7AM 4-Jan-11,Arson,21,Sampaloc
+1PM 4-Jan-11,Cigarette Butt,21,Sampaloc
+9PM 4-Jan-11,"LPG Leak, Gas, Keresone, Charcoal Stove",21,Tondo
+4AM 6-Jan-11,Cigarette Butt,21,Tondo
+8PM 7-Jan-11,Electrical connection,22.11,Tondo
+8PM 8-Jan-11,Under Investigation,24.5,Port Area
+8AM 9-Jan-11,Cigarette Butt,23,Pandacan
+9AM 9-Jan-11,Electrical connection,23,Sampaloc
+12PM 9-Jan-11,"LPG Leak, Gas, Keresone, Charcoal Stove",23,Santa Ana
+10AM 9-Jan-11,Candle,23,Santa Cruz
+5PM 10-Jan-11,Cigarette Butt,24.66,Ermita
+8PM 10-Jan-11,Electrical connection,24.66,Tondo
+8AM 11-Jan-11,Cigarette Butt,25.5,Tondo
+10PM 11-Jan-11,Candle,25.5,Tondo
+7AM 13-Jan-11,Other,24,Quiapo
+2AM 14-Jan-11,Electrical connection,26.5,Sampaloc
+4PM 14-Jan-11,"LPG Leak, Gas, Keresone, Charcoal Stove",26.5,San Miguel
+9PM 14-Jan-11,Electrical connection,26.5,San Miguel
+2AM 15-Jan-11,Under Investigation,27.75,Sampaloc
+8AM 15-Jan-11,Electrical connection,27.75,Sampaloc
+8AM 18-Jan-11,Cigarette Butt,26,Sampaloc
+10AM 18-Jan-11,Electrical connection,26,Tondo
+2PM 18-Jan-11,Under Investigation,26,Santa Cruz
+4PM 18-Jan-11,Electrical connection,26,Santa Ana
+6PM 20-Jan-11,Candle,26.5,Santa Ana
+7AM 21-Jan-11,Under Investigation,26.33,Pandacan
+1PM 21-Jan-11,Under Investigation,26.33,Tondo
+3PM 21-Jan-11,Air-conditioned Fire/Air-cooler/Fan,26.33,Sampaloc
+11AM 22-Jan-11,Electrical connection,26.75,Santa Cruz
+2PM 22-Jan-11,Electrical connection,26.75,Binondo
+5PM 22-Jan-11,Matress Fire,26.75,San Andres
+7PM 22-Jan-11,Electrical connection,26.75,Malate
+12PM 23-Jan-11,Electrical connection,27,Santa Ana
+11AM 25-Jan-11,Electrical connection,26,Ermita
+9PM 26-Jan-11,Candle,26.5,Tondo
+12PM 27-Jan-11,"LPG Leak, Gas, Keresone, Charcoal Stove",23,Tondo
+8AM 28-Jan-11,Electrical connection,24.25,Sampaloc
+1PM 29-Jan-11,Under Investigation,23.5,Sampaloc
+7PM 29-Jan-11,Open flame,23.5,Santa Cruz
+11PM 29-Jan-11,Electrical connection,23.5,Pandacan
+7PM 30-Jan-11,Cigarette Butt,23,Paco
+2AM 31-Jan-11,Candle,25,Sampaloc
+4PM 31-Jan-11,Open flame,25,San Miguel
+5PM 31-Jan-11,Electrical connection,25,Santa Cruz
+10PM 31-Jan-11,Air-conditioned Fire/Air-cooler/Fan,25,Santa Cruz
+2PM 1-Feb-11,Electrical connection,24.75,Sampaloc
+4PM 1-Feb-11,Under Investigation,24.75,Santa Cruz
+10AM 2-Feb-11,Electrical connection,23,Quiapo
+1PM 2-Feb-11,Candle,23,Sampaloc
+6PM 2-Feb-11,"Electrical Appliances (kettle, stove, ref, flat iron) (except fan)",23,Tondo
+3AM 3-Feb-11,Under Investigation,24.66,Tondo
+4AM 3-Feb-11,Under Investigation,24.66,Santa Cruz
+12PM 3-Feb-11,Candle,24.66,Sampaloc
+5PM 3-Feb-11,Under Investigation,24.66,Santa Cruz
+5AM 4-Feb-11,Under Investigation,26.25,Sampaloc
+7AM 4-Feb-11,Electrical connection,26.25,Sampaloc
+12PM 5-Feb-11,Electrical connection,27,Paco
+8PM 5-Feb-11,Electrical connection,27,Paco
+2AM 7-Feb-11,Electrical connection,26.66,Paco
+3PM 7-Feb-11,Cigarette Butt,26.66,Tondo
+9AM 8-Feb-11,Cigarette Butt,25.5,Sampaloc
+4PM 8-Feb-11,Electrical connection,25.5,Sampaloc
+9AM 10-Feb-11,Electrical connection,28.33,Tondo
+9PM 10-Feb-11,Candle,28.33,Tondo
+9PM 11-Feb-11,Electrical connection,28.75,Tondo
+12AM 12-Feb-11,Electrical connection,25,Sampaloc
+12PM 12-Feb-11,Air-conditioned Fire/Air-cooler/Fan,25,Tondo
+6PM 12-Feb-11,Electrical connection,25,Tondo
+8PM 12-Feb-11,"Electrical Appliances (kettle, stove, ref, flat iron) (except fan)",25,Sampaloc
+2AM 13-Feb-11,Electrical connection,25.33,San Miguel
+1PM 13-Feb-11,Under Investigation,25.33,Sampaloc
+6PM 14-Feb-11,Matress Fire,25.33,Tondo
+6PM 14-Feb-11,Cigarette Butt,25.33,Santa Cruz
+8PM 15-Feb-11,Electrical connection,26.33,Sampaloc
+8AM 17-Feb-11,Air-conditioned Fire/Air-cooler/Fan,26.25,Sampaloc
+9AM 17-Feb-11,Electrical connection,26.25,Sampaloc
+11AM 17-Feb-11,Air-conditioned Fire/Air-cooler/Fan,26.25,Quiapo
+8PM 17-Feb-11,Electrical connection,26.25,Sampaloc
+1PM 18-Feb-11,Electrical connection,24.33,San Miguel
+6PM 19-Feb-11,Electrical connection,23.5,Tondo
+10PM 19-Feb-11,Under Investigation,23.5,Tondo
+6AM 20-Feb-11,Air-conditioned Fire/Air-cooler/Fan,26,Santa Ana
+4PM 20-Feb-11,Under Investigation,26,Tondo
+7PM 20-Feb-11,Electrical connection,26,Santa Ana
+10AM 21-Feb-11,Cigarette Butt,23.5,Tondo
+10AM 21-Feb-11,"LPG Leak, Gas, Keresone, Charcoal Stove",23.5,Sampaloc
+5PM 21-Feb-11,Electrical connection,23.5,Binondo
+8PM 21-Feb-11,Electrical connection,23.5,Sampaloc
+8PM 21-Feb-11,Electrical connection,23.5,Sampaloc
+3PM 23-Feb-11,Electrical connection,23,Santa Ana
+9PM 23-Feb-11,Candle,23,Tondo
+11AM 24-Feb-11,Electrical connection,26,Sampaloc
+7PM 24-Feb-11,Air-conditioned Fire/Air-cooler/Fan,26,San Miguel
+4PM 25-Feb-11,Electrical connection,25,Santa Cruz
+5PM 25-Feb-11,Acetylene,25,Binondo
+8PM 25-Feb-11,Under Investigation,25,Binondo
+5PM 26-Feb-11,Electrical connection,26.5,Tondo
+5PM 28-Feb-11,Cigarette Butt,25,Paco
+5PM 1-Mar-11,Air-conditioned Fire/Air-cooler/Fan,25,Sampaloc
+6PM 1-Mar-11,Electrical connection,25,Sampaloc
+8PM 1-Mar-11,Cigarette Butt,25,Malate
+8AM 2-Mar-11,Candle,24,Tondo
+11AM 2-Mar-11,Electrical connection,24,Sampaloc
+7PM 2-Mar-11,Electrical connection,24,Sampaloc
+2AM 3-Mar-11,Under Investigation,24.33,San Miguel
+3PM 3-Mar-11,Cigarette Butt,24.33,Ermita
+10PM 3-Mar-11,Electrical connection,24.33,Malate
+5PM 6-Mar-11,Under Investigation,25.33,Tondo
+12AM 7-Mar-11,Electrical connection,27.5,Santa Ana
+3AM 8-Mar-11,Air-conditioned Fire/Air-cooler/Fan,24.5,Paco
+7PM 8-Mar-11,"LPG Leak, Gas, Keresone, Charcoal Stove",24.5,Tondo
+9PM 8-Mar-11,Electrical connection,24.5,Paco
+3PM 9-Mar-11,Electrical connection,25,Malate
+5PM 11-Mar-11,Electrical connection,23,Ermita
+6PM 11-Mar-11,Electrical connection,23,Santa Cruz
+7PM 11-Mar-11,Under Investigation,23,Tondo
+1PM 12-Mar-11,Electrical connection,24,Intramuros
+8PM 12-Mar-11,Air-conditioned Fire/Air-cooler/Fan,24,Tondo
+10PM 12-Mar-11,Cigarette Butt,24,Binondo
+8PM 13-Mar-11,Electrical connection,23,Tondo
+9PM 13-Mar-11,Electrical connection,23,Ermita
+5PM 14-Mar-11,Electrical connection,26.33,Tondo
+8PM 14-Mar-11,Under Investigation,26.33,Paco
+10PM 14-Mar-11,Electrical connection,26.33,Santa Cruz
+2AM 15-Mar-11,Electrical connection,24.5,Paco
+7AM 15-Mar-11,Electrical connection,24.5,Quiapo
+8PM 16-Mar-11,Electrical connection,24.66,Sampaloc
+3AM 17-Mar-11,Under Investigation,25,Santa Cruz
+2AM 18-Mar-11,Electrical connection,27,Pandacan
+2PM 18-Mar-11,Cigarette Butt,27,Sampaloc
+4PM 18-Mar-11,Electrical connection,27,Sampaloc
+9PM 18-Mar-11,Electrical connection,27,Santa Ana
+9AM 19-Mar-11,"LPG Leak, Gas, Keresone, Charcoal Stove",26,Paco
+9AM 19-Mar-11,Under Investigation,26,Santa Cruz
+8PM 20-Mar-11,Electrical connection,26.33,Malate
+10AM 21-Mar-11,"LPG Leak, Gas, Keresone, Charcoal Stove",30,Sampaloc
+11AM 21-Mar-11,Electrical connection,30,Santa Cruz
+11AM 23-Mar-11,Cigarette Butt,26.66,Tondo
+11PM 23-Mar-11,Electrical connection,26.66,Ermita
+12PM 25-Mar-11,Electrical connection,27,Paco
+7PM 25-Mar-11,Cigarette Butt,27,Pandacan
+11PM 25-Mar-11,Cigarette Butt,27,Tondo
+1AM 26-Mar-11,Electrical connection,27.33,Sampaloc
+8PM 26-Mar-11,Cigarette Butt,27.33,Santa Cruz
+8PM 26-Mar-11,Cigarette Butt,27.33,Tondo
+9AM 27-Mar-11,Candle,25.5,Sampaloc
+7PM 27-Mar-11,Cigarette Butt,25.5,Pandacan
+11AM 28-Mar-11,Electrical connection,26.25,Quiapo
+3PM 28-Mar-11,Electrical connection,26.25,Paco
+5PM 28-Mar-11,Electrical connection,26.25,Tondo
+6PM 28-Mar-11,"LPG Leak, Gas, Keresone, Charcoal Stove",26.25,Santa Cruz
+11AM 29-Mar-11,Cigarette Butt,25,Quiapo
+9PM 29-Mar-11,Electrical connection,25,Sampaloc
+1PM 30-Mar-11,Candle,26,Santa Ana
+1PM 1-Apr,Electrical connection,22.5,Sampaloc
+3PM 1-Apr,Under Investigation,22.5,Sampaloc
+5PM 1-Apr,"LPG Leak, Gas, Keresone, Charcoal Stove",22.5,Sampaloc
+5PM 1-Apr,Open flame,22.5,Tondo
+8PM 1-Apr,Electrical connection,22.5,Santa Cruz
+9AM 6-Apr,Electrical connection,24,Sampaloc
+9AM 7-Apr,Open flame,24.5,Santa Ana
+10AM 7-Apr,Under Investigation,24.5,Sampaloc
+9PM 7-Apr,Electrical connection,24.5,Tondo
+10AM 8-Apr,Electrical connection,20,Sampaloc
+10AM 10-Apr,Under Investigation,24.66,Sampaloc
+1PM 11-Apr,Under Investigation,28.5,Tondo
+10AM 14-Apr,Under Investigation,27.25,Tondo
+7PM 14-Apr,Under Investigation,27.25,Malate
+2AM 15-Apr,Alcohol Lamp Fire,28.25,Tondo
+3PM 15-Apr,Electrical connection,28.25,Malate
+12PM 17-Apr,Electrical connection,29.75,Sampaloc
+6PM 18-Apr,Welding,29.5,Tondo
+10PM 18-Apr,Air-conditioned Fire/Air-cooler/Fan,29.5,Ermita
+6PM 19-Apr,Under Investigation,29.5,Tondo
+8PM 19-Apr,Electrical connection,29.5,San Miguel
+10PM 20-Apr,Electrical connection,28.75,Tondo
+7PM 24-Apr,Candle,28.75,Sampaloc
+12PM 28-Apr,Cigarette Butt,31,Tondo
+10AM 29-Apr,Electrical connection,30.25,Paco
+1PM 30-Apr,Open flame,29.25,Santa Cruz
+2AM 1-May-11,Under Investigation,30.25,Santa Cruz
+8AM 2-May-11,Electrical connection,31,Santa Cruz
+4PM 2-May-11,Under Investigation,31,Tondo
+8PM 2-May-11,Electrical connection,31,Sampaloc
+9AM 3-May-11,Electrical connection,29,Ermita
+9AM 4-May-11,Electrical connection,30.75,Sampaloc
+11AM 4-May-11,Electrical connection,30.75,Ermita
+2PM 4-May-11,Under Investigation,30.75,San Miguel
+2AM 5-May-11,Electrical connection,30.5,Sampaloc
+1PM 5-May-11,Cigarette Butt,30.5,Malate
+10AM 6-May-11,Under Investigation,31,Tondo
+1PM 6-May-11,Cigarette Butt,31,Sampaloc
+6AM 6-May-11,Electrical connection,31,Paco
+8PM 8-May-11,Electrical connection,26,Sampaloc
+1AM 8-May-11,Electrical connection,26,Sampaloc
+1AM 8-May-11,Electrical connection,26,Tondo
+5AM 9-May-11,Electrical connection,25,Malate
+10PM 9-May-11,Electrical connection,25,Sampaloc
+10PM 9-May-11,Electrical connection,25,Sampaloc
+2PM 10-May-11,Electrical connection,28,Ermita
+7PM 11-May-11,Electrical connection,30.5,Ermita
+5PM 13-May-11,Electrical connection,29.5,Binondo
+9PM 13-May-11,Electrical connection,29.5,San Miguel
+9PM 13-May-11,Other,29.5,Santa Cruz
+1AM 14-May-11,Electrical connection,29.5,Sampaloc
+6AM 17-May-11,Electrical connection,31,Binondo
+4PM 17-May-11,Under Investigation,31,Tondo
+7PM 17-May-11,Electrical connection,31,San Miguel
+5AM 18-May-11,Electrical connection,30.5,Ermita
+4PM 18-May-11,Electrical connection,30.5,Intramuros
+8PM 18-May-11,Electrical connection,30.5,Quiapo
+10AM 19-May-11,Electrical connection,29.75,Santa Cruz
+5PM 19-May-11,Electrical connection,29.75,Tondo
+3PM 20-May-11,Under Investigation,29.5,Malate
+10PM 20-May-11,Cigarette Butt,29.5,Pandacan
+10PM 20-May-11,Electrical connection,29.5,Santa Cruz
+12AM 21-May-11,Electrical connection,29.5,Tondo
+6PM 21-May-11,Electrical connection,29.5,Sampaloc
+7PM 21-May-11,Electrical connection,29.5,Tondo
+6PM 22-May-11,"LPG Leak, Gas, Keresone, Charcoal Stove",29,Paco
+10PM 22-May-11,Alcohol Lamp Fire,29,Tondo
+4PM 25-May-11,Electrical connection,28.25,Tondo
+9AM 26-May-11,"LPG Leak, Gas, Keresone, Charcoal Stove",28.5,Malate
+7PM 26-May-11,Electrical connection,28.5,Binondo
+9AM 27-May-11,Electrical connection,28.5,Santa Cruz
+9AM 28-May-11,Electrical connection,26.25,Tondo
+1AM 29-May-11,Under Investigation,27.25,Quiapo
+5PM 29-May-11,Electrical connection,27.25,Santa Cruz
+5PM 29-May-11,Under Investigation,27.25,Santa Ana
+8PM 29-May-11,Electrical connection,27.25,Tondo
+7PM 30-May-11,Under Investigation,27.5,Sampaloc
+10PM 30-May-11,Electrical connection,27.5,Sampaloc
+2PM 31-May-11,Electrical connection,31,Binondo
+9PM 31-May-11,Electrical connection,31,Sampaloc
+3AM 1-Jun-11,Electrical connection,30.25,Sampaloc
+5AM 1-Jun-11,Electrical connection,30.25,Sampaloc
+8AM 1-Jun-11,Electrical connection,30.25,Santa Cruz
+10AM 2-Jun-11,Electrical connection,30.25,Santa Cruz
+12PM 2-Jun-11,Under Investigation,30.25,Pandacan
+11PM 2-Jun-11,Air-conditioned Fire/Air-cooler/Fan,30.25,Malate
+11AM 4-Jun-11,Electrical connection,29.5,Sampaloc
+7PM 5-Jun-11,Electrical connection,31.25,Santa Cruz
+2PM 6-Jun-11,Electrical connection,30,Port Area
+7PM 7-Jun-11,Electrical connection,30,Paco
+10PM 7-Jun-11,Electrical connection,30,Ermita
+1PM 8-Jun-11,Electrical connection,26.25,Tondo
+8PM 8-Jun-11,Electrical connection,26.25,Tondo
+12AM 9-Jun-11,Electrical connection,25.5,Ermita
+3AM 9-Jun-11,Under Investigation,25.5,Ermita
+10AM 9-Jun-11,Electrical connection,25.5,Pandacan
+9AM 9-Jun-11,Electrical connection,25.5,Tondo
+8AM 13-Jun-11,Electrical connection,30.75,Santa Ana
+1AM 14-Jun-11,Electrical connection,29.25,Santa Cruz
+5AM 15-Jun-11,Electrical connection,30.25,Santa Ana
+8AM 16-Jun-11,Electrical connection,30.25,Tondo
+2PM 16-Jun-11,Electrical connection,30.25,Binondo
+7PM 17-Jun-11,Cigarette Butt,29.75,Sampaloc
+8AM 18-Jun-11,Under Investigation,27.25,Intramuros
+8AM 18-Jun-11,Cigarette Butt,27.25,Tondo
+1PM 18-Jun-11,Air-conditioned Fire/Air-cooler/Fan,27.25,Sampaloc
+9AM 19-Jun-11,Electrical connection,24.5,Paco
+11AM 19-Jun-11,Air-conditioned Fire/Air-cooler/Fan,24.5,Tondo
+3PM 19-Jun-11,Electrical connection,24.5,Santa Cruz
+5PM 19-Jun-11,Electrical connection,24.5,Tondo
+7PM 19-Jun-11,Cigarette Butt,24.5,Tondo
+10AM 20-Jun-11,Battery-related / Cellphone / Charger,25.75,Santa Cruz
+2PM 21-Jun-11,Under Investigation,25.33,Santa Cruz
+10AM 22-Jun-11,Electrical connection,27.25,Ermita
+3AM 23-Jun-11,Electrical connection,25.5,Sampaloc
+6AM 23-Jun-11,Electrical connection,25.5,Tondo
+9AM 23-Jun-11,Electrical connection,25.5,Ermita
+7PM 23-Jun-11,Electrical connection,25.5,Santa Ana
+11AM 24-Jun-11,Electrical connection,25,Pandacan
+3PM 24-Jun-11,Electrical connection,25,Binondo
+5PM 24-Jun-11,Electrical connection,25,Binondo
+9PM 24-Jun-11,Electrical connection,25,Santa Cruz
+10PM 24-Jun-11,Electrical connection,25,Santa Ana
+2AM 25-Jun-11,Electrical connection,25,Sampaloc
+6AM 25-Jun-11,Under Investigation,25,Sampaloc
+7AM 25-Jun-11,Electrical connection,25,Malate
+8AM 25-Jun-11,Electrical connection,25,San Miguel
+11AM 25-Jun-11,Electrical connection,25,Pandacan
+2PM 25-Jun-11,Under Investigation,25,Sampaloc
+1AM 26-Jun-11,Electrical connection,27.5,Paco
+1AM 26-Jun-11,Electrical connection,27.5,Sampaloc
+10PM 26-Jun-11,Electrical connection,27.5,Tondo
+10AM 28-Jun-11,Electrical connection,28.75,Quiapo
+7PM 28-Jun-11,Electrical connection,28.75,Sampaloc
+5PM 29-Jun-11,Electrical connection,28.75,Santa Cruz
+5PM 29-Jun-11,Electrical connection,31.33,Malate
+7PM 29-Jun-11,Electrical connection,31.33,Ermita
+7PM 29-Jun-11,Open flame,31.33,Sampaloc
+7PM 29-Jun-11,Electrical connection,31.33,Santa Ana
+9PM 29-Jun-11,Electrical connection,31.33,Sampaloc
+7AM 29-Jun-11,Electrical connection,31.33,Santa Ana
+2PM 3-Jul-11,Electrical connection,26.75,Sampaloc
+4PM 3-Jul-11,Electrical connection,26.75,Santa Cruz
+2PM 4-Jul-11,Electrical connection,27.25,Ermita
+5PM 4-Jul-11,"Electrical Appliances (kettle, stove, ref, flat iron) (except fan)",27.25,Sampaloc
+7AM 5-Jul-11,Chimney Fire,26.75,Tondo
+10AM 7-Jul-11,Air-conditioned Fire/Air-cooler/Fan,26.75,San Andres
+7AM 9-Jul-11,Electrical connection,25.75,Sampaloc
+3PM 9-Jul-11,Electrical connection,25.75,Tondo
+12PM 10-Jul-11,Electrical connection,25.75,Sampaloc
+3PM 12-Jul-11,"Electrical Appliances (kettle, stove, ref, flat iron) (except fan)",28.5,Paco
+7PM 12-Jul-11,Electrical connection,28.5,Ermita
+1AM 13-Jul-11,Electrical connection,27.75,Malate
+10AM 14-Jul-11,Electrical connection,29,Santa Cruz
+10PM 14-Jul-11,Electrical connection,29,Ermita
+10AM 16-Jul-11,Cigarette Butt,30,Sampaloc
+11AM 16-Jul-11,Under Investigation,30,Santa Ana
+3PM 16-Jul-11,Electrical connection,30,Sampaloc
+7PM 16-Jul-11,Electrical connection,30,Paco
+9PM 16-Jul-11,Electrical connection,30,Tondo
+3PM 17-Jul-11,Electrical connection,29.5,Tondo
+5AM 18-Jul-11,Cigarette Butt,30.25,Malate
+11AM 18-Jul-11,Cigarette Butt,30.25,Tondo
+9PM 18-Jul-11,Cigarette Butt,30.25,Santa Cruz
+4AM 19-Jul-11,"LPG Leak, Gas, Keresone, Charcoal Stove",30,Santa Cruz
+1PM 19-Jul-11,Electrical connection,30,Binondo
+1PM 19-Jul-11,Electrical connection,30,Pandacan
+6PM 19-Jul-11,Cigarette Butt,30,Malate
+11AM 20-Jul-11,Electrical connection,29.25,Santa Cruz
+11AM 20-Jul-11,Air-conditioned Fire/Air-cooler/Fan,29.25,Tondo
+6AM 22-Jul-11,Electrical connection,28,Paco
+12PM 22-Jul-11,Electrical connection,28,Tondo
+9PM 22-Jul-11,Electrical connection,28,Sampaloc
+7PM 23-Jul-11,"Electrical Appliances (kettle, stove, ref, flat iron) (except fan)",28,Santa Ana
+7PM 24-Jul-11,Electrical connection,27,San Andres
+6PM 25-Jul-11,Electrical connection,27.25,Santa Cruz
+2AM 26-Jul-11,Electrical connection,25.5,Paco
+7PM 26-Jul-11,Electrical connection,25.5,Malate
+7PM 26-Jul-11,Electrical connection,25.5,Santa Ana
+12PM 27-Jul-11,Air-conditioned Fire/Air-cooler/Fan,25.5,Binondo
+2PM 27-Jul-11,Electrical connection,25.5,Tondo
+7AM 28-Jul-11,Electrical connection,26.75,Sampaloc
+5PM 28-Jul-11,Under Investigation,26.75,Sampaloc
+9AM 30-Jul-11,Electrical connection,24.25,Malate
+12PM 31-Jul-11,Electrical connection,24.25,Paco
+2PM 31-Jul-11,Electrical connection,24.25,Tondo
+6PM 31-Jul-11,Other,24.25,Tondo
+8PM 31-Jul-11,Air-conditioned Fire/Air-cooler/Fan,24.25,Sampaloc
+12PM 2-Aug-11,Candle,25.75,Tondo
+6PM 2-Aug-11,Electrical connection,25.75,Sampaloc
+6AM 3-Aug-11,Electrical connection,26.25,Sampaloc
+8AM 4-Aug-11,Under Investigation,29.25,Tondo
+12PM 4-Aug-11,Electrical connection,29.25,Malate
+12PM 5-Aug-11,Other,27.5,Tondo
+10AM 6-Aug-11,Battery-related / Cellphone / Charger,26.5,Tondo
+12AM 7-Aug-11,Spontaneous combustion,27,Sampaloc
+12PM 7-Aug-11,Cigarette Butt,27,Malate
+2PM 7-Aug-11,Candle,27,Binondo
+4PM 7-Aug-11,Electrical connection,27,Tondo
+8AM 8-Aug-11,Electrical connection,27.5,Sampaloc
+4PM 10-Aug-11,Cigarette Butt,28.5,Santa Cruz
+1AM 11-Aug-11,Electrical connection,28.5,Sampaloc
+7PM 11-Aug-11,Electrical connection,28.5,San Miguel
+7PM 11-Aug-11,Under Investigation,28.5,Tondo
+8PM 11-Aug-11,Electrical connection,28.5,Tondo
+12PM 12-Aug-11,Electrical connection,28.75,Sampaloc
+8AM 14-Aug-11,Electrical connection,28.25,Binondo
+5PM 14-Aug-11,Under Investigation,28.25,Santa Cruz
+10PM 14-Aug-11,Other,28.25,Santa Cruz
+5AM 16-Aug-11,Electrical connection,27,Santa Cruz
+7PM 16-Aug-11,Electrical connection,27,Tondo
+7PM 16-Aug-11,Electrical connection,27,Santa Ana
+11AM 17-Aug-11,Electrical connection,27.75,Paco
+5PM 18-Aug-11,Electrical connection,28.5,Quiapo
+2PM 21-Aug-11,Electrical connection,28,San Nicolas
+3AM 22-Aug-11,Electrical connection,28.25,San Nicolas
+7AM 22-Aug-11,Electrical connection,28.25,Quiapo
+5PM 22-Aug-11,Electrical connection,28.25,Santa Cruz
+10PM 22-Aug-11,Electrical connection,28.25,Paco
+11PM 22-Aug-11,Electrical connection,28.25,Santa Cruz
+6PM 24-Aug-11,Electrical connection,28.25,Sampaloc
+7PM 25-Aug-11,Electrical connection,27.5,Malate
+2PM 28-Aug-11,Electrical connection,26.75,Paco
+5PM 28-Aug-11,Electrical connection,26.75,Sampaloc
+8PM 28-Aug-11,Electrical connection,26.75,Pandacan
+5PM 29-Aug-11,Matress Fire,28,Sampaloc
+5AM 4-Sep-11,Electrical connection,28,Santa Ana
+11PM 4-Sep-11,Electrical connection,28,Sampaloc
+2AM 6-Sep-11,"Electrical Appliances (kettle, stove, ref, flat iron) (except fan)",28.25,Sampaloc
+12PM 7-Sep-11,"Electrical Appliances (kettle, stove, ref, flat iron) (except fan)",27.25,San Miguel
+5PM 7-Sep-11,Electrical connection,27.25,Ermita
+9PM 7-Sep-11,Under Investigation,27.25,Paco
+4PM 8-Sep-11,Electrical connection,28.75,Santa Cruz
+7PM 10-Sep-11,Electrical connection,26.75,Pandacan
+10PM 10-Sep-11,Electrical connection,26.75,Santa Cruz
+11PM 11-Sep-11,Open flame,27.75,Santa Cruz
+5AM 12-Sep-11,Electrical connection,28.5,Port Area
+10AM 12-Sep-11,Chimney Fire,28.5,Binondo
+5PM 13-Sep-11,Electrical connection,28,Santa Ana
+11AM 14-Sep-11,"Electrical Appliances (kettle, stove, ref, flat iron) (except fan)",29,Tondo
+7PM 14-Sep-11,Electrical connection,29,Binondo
+9AM 15-Sep-11,Electrical connection,31.75,San Miguel
+11AM 15-Sep-11,Electrical connection,31.75,Sampaloc
+2PM 15-Sep-11,Electrical connection,31.75,Ermita
+12PM 16-Sep-11,Electrical connection,28.5,Sampaloc
+3PM 19-Sep-11,Electrical connection,28.25,Pandacan
+12AM 20-Sep-11,Electrical connection,28,Ermita
+4AM 21-Sep-11,Air-conditioned Fire/Air-cooler/Fan,28.75,Santa Cruz
+10PM 21-Sep-11,Under Investigation,28.75,Santa Ana
+7AM 22-Sep-11,Electrical connection,28.5,Santa Cruz
+10AM 23-Sep-11,Under Investigation,28.25,Pandacan
+5PM 24-Sep-11,Electrical connection,27,San Miguel
+10AM 25-Sep-11,"LPG Leak, Gas, Keresone, Charcoal Stove",28.75,Sampaloc
+11AM 25-Sep-11,Electrical connection,28.75,Tondo
+3PM 25-Sep-11,Electrical connection,28.75,Tondo
+7AM 27-Sep-11,"LPG Leak, Gas, Keresone, Charcoal Stove",25,Santa Cruz
+8AM 27-Sep-11,Electrical connection,25,Pandacan
+9AM 27-Sep-11,Electrical connection,25,Pandacan
+9AM 27-Sep-11,Electrical connection,25,Sampaloc
+10AM 27-Sep-11,Electrical connection,25,Sampaloc
+10AM 27-Sep-11,Electrical connection,25,Tondo
+12PM 27-Sep-11,Electrical connection,25,Tondo
+5PM 27-Sep-11,Electrical connection,25,Sampaloc
+6PM 27-Sep-11,"LPG Leak, Gas, Keresone, Charcoal Stove",25,Sampaloc
+8PM 27-Sep-11,Electrical connection,25,Sampaloc
+10PM 27-Sep-11,Electrical connection,25,Sampaloc
+10PM 27-Sep-11,Electrical connection,25,Sampaloc
+11PM 27-Sep-11,Electrical connection,25,Santa Cruz
+12AM 28-Sep-11,Electrical connection,26.5,Sampaloc
+3AM 28-Sep-11,Electrical connection,26.5,Intramuros
+9AM 28-Sep-11,Electrical connection,26.5,Pandacan
+4PM 28-Sep-11,Under Investigation,26.5,Ermita
+5PM 28-Sep-11,Electrical connection,26.5,Sampaloc
+7PM 28-Sep-11,Electrical connection,26.5,Tondo
+4PM 29-Sep-11,Electrical connection,28.25,Sampaloc
+5PM 29-Sep-11,Electrical connection,28.25,Tondo
+6PM 29-Sep-11,Electrical connection,28.25,Pandacan
+7PM 29-Sep-11,"Electrical Appliances (kettle, stove, ref, flat iron) (except fan)",28.25,Intramuros
+7PM 29-Sep-11,Electrical connection,28.25,Tondo
+9PM 29-Sep-11,Electrical connection,28.25,Sampaloc
+2PM 30-Sep-11,Other,28,Tondo
+6PM 30-Sep-11,Electrical connection,28,Sampaloc
+12PM 2-Oct-11,"Electrical Appliances (kettle, stove, ref, flat iron) (except fan)",27.25,Paco
+3AM 3-Oct-11,Electrical connection,26.5,Quiapo
+10AM 3-Oct-11,Electrical connection,26.5,Pandacan
+12PM 3-Oct-11,Electrical connection,26.5,Sampaloc
+5PM 3-Oct-11,Electrical connection,26.5,Pandacan
+10PM 3-Oct-11,Electrical connection,26.5,Sampaloc
+2PM 5-Oct-11,Cigarette Butt,26.75,Sampaloc
+6PM 7-Oct-11,Electrical connection,26.75,Sampaloc
+7PM 8-Oct-11,Candle,25.5,Sampaloc
+5AM 9-Oct-11,Under Investigation,26,Santa Cruz
+7PM 9-Oct-11,Electrical connection,26,Sampaloc
+11AM 10-Oct-11,Electrical connection,28.5,Sampaloc
+9AM 11-Oct-11,Electrical connection,27.5,Sampaloc
+8PM 12-Oct-11,Electrical connection,27.75,Santa Cruz
+9PM 12-Oct-11,Electrical connection,27.75,Santa Cruz
+11AM 13-Oct-11,Electrical connection,26,Santa Ana
+2PM 13-Oct-11,Under Investigation,26,Tondo
+12PM 14-Oct-11,Under Investigation,27.5,San Miguel
+7PM 14-Oct-11,Cigarette Butt,27.5,Sampaloc
+7PM 14-Oct-11,Electrical connection,27.5,Santa Cruz
+12PM 16-Oct-11,Electrical connection,29.5,Sampaloc
+8PM 17-Oct-11,Electrical connection,28.75,Pandacan
+1PM 18-Oct-11,"LPG Leak, Gas, Keresone, Charcoal Stove",27.25,Sampaloc
+3PM 18-Oct-11,Electrical connection,27.25,Santa Ana
+6PM 18-Oct-11,"LPG Leak, Gas, Keresone, Charcoal Stove",27.25,Binondo
+7PM 18-Oct-11,Electrical connection,27.25,Santa Cruz
+9PM 19-Oct-11,Under Investigation,27.5,Tondo
+6PM 20-Oct-11,Electrical connection,28.5,Tondo
+11PM 20-Oct-11,Electrical connection,28.5,Santa Ana
+12AM 21-Oct-11,Electrical connection,27.5,Tondo
+7PM 21-Oct-11,Electrical connection,27.5,Malate
+12PM 22-Oct-11,Air-conditioned Fire/Air-cooler/Fan,27.75,Paco
+5PM 22-Oct-11,Under Investigation,27.75,Malate
+6PM 23-Oct-11,Cigarette Butt,28.25,Sampaloc
+8AM 25-Oct-11,"Electrical Appliances (kettle, stove, ref, flat iron) (except fan)",28.75,Sampaloc
+8PM 28-Oct-11,"LPG Leak, Gas, Keresone, Charcoal Stove",28.75,Sampaloc
+4AM 30-Oct-11,Under Investigation,26.66,Tondo
+1PM 30-Oct-11,Electrical connection,26.66,San Miguel
+4PM 30-Oct-11,Electrical connection,26.66,Tondo
+10PM 30-Oct-11,Electrical connection,26.66,Ermita
+3PM 31-Oct-11,"LPG Leak, Gas, Keresone, Charcoal Stove",25.33,Binondo
+11AM 1-Nov-11,Chimney Fire,28.75,Tondo
+3PM 1-Nov-11,"LPG Leak, Gas, Keresone, Charcoal Stove",28.75,Tondo
+2PM 2-Nov-11,Electrical connection,26.75,Ermita
+11AM 3-Nov-11,Candle,26.5,Pandacan
+12PM 4-Nov-11,Under Investigation,25.25,Sampaloc
+1AM 4-Nov-11,Electrical connection,25.25,Sampaloc
+3AM 4-Nov-11,Cigarette Butt,25.25,Ermita
+3PM 5-Nov-11,Electrical connection,26.5,Binondo
+8AM 6-Nov-11,Electrical connection,26,San Miguel
+7PM 6-Nov-11,Electrical connection,26,Tondo
+9PM 7-Nov-11,Electrical connection,29,Sampaloc
+8AM 8-Nov-11,Electrical connection,29.25,Binondo
+3PM 8-Nov-11,Electrical connection,29.25,Santa Ana
+4PM 8-Nov-11,Electrical connection,29.25,San Nicolas
+9PM 9-Nov-11,Electrical connection,29.25,Tondo
+10AM 10-Nov-11,Electrical connection,29.5,Intramuros
+7PM 10-Nov-11,Electrical connection,29.5,Tondo
+9AM 11-Nov-11,Electrical connection,29.5,Santa Cruz
+9PM 11-Nov-11,"LPG Leak, Gas, Keresone, Charcoal Stove",29.5,Intramuros
+2AM 12-Nov-11,Electrical connection,28,Tondo
+2PM 12-Nov-11,Electrical connection,28,Sampaloc
+5PM 12-Nov-11,Air-conditioned Fire/Air-cooler/Fan,28,Tondo
+12AM 13-Nov-11,Electrical connection,28.5,Intramuros
+7PM 14-Nov-11,"Electrical Appliances (kettle, stove, ref, flat iron) (except fan)",26.5,Tondo
+1PM 15-Nov-11,Electrical connection,25.25,Tondo
+7PM 16-Nov-11,Under Investigation,27.25,Tondo
+7PM 17-Nov-11,Electrical connection,28,San Nicolas
+10AM 18-Nov-11,Candle,30,Sampaloc
+9AM 19-Nov-11,Electrical connection,27.5,Ermita
+7PM 19-Nov-11,Electrical connection,27.5,Tondo
+7AM 22-Nov-11,Electrical connection,25.5,Tondo
+1PM 24-Nov-11,Electrical connection,27,Binondo
+3PM 24-Nov-11,Electrical connection,27,Tondo
+5PM 24-Nov-11,Under Investigation,27,Intramuros
+6PM 24-Nov-11,Electrical connection,27,Tondo
+9PM 24-Nov-11,Electrical connection,27,Sampaloc
+6PM 26-Nov-11,Cigarette Butt,28.5,Malate
+6PM 27-Nov-11,Electrical connection,27.75,Intramuros
+10PM 28-Nov-11,Electrical connection,28.5,Tondo
+1AM 29-Nov-11,Electrical connection,29,Binondo
+10AM 29-Nov-11,Candle,29,Sampaloc
+7PM 30-Nov-11,Under Investigation,27.25,Tondo
+8PM 30-Nov-11,Electrical connection,27.25,Tondo
+9PM 30-Nov-11,Electrical connection,27.25,Santa Ana
+9PM 30-Nov-11,Electrical connection,27.25,Tondo
+10AM 1-Dec-11,Electrical connection,27,Tondo
+12AM 3-Dec-11,Chimney Fire,26.75,Malate
+3PM 3-Dec-11,Electrical connection,26.75,Sampaloc
+7PM 3-Dec-11,Electrical connection,26.75,Santa Ana
+5PM 5-Dec-11,Electrical connection,27,Sampaloc
+6PM 9-Dec-11,Christmas light,24.5,San Miguel
+5AM 10-Dec-11,Under Investigation,26.75,Sampaloc
+11AM 11-Dec-11,Electrical connection,27,Tondo
+3PM 12-Dec-11,Electrical connection,28.5,Pandacan
+9PM 12-Dec-11,Electrical connection,28.5,Pandacan
+7AM 14-Dec-11,Electrical connection,27,Santa Cruz
+12AM 16-Dec-11,Other,27.75,Tondo
+6PM 16-Dec-11,Candle,27.75,Tondo
+11AM 18-Dec-11,Electrical connection,25.25,Sampaloc
+7PM 18-Dec-11,Electrical connection,25.25,Sampaloc
+9PM 18-Dec-11,Electrical connection,25.25,Sampaloc
+6PM 19-Dec-11,Electrical connection,27.75,Sampaloc
+8PM 21-Dec-11,Open flame,26.75,Sampaloc
+2AM 22-Dec-11,Candle,27,Tondo
+11AM 22-Dec-11,Air-conditioned Fire/Air-cooler/Fan,27,Sampaloc
+12PM 22-Dec-11,Electrical connection,27,Sampaloc
+10AM 23-Dec-11,Air-conditioned Fire/Air-cooler/Fan,28.75,Santa Ana
+2AM 24-Dec-11,Electrical connection,27,Tondo
+2PM 24-Dec-11,Electrical connection,27,Santa Cruz
+6PM 24-Dec-11,Electrical connection,27,Santa Ana
+10PM 25-Dec-11,Cigarette Butt,25.75,Pandacan
+12PM 26-Dec-11,Electrical connection,25.25,Santa Ana
+12PM 26-Dec-11,Under Investigation,25.25,Sampaloc
+5PM 27-Dec-11,Under Investigation,26.5,Santa Cruz
+5PM 29-Dec-11,Electrical connection,27.75,Sampaloc
+8PM 30-Dec-11,Electrical connection,28,Ermita
+12PM 31-Dec-11,Open flame,26.75,Tondo
+3PM 31-Dec-11,Under Investigation,26.75,Sampaloc
+6PM 31-Dec-11,Under Investigation,26.75,San Miguel
+11PM 31-Dec-11,Electrical connection,26.75,Sampaloc
+6AM 1-Jan-12,Under Investigation,26,Sampaloc
+6PM 1-Jan-12,Under Investigation,26,Binondo
+10AM 3-Jan-12,Open flame,26,Sampaloc
+12PM 6-Jan-12,Electrical connection,27,Tondo
+9AM 7-Jan-12,Chimney Fire,27,Sampaloc
+1PM 9-Jan-12,Under Investigation,28,Tondo
+5AM 10-Jan-12,Air-conditioned Fire/Air-cooler/Fan,27,Sampaloc
+6PM 11-Jan-12,Electrical connection,27,Tondo
+12AM 12-Jan-12,Other,28,Tondo
+6AM 12-Jan-12,Under Investigation,28,Santa Ana
+8AM 13-Jan-12,Electrical connection,26,Tondo
+4PM 13-Jan-12,Air-conditioned Fire/Air-cooler/Fan,26,Quiapo
+8PM 15-Jan-12,"LPG Leak, Gas, Keresone, Charcoal Stove",28,Sampaloc
+7PM 17-Jan-12,Open flame,28,Quiapo
+8AM 19-Jan-12,Chimney Fire,28,Binondo
+4PM 19-Jan-12,Under Investigation,28,Tondo
+2PM 20-Jan-12,Electrical connection,28,Binondo
+2PM 21-Jan-12,Under Investigation,27,Paco
+7PM 21-Jan-12,Under Investigation,27,Sampaloc
+9AM 22-Jan-12,Electrical connection,27,Sampaloc
+1PM 25-Jan-12,Matchstick and Lighter,26,Sampaloc
+6PM 26-Jan-12,Electrical connection,27,Pandacan
+5AM 27-Jan-12,Electrical connection,27,Sampaloc
+12PM 28-Jan-12,Under Investigation,27,Sampaloc
+4AM 30-Jan-12,Electrical connection,28,Tondo
+6AM 30-Jan-12,Under Investigation,28,Sampaloc
+12PM 31-Jan-12,Chimney Fire,27,Santa Ana
+1PM 31-Jan-12,Electrical connection,27,Santa Cruz
+5AM 1-Feb-12,Under Investigation,27,Quiapo
+11PM 1-Feb-12,Candle,27,Santa Cruz
+10PM 2-Feb-12,Open flame,27,Ermita
+1AM 3-Feb-12,Christmas light,27,Sampaloc
+9AM 3-Feb-12,Under Investigation,27,Malate
+10AM 3-Feb-12,Electrical connection,27,Tondo
+7PM 3-Feb-12,Electrical connection,27,Tondo
+11AM 4-Feb-12,Electrical connection,25,Santa Ana
+12AM 5-Feb-12,"LPG Leak, Gas, Keresone, Charcoal Stove",27,Tondo
+12PM 5-Feb-12,Electrical connection,27,Santa Cruz
+10PM 8-Feb-12,Electrical connection,27,Pandacan
+6PM 9-Feb-12,Under Investigation,28,Santa Ana
+8AM 10-Feb-12,Electrical connection,27,Santa Cruz
+8PM 11-Feb-12,Electrical connection,28,Santa Ana
+9PM 12-Feb-12,Electrical connection,25,Tondo
+5PM 13-Feb-12,Other,26,Santa Cruz
+6PM 13-Feb-12,Electrical connection,26,Port Area
+7PM 13-Feb-12,Electrical connection,26,Tondo
+3PM 14-Feb-12,Electrical connection,28,Intramuros
+6PM 15-Feb-12,Open flame,28,Sampaloc
+1PM 16-Feb-12,Electrical connection,26,Santa Ana
+1PM 16-Feb-12,Electrical connection,26,Sampaloc
+4PM 16-Feb-12,Electrical connection,26,Santa Ana
+5AM 18-Feb-12,Electrical connection,25,Sampaloc
+10AM 18-Feb-12,Alcohol Lamp Fire,25,Santa Ana
+8PM 18-Feb-12,Electrical connection,25,Sampaloc
+10AM 19-Feb-12,Electrical connection,29,Sampaloc
+12PM 19-Feb-12,Open flame,29,Santa Cruz
+12PM 20-Feb-12,"LPG Leak, Gas, Keresone, Charcoal Stove",24,Sampaloc
+9PM 20-Feb-12,Electrical connection,24,Sampaloc
+11AM 21-Feb-12,Electrical connection,29,Binondo
+3PM 21-Feb-12,Electrical connection,29,Sampaloc
+1AM 25-Feb-12,Open flame,28,Sampaloc
+4AM 25-Feb-12,"LPG Leak, Gas, Keresone, Charcoal Stove",28,Tondo
+8AM 25-Feb-12,Matress Fire,28,Intramuros
+2PM 25-Feb-12,Electrical connection,28,Santa Cruz
+6PM 25-Feb-12,Electrical connection,28,Paco
+12PM 28-Feb-12,Under Investigation,29,Tondo
+7PM 29-Feb-12,Open flame,30,Santa Cruz
+5PM 1-Mar-12,Candle,28,Ermita
+12PM 5-Mar-12,Cigarette Butt,29,Tondo
+2PM 5-Mar-12,Under Investigation,29,Sampaloc
+9PM 5-Mar-12,Cigarette Butt,29,Malate
+9AM 6-Mar-12,Electrical connection,29,Santa Ana
+2PM 6-Mar-12,Cigarette Butt,29,Tondo
+11AM 7-Mar-12,Candle,29,Quiapo
+11PM 9-Mar-12,"Electrical Appliances (kettle, stove, ref, flat iron) (except fan)",29,Intramuros
+3AM 10-Mar-12,Electrical connection,28,Pandacan
+11AM 10-Mar-12,Candle,28,Pandacan
+2PM 10-Mar-12,Open flame,28,Sampaloc
+10AM 11-Mar-12,Electrical connection,28,Pandacan
+9AM 13-Mar-12,Electrical connection,27,Binondo
+10AM 13-Mar-12,Electrical connection,27,Binondo
+11AM 14-Mar-12,Open flame,27,Santa Ana
+3PM 14-Mar-12,Cigarette Butt,27,Tondo
+7PM 14-Mar-12,Electrical connection,27,Ermita
+7PM 14-Mar-12,Electrical connection,27,Ermita
+6AM 15-Mar-12,Electrical connection,28,Quiapo
+7PM 15-Mar-12,Cigarette Butt,28,Tondo
+3AM 16-Mar-12,Candle,28,Tondo
+10AM 16-Mar-12,Under Investigation,28,Sampaloc
+11AM 16-Mar-12,Electrical connection,28,Paco
+1PM 16-Mar-12,"LPG Leak, Gas, Keresone, Charcoal Stove",28,Santa Cruz
+7PM 16-Mar-12,Electrical connection,28,Intramuros
+10PM 16-Mar-12,Electrical connection,28,Pandacan
+6AM 17-Mar-12,Air-conditioned Fire/Air-cooler/Fan,28,Santa Cruz
+11AM 17-Mar-12,Electrical connection,28,Tondo
+11AM 18-Mar-12,Open flame,28,Sampaloc
+1PM 19-Mar-12,Cigarette Butt,28,Pandacan
+11AM 20-Mar-12,Electrical connection,29,Santa Cruz
+5AM 21-Mar-12,Cigarette Butt,29,Santa Cruz
+10AM 22-Mar-12,Under Investigation,26,Malate
+5PM 22-Mar-12,Electrical connection,26,Santa Cruz
+5PM 22-Mar-12,Electrical connection,26,Sampaloc
+3PM 23-Mar-12,Electrical connection,28,Ermita
+4PM 23-Mar-12,Air-conditioned Fire/Air-cooler/Fan,28,Tondo
+10PM 25-Mar-12,"LPG Leak, Gas, Keresone, Charcoal Stove",27,Tondo
+2PM 26-Mar-12,Candle,27,Tondo
+7PM 28-Mar-12,Electrical connection,29,Sampaloc
+7PM 29-Mar-12,Electrical connection,25,Tondo
+8PM 29-Mar-12,Electrical connection,25,Santa Cruz
+7PM 30-Mar-12,Electrical connection,27,Malate
+1PM 31-Mar-12,Electrical connection,26,Sampaloc
+1AM 1-Apr-12,Under Investigation,29,Sampaloc
+2PM 1-Apr-12,Air-conditioned Fire/Air-cooler/Fan,29,Sampaloc
+11AM 2-Apr-12,Under Investigation,29,Tondo
+9PM 2-Apr-12,Electrical connection,29,Santa Ana
+11PM 3-Apr-12,Electrical connection,29,Sampaloc
+3PM 7-Apr-12,Cigarette Butt,30,Santa Cruz
+8PM 7-Apr-12,Electrical connection,30,Santa Cruz
+9AM 8-Apr-12,Air-conditioned Fire/Air-cooler/Fan,30,Tondo
+8PM 8-Apr-12,Candle,30,Tondo
+10AM 9-Apr-12,Electrical connection,30,Binondo
+1PM 9-Apr-12,Cigarette Butt,30,Tondo
+7AM 10-Apr-12,"LPG Leak, Gas, Keresone, Charcoal Stove",30,Tondo
+7PM 10-Apr-12,Air-conditioned Fire/Air-cooler/Fan,30,Sampaloc
+2AM 11-Apr-12,Chimney Fire,30,Tondo
+8PM 11-Apr-12,Electrical connection,30,Tondo
+2PM 12-Apr-12,Spontaneous combustion,31,Tondo
+11AM 12-Apr-12,Electrical connection,31,Sampaloc
+5PM 12-Apr-12,"LPG Leak, Gas, Keresone, Charcoal Stove",31,Santa Ana
+5PM 12-Apr-12,Welding,31,Sampaloc
+10AM 13-Apr-12,"LPG Leak, Gas, Keresone, Charcoal Stove",31,Sampaloc
+6AM 14-Apr-12,Under Investigation,30,Santa Ana
+11AM 14-Apr-12,Cigarette Butt,30,Paco
+4PM 14-Apr-12,Electrical connection,30,Malate
+10AM 15-Apr-12,Electrical connection,30,Tondo
+1PM 15-Apr-12,Under Investigation,30,Santa Cruz
+9AM 16-Apr-12,"LPG Leak, Gas, Keresone, Charcoal Stove",30,Tondo
+5PM 16-Apr-12,Candle,30,Paco
+9PM 16-Apr-12,Alcohol Lamp Fire,30,San Miguel
+10PM 16-Apr-12,Electrical connection,30,Tondo
+8AM 17-Apr-12,Under Investigation,30,Ermita
+5PM 17-Apr-12,"LPG Leak, Gas, Keresone, Charcoal Stove",30,Quiapo
+6PM 17-Apr-12,Air-conditioned Fire/Air-cooler/Fan,30,Ermita
+6PM 17-Apr-12,Electrical connection,30,Ermita
+10PM 17-Apr-12,Electrical connection,30,Tondo
+1PM 18-Apr-12,Cigarette Butt,30,Santa Cruz
+2PM 18-Apr-12,Cigarette Butt,30,Sampaloc
+6PM 18-Apr-12,Electrical connection,30,Quiapo
+6PM 18-Apr-12,Electrical connection,30,Sampaloc
+1PM 19-Apr-12,Cigarette Butt,29,Santa Ana
+4PM 19-Apr-12,Electrical connection,29,Sampaloc
+9PM 19-Apr-12,Electrical connection,29,Tondo
+4PM 21-Apr-12,"Electrical Appliances (kettle, stove, ref, flat iron) (except fan)",31,Pandacan
+11AM 22-Apr-12,Electrical connection,29,Paco
+8PM 22-Apr-12,Electrical connection,29,Tondo
+9AM 23-Apr-12,Electrical connection,31,Paco
+9PM 23-Apr-12,Electrical connection,31,Malate
+9AM 24-Apr-12,Electrical connection,33,Malate
+11PM 25-Apr-12,Electrical connection,32,Sampaloc
+9AM 25-Apr-12,Electrical connection,32,Tondo
+1PM 25-Apr-12,Electrical connection,32,Sampaloc
+10AM 26-Apr-12,Electrical connection,32,Paco
+6PM 26-Apr-12,Electrical connection,32,Santa Ana
+8PM 26-Apr-12,Chimney Fire,32,Sampaloc
+8AM 27-Apr-12,"LPG Leak, Gas, Keresone, Charcoal Stove",32,Pandacan
+5PM 27-Apr-12,Cigarette Butt,32,Santa Ana
+8PM 27-Apr-12,Spontaneous combustion,32,Tondo
+6PM 29-Apr-12,Electrical connection,32,Santa Cruz
+8AM 30-Apr-12,"LPG Leak, Gas, Keresone, Charcoal Stove",32,Quiapo
+3PM 30-Apr-12,"LPG Leak, Gas, Keresone, Charcoal Stove",32,Sampaloc
+12PM 1-May-12,"LPG Leak, Gas, Keresone, Charcoal Stove",29,Binondo
+3PM 2-May-12,Electrical connection,29,Santa Ana
+8PM 3-May-12,Electrical connection,30,Sampaloc
+10PM 3-May-12,"Electrical Appliances (kettle, stove, ref, flat iron) (except fan)",30,Santa Ana
+1AM 5-May-12,Under Investigation,29,Santa Cruz
+2AM 5-May-12,Electrical connection,29,Malate
+1PM 5-May-12,Under Investigation,29,Malate
+8PM 6-May-12,Electrical connection,29,Santa Ana
+6PM 7-May-12,Electrical connection,29,Ermita
+9PM 7-May-12,Electrical connection,29,Paco
+10PM 7-May-12,Electrical connection,29,Tondo
+8PM 8-May-12,Electrical connection,30,Tondo
+3AM 9-May-12,Electrical connection,31,Santa Cruz
+6PM 9-May-12,Electrical connection,31,Ermita
+6PM 10-May-12,Electrical connection,30,Santa Cruz
+7PM 10-May-12,Alcohol Lamp Fire,30,Santa Ana
+3PM 11-May-12,Under Investigation,31,Sampaloc
+4PM 11-May-12,Under Investigation,31,Tondo
+2PM 12-May-12,Cigarette Butt,30,Tondo
+8PM 12-May-12,Electrical connection,30,Tondo
+10PM 15-May-12,Electrical connection,30,Sampaloc
+1AM 16-May-12,Cigarette Butt,30,Tondo
+1PM 16-May-12,"LPG Leak, Gas, Keresone, Charcoal Stove",30,Sampaloc
+1PM 18-May-12,Open flame,30,Sampaloc
+7PM 18-May-12,Electrical connection,30,Sampaloc
+7PM 18-May-12,Electrical connection,30,Pandacan
+3PM 20-May-12,Electrical connection,29,Tondo
+8PM 20-May-12,Electrical connection,29,Pandacan
+9PM 21-May-12,Electrical connection,29,Pandacan
+1PM 22-May-12,Air-conditioned Fire/Air-cooler/Fan,30,Sampaloc
+6PM 22-May-12,Under Investigation,30,Sampaloc
+1PM 24-May-12,Under Investigation,29,Binondo
+8AM 25-May-12,Under Investigation,30,Pandacan
+7PM 25-May-12,Electrical connection,30,Port Area
+3PM 26-May-12,Air-conditioned Fire/Air-cooler/Fan,30,Pandacan
+12AM 27-May-12,Electrical connection,30,Santa Ana
+12PM 27-May-12,Open flame,30,Tondo
+1PM 27-May-12,Electrical connection,30,Pandacan
+12PM 28-May-12,"LPG Leak, Gas, Keresone, Charcoal Stove",30,Sampaloc
+2PM 28-May-12,Electrical connection,30,Sampaloc
+4PM 28-May-12,Electrical connection,30,Sampaloc
+7PM 28-May-12,"LPG Leak, Gas, Keresone, Charcoal Stove",30,Santa Cruz
+7PM 29-May-12,Electrical connection,29,Tondo
+11AM 30-May-12,Under Investigation,28,Tondo
+7PM 30-May-12,Electrical connection,28,Pandacan
+10PM 30-May-12,Electrical connection,28,Tondo
+4PM 31-May-12,Electrical connection,29,Santa Cruz
+8PM 31-May-12,Electrical connection,29,Sampaloc
+10AM 4-Jun-12,Electrical connection,29,Tondo
+4PM 4-Jun-12,Electrical connection,29,Tondo
+10AM 5-Jun-12,Electrical connection,30,Tondo
+11AM 5-Jun-12,Under Investigation,30,Pandacan
+7PM 5-Jun-12,Electrical connection,30,Ermita
+10PM 5-Jun-12,Electrical connection,30,Ermita
+11AM 6-Jun-12,"LPG Leak, Gas, Keresone, Charcoal Stove",30,San Miguel
+8AM 7-Jun-12,Cigarette Butt,29,Sampaloc
+6PM 7-Jun-12,Electrical connection,29,Tondo
+9PM 7-Jun-12,Electrical connection,29,Tondo
+4PM 8-Jun-12,Electrical connection,29,Ermita
+1AM 9-Jun-12,Under Investigation,30,San Miguel
+4PM 9-Jun-12,"LPG Leak, Gas, Keresone, Charcoal Stove",30,Sampaloc
+9PM 9-Jun-12,Electrical connection,30,Santa Ana
+1PM 11-Jun-12,"LPG Leak, Gas, Keresone, Charcoal Stove",30,Tondo
+8PM 12-Jun-12,Electrical connection,29,Pandacan
+8PM 13-Jun-12,Electrical connection,28,Tondo
+10AM 14-Jun-12,"LPG Leak, Gas, Keresone, Charcoal Stove",28,Santa Cruz
+5PM 17-Jun-12,Under Investigation,27,Malate
+8PM 17-Jun-12,Air-conditioned Fire/Air-cooler/Fan,27,Tondo
+4PM 18-Jun-12,"LPG Leak, Gas, Keresone, Charcoal Stove",29,Santa Cruz
+6PM 18-Jun-12,Electrical connection,29,Sampaloc
+9AM 19-Jun-12,Electrical connection,30,Paco
+11AM 20-Jun-12,Cigarette Butt,30,Quiapo
+7PM 20-Jun-12,Electrical connection,30,Santa Cruz
+9AM 21-Jun-12,Electrical connection,30,Santa Cruz
+2PM 21-Jun-12,Under Investigation,30,Sampaloc
+11PM 22-Jun-12,Electrical connection,29,Santa Cruz
+8AM 23-Jun-12,Cigarette Butt,30,Santa Cruz
+1AM 24-Jun-12,Electrical connection,30,Santa Ana
+4PM 24-Jun-12,Electrical connection,30,Santa Ana
+7PM 24-Jun-12,Electrical connection,30,Tondo
+12PM 25-Jun-12,Cigarette Butt,28,Tondo
+8PM 25-Jun-12,Under Investigation,28,Tondo
+5PM 28-Jun-12,Under Investigation,27,Pandacan
+2PM 29-Jun-12,Under Investigation,28,Sampaloc
+3PM 30-Jun-12,Electrical connection,30,Binondo
+6PM 30-Jun-12,Electrical connection,30,Santa Cruz
+10PM 1-Jul-12,Electrical connection,28,Santa Cruz
+6AM 2-Jul-12,Electrical connection,28,Paco
+8PM 6-Jul-12,Electrical connection,26,Pandacan
+12PM 7-Jul-12,"LPG Leak, Gas, Keresone, Charcoal Stove",28,Tondo
+11AM 8-Jul-12,Electrical connection,30,Sampaloc
+8PM 8-Jul-12,Matchstick and Lighter,30,Santa Ana
+8PM 8-Jul-12,Electrical connection,30,Santa Cruz
+9PM 8-Jul-12,Electrical connection,30,Tondo
+12PM 9-Jul-12,Electrical connection,29,Sampaloc
+4PM 10-Jul-12,Electrical connection,28,Ermita
+12PM 11-Jul-12,Cigarette Butt,29,Intramuros
+10PM 11-Jul-12,Electrical connection,29,Pandacan
+2AM 12-Jul-12,Under Investigation,29,Tondo
+2AM 12-Jul-12,Electrical connection,29,Sampaloc
+2AM 13-Jul-12,Candle,29,Sampaloc
+1PM 13-Jul-12,Other,29,Santa Ana
+9PM 13-Jul-12,Cigarette Butt,29,Sampaloc
+2PM 15-Jul-12,"LPG Leak, Gas, Keresone, Charcoal Stove",29,San Miguel
+7PM 15-Jul-12,Electrical connection,29,Quiapo
+7AM 17-Jul-12,Electrical connection,30,Quiapo
+8PM 17-Jul-12,Electrical connection,30,Pandacan
+7AM 19-Jul-12,"LPG Leak, Gas, Keresone, Charcoal Stove",28,Sampaloc
+12PM 19-Jul-12,Air-conditioned Fire/Air-cooler/Fan,29,Sampaloc
+11PM 20-Jul-12,Electrical connection,26,Tondo
+10PM 21-Jul-12,Electrical connection,24,Sampaloc
+10PM 21-Jul-12,Electrical connection,24,Paco
+1PM 23-Jul-12,Electrical connection,29,Santa Ana
+6PM 23-Jul-12,Electrical connection,29,Ermita
+10AM 24-Jul-12,Candle,29,Paco
+12PM 24-Jul-12,Electrical connection,29,Santa Cruz
+2PM 24-Jul-12,"LPG Leak, Gas, Keresone, Charcoal Stove",29,Ermita
+4PM 24-Jul-12,Under Investigation,29,Malate
+12PM 25-Jul-12,Electrical connection,28,Tondo
+12AM 26-Jul-12,Electrical connection,28,Malate
+10AM 26-Jul-12,Electrical connection,28,Tondo
+1PM 26-Jul-12,Electrical connection,28,Sampaloc
+7PM 26-Jul-12,Electrical connection,28,Sampaloc
+5PM 27-Jul-12,Electrical connection,28,Santa Cruz
+11PM 27-Jul-12,Electrical connection,28,Paco
+3AM 28-Jul-12,Open flame,27,Ermita
+12AM 30-Jul-12,Electrical connection,26,Sampaloc
+3AM 30-Jul-12,Electrical connection,26,Sampaloc
+8AM 30-Jul-12,Electrical connection,26,Tondo
+7PM 30-Jul-12,Electrical connection,26,Malate
+5PM 31-Jul-12,Candle,28,Tondo
+5AM 1-Aug-12,Electrical connection,27,Santa Ana
+3PM 1-Aug-12,Electrical connection,27,Santa Ana
+9PM 1-Aug-12,"Electrical Appliances (kettle, stove, ref, flat iron) (except fan)",27,Ermita
+9PM 2-Aug-12,Electrical connection,28,Pandacan
+9PM 2-Aug-12,Electrical connection,28,Sampaloc
+10PM 2-Aug-12,Electrical connection,28,Malate
+11PM 2-Aug-12,Electrical connection,28,Santa Ana
+8PM 3-Aug-12,Cigarette Butt,27,Sampaloc
+10AM 5-Aug-12,Cigarette Butt,27,Santa Cruz
+12PM 5-Aug-12,Electrical connection,27,Malate
+4AM 6-Aug-12,Electrical connection,25,Santa Cruz
+7AM 7-Aug-12,Air-conditioned Fire/Air-cooler/Fan,24,Sampaloc
+9PM 7-Aug-12,Electrical connection,24,Santa Ana
+11AM 8-Aug-12,Electrical connection,25,Tondo
+12PM 8-Aug-12,Electrical connection,25,Santa Cruz
+12PM 8-Aug-12,Electrical connection,25,Santa Cruz
+1PM 8-Aug-12,Electrical connection,25,Santa Cruz
+3PM 8-Aug-12,Electrical connection,25,Sampaloc
+7PM 8-Aug-12,Electrical connection,25,Sampaloc
+9PM 8-Aug-12,Electrical connection,25,Sampaloc
+7PM 9-Aug-12,Air-conditioned Fire/Air-cooler/Fan,27,Santa Cruz
+10PM 9-Aug-12,Electrical connection,27,Tondo
+2PM 10-Aug-12,Electrical connection,29,Sampaloc
+4PM 10-Aug-12,Candle,29,Santa Ana
+10PM 10-Aug-12,Candle,29,Sampaloc
+8PM 11-Aug-12,Electrical connection,28,Santa Cruz
+10PM 11-Aug-12,Candle,28,Tondo
+8AM 11-Aug-12,Electrical connection,28,Quiapo
+8PM 12-Aug-12,Electrical connection,28,Malate
+11AM 16-Aug-12,Electrical connection,26,Tondo
+6PM 17-Aug-12,Electrical connection,29,Santa Cruz
+8PM 17-Aug-12,Electrical connection,29,Sampaloc
+3PM 18-Aug-12,Under Investigation,28,Santa Ana
+2PM 19-Aug-12,Candle,28,Sampaloc
+6PM 19-Aug-12,Electrical connection,28,Pandacan
+11PM 20-Aug-12,Electrical connection,27,Sampaloc
+10AM 22-Aug-12,Electrical connection,29,Santa Cruz
+11AM 22-Aug-12,Under Investigation,29,Tondo
+9AM 26-Aug-12,Electrical connection,29,Santa Ana
+8PM 26-Aug-12,Electrical connection,29,Santa Cruz
+9AM 27-Aug-12,Air-conditioned Fire/Air-cooler/Fan,29,Tondo
+7PM 27-Aug-12,Electrical connection,29,Santa Cruz
+12PM 3-Sep-12,Electrical connection,28,Tondo
+3PM 3-Sep-12,Chimney Fire,28,Sampaloc
+8AM 4-Sep-12,Electrical connection,28,Ermita
+12AM 4-Sep-12,Electrical connection,28,Sampaloc
+12AM 5-Sep-12,Electrical connection,27,Tondo
+10AM 5-Sep-12,Christmas light,27,Santa Cruz
+3PM 6-Sep-12,Under Investigation,28,Sampaloc
+4PM 6-Sep-12,Electrical connection,28,Sampaloc
+3PM 8-Sep-12,Electrical connection,29,Sampaloc
+4PM 8-Sep-12,Electrical connection,29,Tondo
+10PM 8-Sep-12,Electrical connection,29,Sampaloc
+1AM 9-Sep-12,Other,29,Sampaloc
+6PM 9-Sep-12,Candle,29,Santa Cruz
+7PM 10-Sep-12,Electrical connection,28,Quiapo
+7PM 13-Sep-12,Electrical connection,28,Santa Ana
+9PM 14-Sep-12,Electrical connection,26,Pandacan
+5AM 15-Sep-12,Electrical connection,26,Pandacan
+2AM 16-Sep-12,Open flame,25,Paco
+3PM 16-Sep-12,Candle,25,Santa Ana
+6PM 16-Sep-12,Air-conditioned Fire/Air-cooler/Fan,25,Ermita
+9PM 16-Sep-12,Electrical connection,25,Santa Cruz
+9PM 16-Sep-12,Air-conditioned Fire/Air-cooler/Fan,25,Ermita
+10AM 17-Sep-12,Electrical connection,29,Ermita
+10PM 17-Sep-12,Electrical connection,29,Pandacan
+11PM 17-Sep-12,Electrical connection,29,Port Area
+8AM 18-Sep-12,Electrical connection,26,Sampaloc
+7PM 18-Sep-12,Chimney Fire,26,Quiapo
+6PM 19-Sep-12,Electrical connection,28,Sampaloc
+8PM 19-Sep-12,Electrical connection,28,Sampaloc
+11AM 20-Sep-12,Electrical connection,28,Malate
+1AM 22-Sep-12,Christmas light,28,Tondo
+1AM 22-Sep-12,Under Investigation,28,Sampaloc
+3AM 22-Sep-12,Electrical connection,28,Malate
+10AM 22-Sep-12,Electrical connection,28,Santa Cruz
+9AM 27-Sep-12,Electrical connection,31,Ermita
+4PM 27-Sep-12,Other,31,Pandacan
+10PM 27-Sep-12,Other,31,Santa Cruz
+1PM 28-Sep-12,Candle,21,Santa Mesa
+8PM 29-Sep-12,Electrical connection,28,San Miguel
+9AM 1-Oct-12,Electrical connection,28,Paco
+8AM 2-Oct-12,Electrical connection,26,Sampaloc
+5PM 2-Oct-12,Electrical connection,26,Sampaloc
+12PM 4-Oct-12,Electrical connection,27,Quiapo
+9PM 4-Oct-12,Electrical connection,27,Tondo
+6AM 5-Oct-12,Electrical connection,27,Tondo
+1PM 5-Oct-12,Welding,27,Tondo
+9PM 5-Oct-12,Electrical connection,27,Malate
+7AM 5-Oct-12,Other,27,Paco
+11PM 6-Oct-12,Electrical connection,28,Tondo
+10AM 7-Oct-12,Electrical connection,28,Tondo
+6PM 7-Oct-12,Electrical connection,28,Paco
+5AM 8-Oct-12,Electrical connection,28,Santa Ana
+8AM 8-Oct-12,Under Investigation,28,Tondo
+12PM 8-Oct-12,Under Investigation,28,Quiapo
+12AM 9-Oct-12,Electrical connection,28,Paco
+2AM 12-Oct-12,Electrical connection,28,Paco
+2PM 13-Oct-12,Electrical connection,27,Pandacan
+10AM 14-Oct-12,Under Investigation,28,Binondo
+3PM 14-Oct-12,Air-conditioned Fire/Air-cooler/Fan,28,Pandacan
+3PM 15-Oct-12,Electrical connection,28,Ermita
+6PM 16-Oct-12,Electrical connection,29,Tondo
+10AM 18-Oct-12,Electrical connection,28,Ermita
+2PM 19-Oct-12,Candle,28,Santa Cruz
+2AM 20-Oct-12,Electrical connection,29,Pandacan
+1PM 20-Oct-12,Electrical connection,29,Ermita
+9AM 22-Oct-12,Cigarette Butt,28,Santa Mesa
+9AM 22-Oct-12,"LPG Leak, Gas, Keresone, Charcoal Stove",28,Sampaloc
+7PM 22-Oct-12,Electrical connection,28,Pandacan
+3PM 23-Oct-12,Electrical connection,29,Ermita
+6PM 23-Oct-12,Electrical connection,29,Sampaloc
+11AM 24-Oct-12,Electrical connection,27,Sampaloc
+6PM 24-Oct-12,Electrical connection,27,Sampaloc
+10AM 25-Oct-12,Electrical connection,25,Tondo
+5PM 25-Oct-12,Electrical connection,25,Santa Ana
+11PM 25-Oct-12,Electrical connection,25,Santa Ana
+10AM 27-Oct-12,Electrical connection,28,Quiapo
+9PM 27-Oct-12,Electrical connection,28,Sampaloc
+10PM 29-Oct-12,Electrical connection,28,Intramuros
+12AM 30-Oct-12,Under Investigation,28,Sampaloc
+7AM 31-Oct-12,Electrical connection,27,Santa Cruz
+9PM 31-Oct-12,Electrical connection,27,Ermita
+10AM 1-Nov-12,Cigarette Butt,27,Santa Cruz
+2PM 1-Nov-12,"LPG Leak, Gas, Keresone, Charcoal Stove",27,Sampaloc
+10PM 1-Nov-12,Cigarette Butt,27,Santa Cruz
+10PM 1-Nov-12,Firecracker,27,Binondo
+12PM 2-Nov-12,Cigarette Butt,28,Santa Cruz
+10AM 3-Nov-12,Other,28,Sampaloc
+3PM 4-Nov-12,Electrical connection,28,Sampaloc
+6PM 5-Nov-12,Under Investigation,28,Ermita
+9PM 5-Nov-12,Electrical connection,28,Paco
+4PM 6-Nov-12,Electrical connection,29,Ermita
+6PM 7-Nov-12,Under Investigation,29,Santa Cruz
+11PM 7-Nov-12,Under Investigation,29,Malate
+1PM 8-Nov-12,Electrical connection,28,Tondo
+6PM 8-Nov-12,Electrical connection,28,Ermita
+6PM 8-Nov-12,Electrical connection,28,San Andres
+9PM 8-Nov-12,Electrical connection,28,Tondo
+3AM 11-Nov-12,Candle,29,San Miguel
+12PM 11-Nov-12,Under Investigation,29,Sampaloc
+8PM 12-Nov-12,Electrical connection,27,Tondo
+10PM 12-Nov-12,Air-conditioned Fire/Air-cooler/Fan,27,Sampaloc
+7AM 13-Nov-12,Electrical connection,27,Tondo
+3PM 15-Nov-12,Electrical connection,29,Sampaloc
+9AM 16-Nov-12,"LPG Leak, Gas, Keresone, Charcoal Stove",28,Ermita
+11AM 17-Nov-12,Air-conditioned Fire/Air-cooler/Fan,28,Santa Cruz
+1AM 22-Nov-12,Under Investigation,28,Port Area
+1PM 22-Nov-12,Air-conditioned Fire/Air-cooler/Fan,28,Santa Ana
+6PM 22-Nov-12,Electrical connection,22,Sampaloc
+5AM 23-Nov-12,Cigarette Butt,29,Ermita
+6PM 23-Nov-12,Under Investigation,29,Tondo
+7PM 23-Nov-12,Electrical connection,29,Intramuros
+1PM 25-Nov-12,Electrical connection,29,Tondo
+6PM 25-Nov-12,Electrical connection,29,Tondo
+8PM 25-Nov-12,"LPG Leak, Gas, Keresone, Charcoal Stove",29,Santa Cruz
+9PM 25-Nov-12,Arson,29,Santa Ana
+9PM 26-Nov-12,Electrical connection,29,Ermita
+12PM 27-Nov-12,Electrical connection,30,Sampaloc
+1PM 27-Nov-12,Electrical connection,30,Sampaloc
+2PM 27-Nov-12,Cigarette Butt,30,Sampaloc
+8PM 28-Nov-12,Cigarette Butt,27,Santa Cruz
+6AM 29-Nov-12,Electrical connection,27,Santa Mesa
+11AM 29-Nov-12,Cigarette Butt,27,Santa Cruz
+6PM 29-Nov-12,Cigarette Butt,27,Sampaloc
+8PM 29-Nov-12,Electrical connection,27,Ermita
+11PM 29-Nov-12,Under Investigation,27,Sampaloc
+5PM 30-Nov-12,Cigarette Butt,28,Port Area
+4PM 1-Dec-12,Arson,27,Pandacan
+7PM 1-Dec-12,Electrical connection,27,Sampaloc
+2AM 2-Dec-12,Electrical connection,27,Intramuros
+1PM 2-Dec-12,Under Investigation,27,Paco
+7PM 2-Dec-12,Electrical connection,27,Pandacan
+12PM 3-Dec-12,"LPG Leak, Gas, Keresone, Charcoal Stove",28,Binondo
+8PM 3-Dec-12,Electrical connection,28,Paco
+2PM 7-Dec-12,Electrical connection,27,Paco
+1PM 8-Dec-12,Under Investigation,29,Santa Cruz
+3PM 9-Dec-12,Cigarette Butt,29,Sampaloc
+10AM 10-Dec-12,Christmas light,29,Santa Ana
+11AM 10-Dec-12,Electrical connection,29,Malate
+6PM 12-Dec-12,"LPG Leak, Gas, Keresone, Charcoal Stove",27,Binondo
+1PM 15-Dec-12,Electrical connection,28,Sampaloc
+12PM 16-Dec-12,Under Investigation,27,Tondo
+5PM 16-Dec-12,Air-conditioned Fire/Air-cooler/Fan,27,Santa Ana
+4AM 17-Dec-12,Christmas light,28,Sampaloc
+6AM 17-Dec-12,Under Investigation,28,Santa Cruz
+9AM 17-Dec-12,Under Investigation,28,Paco
+10AM 18-Dec-12,Electrical connection,28,Sampaloc
+6PM 18-Dec-12,"LPG Leak, Gas, Keresone, Charcoal Stove",28,Sampaloc
+10PM 18-Dec-12,"LPG Leak, Gas, Keresone, Charcoal Stove",28,Sampaloc
+8AM 19-Dec-12,Electrical connection,28,Sampaloc
+11AM 19-Dec-12,Air-conditioned Fire/Air-cooler/Fan,28,Sampaloc
+8PM 20-Dec-12,Electrical connection,30,Ermita
+11AM 21-Dec-12,Electrical connection,29,Tondo
+5PM 21-Dec-12,Electrical connection,29,Tondo
+7PM 21-Dec-12,Electrical connection,29,Sampaloc
+1PM 22-Dec-12,Cigarette Butt,28,Santa Mesa
+1PM 23-Dec-12,Under Investigation,26,Tondo
+12AM 24-Dec-12,Under Investigation,27,Binondo
+2PM 24-Dec-12,Under Investigation,27,Sampaloc
+2PM 25-Dec-12,Electrical connection,28,Tondo
+8PM 26-Dec-12,Electrical connection,26,Sampaloc
+2AM 27-Dec-12,Electrical connection,27,Sampaloc
+7AM 27-Dec-12,Open flame,27,Santa Cruz
+1PM 27-Dec-12,Matchstick and Lighter,27,Sampaloc
+4PM 27-Dec-12,Matchstick and Lighter,27,Tondo
+9AM 28-Dec-12,Chimney Fire,27,Binondo
+1PM 28-Dec-12,Cigarette Butt,27,Pandacan
+4PM 28-Dec-12,Chimney Fire,27,Binondo
+10AM 29-Dec-12,Electrical connection,27,Pandacan
+11AM 29-Dec-12,Electrical connection,27,Paco
+12PM 30-Dec-12,Electrical connection,32,Malate
+4PM 30-Dec-12,Electrical connection,32,Tondo
+12AM 1-Jan-13,Electrical connection,25,Quiapo
+12AM 1-Jan-13,Christmas light,25,Tondo
+12AM 1-Jan-13,Firecracker,25,Tondo
+12PM 1-Jan-13,Under Investigation,25,Tondo
+10AM 3-Jan-13,Electrical connection,26,Tondo
+5PM 3-Jan-13,Electrical connection,26,Santa Ana
+5PM 3-Jan-13,Electrical connection,26,Tondo
+11PM 3-Jan-13,Electrical connection,26,Sampaloc
+1PM 5-Jan-13,Electrical connection,28,San Miguel
+4AM 6-Jan-13,Under Investigation,28,Santa Cruz
+10AM 7-Jan-13,"LPG Leak, Gas, Keresone, Charcoal Stove",27,Sampaloc
+10AM 7-Jan-13,Candle,27,Tondo
+12PM 7-Jan-13,Electrical connection,27,Quiapo
+8AM 8-Jan-13,Under Investigation,28,Malate
+10PM 8-Jan-13,Electrical connection,28,Sampaloc
+11AM 9-Jan-13,Electrical connection,26,Paco
+5PM 9-Jan-13,Cigarette Butt,26,Santa Ana
+8PM 9-Jan-13,Cigarette Butt,26,Quiapo
+8PM 9-Jan-13,Chimney Fire,26,Tondo
+10PM 10-Jan-13,Electrical connection,26,Quiapo
+6AM 11-Jan-13,Under Investigation,25,Sampaloc
+5PM 11-Jan-13,Electrical connection,25,Santa Cruz
+9PM 11-Jan-13,Electrical connection,25,Sampaloc
+6PM 12-Jan-13,Electrical connection,26,Ermita
+9AM 15-Jan-13,Electrical connection,26,Pandacan
+6PM 16-Jan-13,Electrical connection,26,Tondo
+5AM 17-Jan-13,Chimney Fire,25,Sampaloc
+4PM 22-Jan-13,Electrical connection,24,Sampaloc
+5PM 22-Jan-13,Electrical connection,24,Ermita
+5PM 23-Jan-13,Electrical connection,23,Sampaloc
+6PM 23-Jan-13,"LPG Leak, Gas, Keresone, Charcoal Stove",23,Sampaloc
+8AM 24-Jan-13,Under Investigation,25,Binondo
+9AM 25-Jan-13,"LPG Leak, Gas, Keresone, Charcoal Stove",25,Tondo
+7AM 26-Jan-13,"LPG Leak, Gas, Keresone, Charcoal Stove",25,Tondo
+6PM 27-Jan-13,Electrical connection,26,Tondo
+8AM 28-Jan-13,"Electrical Appliances (kettle, stove, ref, flat iron) (except fan)",28,Tondo
+12PM 29-Jan-13,Electrical connection,25,Quiapo
+3PM 29-Jan-13,"Electrical Appliances (kettle, stove, ref, flat iron) (except fan)",25,Pandacan
+4PM 29-Jan-13,Electrical connection,25,Tondo
+11AM 30-Jan-13,"LPG Leak, Gas, Keresone, Charcoal Stove",26,Intramuros
+12PM 30-Jan-13,Under Investigation,26,Santa Cruz
+11PM 31-Jan-13,Electrical connection,24,San Miguel
+1AM 1-Feb-13,Candle,28,Tondo
+2AM 1-Feb-13,Under Investigation,28,Tondo
+1PM 2-Feb-13,Under Investigation,28,Tondo
+8PM 2-Feb-13,Electrical connection,28,Paco
+5AM 3-Feb-13,Electrical connection,26,Quiapo
+6AM 3-Feb-13,Cigarette Butt,26,Quiapo
+8PM 3-Feb-13,Firecracker,26,Tondo
+2PM 4-Feb-13,Electrical connection,28,Santa Cruz
+3PM 4-Feb-13,Under Investigation,28,Binondo
+4PM 4-Feb-13,Cigarette Butt,28,Ermita
+9PM 4-Feb-13,Electrical connection,28,Santa Cruz
+12AM 5-Feb-13,"LPG Leak, Gas, Keresone, Charcoal Stove",27,Tondo
+12PM 5-Feb-13,Cigarette Butt,27,Sampaloc
+10PM 5-Feb-13,Electrical connection,27,Tondo
+3AM 6-Feb-13,Electrical connection,27,Santa Ana
+4AM 6-Feb-13,Electrical connection,27,Santa Ana
+12PM 6-Feb-13,Under Investigation,27,Tondo
+2PM 6-Feb-13,Electrical connection,27,Sampaloc
+6AM 7-Feb-13,Under Investigation,27,Binondo
+7AM 7-Feb-13,Electrical connection,27,Tondo
+3PM 7-Feb-13,Under Investigation,27,Intramuros
+4AM 8-Feb-13,Under Investigation,28,Sampaloc
+11PM 8-Feb-13,Electrical connection,28,Sampaloc
+10AM 9-Feb-13,Electrical connection,28,Sampaloc
+6PM 9-Feb-13,Cigarette Butt,28,Tondo
+6PM 9-Feb-13,Electrical connection,28,Sampaloc
+7PM 9-Feb-13,Electrical connection,28,Santa Ana
+7PM 9-Feb-13,Air-conditioned Fire/Air-cooler/Fan,28,Sampaloc
+10PM 9-Feb-13,Under Investigation,28,Tondo
+10AM 10-Feb-13,Electrical connection,26,Pandacan
+7PM 10-Feb-13,Electrical connection,26,Pandacan
+7PM 10-Feb-13,Electrical connection,26,Santa Cruz
+8PM 10-Feb-13,Electrical connection,26,Sampaloc
+11PM 10-Feb-13,Cigarette Butt,26,Santa Cruz
+2PM 11-Feb-13,Electrical connection,27,Santa Ana
+4PM 11-Feb-13,Other,27,Ermita
+6PM 11-Feb-13,Electrical connection,27,Sampaloc
+7PM 11-Feb-13,Electrical connection,27,Tondo
+9AM 12-Feb-13,Electrical connection,28,Sampaloc
+10AM 12-Feb-13,"LPG Leak, Gas, Keresone, Charcoal Stove",28,Santa Cruz
+3PM 12-Feb-13,Under Investigation,28,Sampaloc
+1PM 15-Feb-13,"LPG Leak, Gas, Keresone, Charcoal Stove",28,Sampaloc
+6PM 15-Feb-13,"LPG Leak, Gas, Keresone, Charcoal Stove",28,Sampaloc
+7PM 15-Feb-13,Candle,28,Tondo
+8PM 15-Feb-13,Under Investigation,28,Malate
+1PM 17-Feb-13,Cigarette Butt,26,Sampaloc
+2PM 17-Feb-13,Electrical connection,26,Pandacan
+8AM 18-Feb-13,"LPG Leak, Gas, Keresone, Charcoal Stove",29,Intramuros
+9AM 18-Feb-13,Cigarette Butt,29,Sampaloc
+7PM 18-Feb-13,Matress Fire,29,Quiapo
+11PM 18-Feb-13,Electrical connection,29,Sampaloc
+2PM 19-Feb-13,Under Investigation,27,Tondo
+5AM 20-Feb-13,Electrical connection,28,Santa Cruz
+9PM 21-Feb-13,Electrical connection,27,Pandacan
+4AM 22-Feb-13,Candle,24,Paco
+11AM 22-Feb-13,Electrical connection,24,Sampaloc
+9AM 23-Feb-13,Electrical connection,28,Pandacan
+11AM 23-Feb-13,Electrical connection,28,Pandacan
+8PM 23-Feb-13,Under Investigation,28,Binondo
+5AM 24-Feb-13,Candle,28,Santa Ana
+10AM 24-Feb-13,Electrical connection,28,Sampaloc
+12PM 25-Feb-13,Under Investigation,29,Binondo
+3PM 25-Feb-13,Electrical connection,29,Tondo
+4PM 25-Feb-13,Matress Fire,29,Malate
+7PM 25-Feb-13,Electrical connection,29,Santa Ana
+8AM 26-Feb-13,Electrical connection,28,Santa Cruz
+4PM 26-Feb-13,Electrical connection,28,Tondo
+4PM 26-Feb-13,Electrical connection,28,Tondo
+10PM 27-Feb-13,Electrical connection,28,Santa Cruz
+4PM 28-Feb-13,Candle,28,Santa Ana
+10AM 1-Mar-13,Electrical connection,29,Tondo
+6AM 3-Mar-13,Candle,26,Santa Ana
+6PM 4-Mar-13,Electrical connection,27,Santa Ana
+8PM 4-Mar-13,Cigarette Butt,27,Paco
+7PM 6-Mar-13,Electrical connection,27,Tondo
+5AM 7-Mar-13,Under Investigation,28,Ermita
+10AM 7-Mar-13,Electrical connection,28,Santa Mesa
+9PM 8-Mar-13,Electrical connection,27,Tondo
+1PM 9-Mar-13,Candle,28,Santa Cruz
+10PM 9-Mar-13,Cigarette Butt,28,Santa Mesa
+8AM 10-Mar-13,Electrical connection,28,Sampaloc
+5PM 10-Mar-13,Cigarette Butt,28,San Miguel
+7PM 10-Mar-13,Cigarette Butt,28,Santa Ana
+7PM 10-Mar-13,Electrical connection,28,Santa Cruz
+3AM 11-Mar-13,Electrical connection,27,Sampaloc
+1PM 11-Mar-13,Cigarette Butt,27,Tondo
+4PM 11-Mar-13,Under Investigation,27,Paco
+11AM 12-Mar-13,Cigarette Butt,28,Tondo
+11PM 12-Mar-13,Under Investigation,28,Sampaloc
+11PM 12-Mar-13,Cigarette Butt,28,San Miguel
+9AM 14-Mar-13,Under Investigation,25,Tondo
+3PM 14-Mar-13,Electrical connection,25,Paco
+4PM 14-Mar-13,"LPG Leak, Gas, Keresone, Charcoal Stove",25,Tondo
+4PM 14-Mar-13,Electrical connection,25,Sampaloc
+4PM 14-Mar-13,Electrical connection,25,Santa Cruz
+3PM 15-Mar-13,Electrical connection,29,Sampaloc
+3PM 16-Mar-13,Under Investigation,28,Malate
+1AM 17-Mar-13,Cigarette Butt,28,Binondo
+12PM 18-Mar-13,"LPG Leak, Gas, Keresone, Charcoal Stove",28,Tondo
+8PM 18-Mar-13,Electrical connection,28,Paco
+10PM 18-Mar-13,Electrical connection,28,Santa Mesa
+5PM 19-Mar-13,Electrical connection,30,Santa Cruz
+5AM 20-Mar-13,Cigarette Butt,29,Tondo
+2PM 20-Mar-13,Cigarette Butt,29,Tondo
+11AM 21-Mar-13,Electrical connection,29,Tondo
+12PM 21-Mar-13,Cigarette Butt,29,Quiapo
+7PM 21-Mar-13,"LPG Leak, Gas, Keresone, Charcoal Stove",29,Santa Cruz
+7PM 22-Mar-13,Electrical connection,28,Tondo
+9PM 22-Mar-13,Electrical connection,28,Tondo
+10AM 23-Mar-13,Under Investigation,29,Sampaloc
+6PM 23-Mar-13,Under Investigation,29,Sampaloc
+5PM 24-Mar-13,Electrical connection,28,Malate
+7PM 24-Mar-13,Electrical connection,28,Pandacan
+10PM 24-Mar-13,Electrical connection,28,Quiapo
+5PM 26-Mar-13,Welding,30,Paco
+6PM 26-Mar-13,Electrical connection,30,Santa Ana
+7PM 26-Mar-13,Electrical connection,30,Santa Ana
+1PM 27-Mar-13,Electrical connection,29,Binondo
+9AM 28-Mar-13,Electrical connection,29,Sampaloc
+8AM 29-Mar-13,Air-conditioned Fire/Air-cooler/Fan,30,Sampaloc
+7AM 30-Mar-13,Matress Fire,30,Sampaloc
+4AM 1-Apr-13,Electrical connection,30,Santa Cruz
+1PM 1-Apr-13,Cigarette Butt,30,Tondo
+8AM 1-Apr-13,Electrical connection,30,Tondo
+1PM 1-Apr-13,Electrical connection,30,Port Area
+6PM 2-Apr-13,Electrical connection,29,Pandacan
+9AM 3-Apr-13,Electrical connection,30,Sampaloc
+10AM 3-Apr-13,Electrical connection,30,Sampaloc
+7PM 3-Apr-13,Electrical connection,30,Intramuros
+11AM 4-Apr-13,Under Investigation,31,Tondo
+12PM 4-Apr-13,Electrical connection,31,Tondo
+1PM 5-Apr-13,Cigarette Butt,31,Tondo
+4PM 5-Apr-13,Electrical connection,31,Sampaloc
+2AM 7-Apr-13,Electrical connection,30,Malate
+9AM 7-Apr-13,Under Investigation,30,Santa Ana
+4PM 8-Apr-13,Under Investigation,30,Sampaloc
+12PM 9-Apr-13,Air-conditioned Fire/Air-cooler/Fan,30,Ermita
+5PM 9-Apr-13,Electrical connection,30,Sampaloc
+9AM 10-Apr-13,Electrical connection,30,Malate
+12PM 11-Apr-13,Electrical connection,31,Paco
+12PM 11-Apr-13,Under Investigation,31,Tondo
+3PM 11-Apr-13,Matress Fire,31,Sampaloc
+5PM 11-Apr-13,Cigarette Butt,31,Tondo
+5AM 12-Apr-13,Electrical connection,30,Santa Cruz
+8AM 12-Apr-13,Under Investigation,30,Binondo
+6PM 13-Apr-13,Electrical connection,29,Tondo
+1PM 15-Apr-13,Electrical connection,30,Santa Mesa
+2PM 15-Apr-13,Electrical connection,30,Tondo
+8PM 15-Apr-13,Electrical connection,30,San Nicolas
+6PM 16-Apr-13,Electrical connection,31,Santa Ana
+7PM 16-Apr-13,Electrical connection,31,Tondo
+7PM 16-Apr-13,Cigarette Butt,31,Paco
+8PM 16-Apr-13,Cigarette Butt,31,Sampaloc
+4PM 17-Apr-13,Cigarette Butt,31,Pandacan
+6PM 17-Apr-13,Electrical connection,31,Tondo
+9PM 18-Apr-13,"LPG Leak, Gas, Keresone, Charcoal Stove",32,Santa Cruz
+5PM 19-Apr-13,Electrical connection,32,Paco
+6PM 19-Apr-13,"LPG Leak, Gas, Keresone, Charcoal Stove",32,Paco
+9AM 20-Apr-13,Electrical connection,32,Santa Ana
+4PM 20-Apr-13,"LPG Leak, Gas, Keresone, Charcoal Stove",32,Sampaloc
+8PM 20-Apr-13,"LPG Leak, Gas, Keresone, Charcoal Stove",32,Santa Mesa
+7AM 21-Apr-13,Candle,32,Tondo
+9AM 22-Apr-13,Under Investigation,32,Port Area
+7PM 22-Apr-13,Electrical connection,32,Tondo
+9AM 24-Mar-13,Electrical connection,31,Pandacan
+12PM 24-Mar-13,Under Investigation,31,Santa Ana
+1PM 24-Apr-13,Electrical connection,31,Sampaloc
+10AM 24-Apr-13,"LPG Leak, Gas, Keresone, Charcoal Stove",31,Tondo
+3PM 24-Apr-13,Air-conditioned Fire/Air-cooler/Fan,31,Santa Ana
+7PM 25-Apr-13,Cigarette Butt,31,Tondo
+10PM 25-Apr-13,Under Investigation,31,Tondo
+8AM 26-Apr-13,Acetylene,32,Santa Cruz
+11AM 28-Apr-15,Electrical connection,30,Tondo
+4PM 28-Apr-13,"LPG Leak, Gas, Keresone, Charcoal Stove",30,Tondo
+6AM 29-Apr-13,"LPG Leak, Gas, Keresone, Charcoal Stove",31,Sampaloc
+7AM 29-Apr-13,Under Investigation,31,Paco
+12AM 30-Apr-13,Electrical connection,31,Sampaloc
+10AM 1-May-13,Acetylene,31,Quiapo
+11AM 1-May-13,Under Investigation,31,Malate
+7PM 1-May-13,Electrical connection,31,Santa Cruz
+11AM 2-May-13,Under Investigation,31,Sampaloc
+11AM 2-May-13,"LPG Leak, Gas, Keresone, Charcoal Stove",31,Tondo
+11AM 3-May-13,Electrical connection,31,Tondo
+4PM 2-May-13,Electrical connection,31,Santa Ana
+4PM 3-May-13,Electrical connection,31,Sampaloc
+4PM 3-May-13,Cigarette Butt,31,Sampaloc
+6PM 3-May-13,Electrical connection,31,Tondo
+9PM 3-May-13,Electrical connection,31,Santa Cruz
+10PM 3-May-13,Under Investigation,31,Tondo
+12AM 4-May-13,Under Investigation,30,Tondo
+12PM 4-May-13,Electrical connection,30,Tondo
+7PM 4-May-13,Electrical connection,30,Tondo
+7PM 5-May-13,Candle,31,Santa Ana
+7PM 6-May-13,Electrical connection,30,Sampaloc
+7AM 7-May-13,Electrical connection,31,Intramuros
+8AM 7-May-13,Under Investigation,31,Malate
+7PM 7-May-13,Under Investigation,31,Tondo
+3AM 8-May-13,Arson,31,Quiapo
+2PM 8-May-13,Electrical connection,31,Malate
+4PM 8-May-13,Electrical connection,31,Sampaloc
+7PM 8-May-13,Electrical connection,31,Paco
+3PM 10-May-13,Under Investigation,30,Paco
+6PM 10-May-13,Cigarette Butt,30,Santa Ana
+10PM 10-May-13,Electrical connection,30,Santa Cruz
+11AM 11-May-13,Under Investigation,31,Binondo
+8PM 11-May-13,Electrical connection,31,San Andres
+9PM 11-May-13,Electrical connection,31,Malate
+9AM 12-May-13,"Electrical Appliances (kettle, stove, ref, flat iron) (except fan)",29,Sampaloc
+9PM 12-May-13,Air-conditioned Fire/Air-cooler/Fan,29,Santa Ana
+10PM 12-May-13,"LPG Leak, Gas, Keresone, Charcoal Stove",29,Sampaloc
+10PM 12-May-13,Electrical connection,29,Tondo
+12AM 12-May-13,Electrical connection,29,Tondo
+2PM 13-May-13,Electrical connection,28,Binondo
+12PM 13-May-13,Electrical connection,28,Tondo
+12PM 13-May-13,Electrical connection,28,Tondo
+2AM 13-May-13,Cigarette Butt,28,Ermita
+12AM 14-May-13,Cigarette Butt,30,Tondo
+12PM 14-May-13,Electrical connection,30,Paco
+12PM 15-May-13,Electrical connection,30,Paco
+12PM 16-May-13,Under Investigation,31,Binondo
+12PM 17-May-13,Electrical connection,31,Ermita
+12PM 17-May-13,Under Investigation,31,Santa Ana
+12PM 17-May-13,Electrical connection,31,Tondo
+12PM 18-May-13,Electrical connection,30,Tondo
+7PM 18-May-13,Electrical connection,30,Binondo
+12PM 20-May-13,Electrical connection,30,Sampaloc
+12PM 20-May-13,"Electrical Appliances (kettle, stove, ref, flat iron) (except fan)",30,Santa Ana
+6PM 21-May-13,Other,29,Tondo
+12PM 21-May-13,Under Investigation,29,Tondo
+12PM 22-May-13,Cigarette Butt,31,Intramuros
+12PM 22-May-13,Electrical connection,31,Tondo
+12PM 22-May-13,Cigarette Butt,31,Santa Ana
+12PM 23-May-13,Electrical connection,31,Tondo
+12PM 23-May-13,Electrical connection,31,Intramuros
+12PM 25-May-13,Electrical connection,30,Sampaloc
+12PM 25-May-13,Electrical connection,30,Tondo
+8PM 25-May-13,Electrical connection,30,Malate
+12PM 27-May-13,Electrical connection,28,Santa Cruz
+12PM 27-May-13,Under Investigation,28,Santa Cruz
+12PM 27-May-13,Electrical connection,28,Tondo
+12PM 28-May-13,"LPG Leak, Gas, Keresone, Charcoal Stove",29,Tondo
+12PM 29-May-13,Electrical connection,28,Tondo
+12PM 29-May-13,Electrical connection,28,Tondo
+12PM 30-May-13,Electrical connection,27,Tondo
+12PM 30-May-13,Electrical connection,27,San Miguel
+12PM 31-May-13,Under Investigation,28,Sampaloc
+2AM 1-Jun-13,Under Investigation,29,Quiapo
+10PM 1-Jun-13,Electrical connection,29,Santa Ana
+7AM 2-Jun-13,Electrical connection,28,Ermita
+9PM 2-Jun-13,Electrical connection,28,Santa Ana
+9AM 3-Jun-13,Electrical connection,30,Santa Ana
+9PM 3-Jun-13,Electrical connection,30,Tondo
+11PM 3-Jun-13,Electrical connection,30,Santa Ana
+7AM 4-Jun-13,Electrical connection,30,Santa Mesa
+11PM 4-Jun-13,Electrical connection,30,Santa Ana
+9AM 5-Jun-13,Electrical connection,31,Santa Cruz
+6PM 5-Jun-13,Cigarette Butt,31,Sampaloc
+6AM 6-Jun-13,Electrical connection,30,Santa Cruz
+1PM 7-Jun-13,Electrical connection,28,Sampaloc
+6PM 7-Jun-13,"LPG Leak, Gas, Keresone, Charcoal Stove",28,Santa Ana
+10PM 8-Jun-13,Electrical connection,28,Santa Cruz
+5PM 9-Jun-13,Electrical connection,29,Paco
+7PM 9-Jun-13,Electrical connection,29,Binondo
+6PM 10-Jun-13,Electrical connection,29,Ermita
+10PM 10-Jun-13,Electrical connection,29,Sampaloc
+10PM 12-Jun-13,Electrical connection,29,Tondo
+4PM 14-Jun-13,Electrical connection,27,Santa Mesa
+5PM 14-Jun-13,Under Investigation,27,Tondo
+1PM 17-Jun-13,Under Investigation,28,Tondo
+9PM 18-Jun-13,Battery-related / Cellphone / Charger,28,Ermita
+8AM 19-Jun-13,Electrical connection,28,San Miguel
+6PM 19-Jun-13,Electrical connection,28,Sampaloc
+6AM 20-Jun-13,Electrical connection,29,Quiapo
+8AM 20-Jun-13,Electrical connection,29,Santa Cruz
+6PM 20-Jun-13,Electrical connection,29,Santa Mesa
+1AM 21-Jun-13,Electrical connection,28,Santa Cruz
+8PM 21-Jun-13,"LPG Leak, Gas, Keresone, Charcoal Stove",28,Ermita
+10AM 22-Jun-13,Electrical connection,28,Santa Cruz
+11PM 22-Jun-13,Electrical connection,28,Tondo
+3PM 23-Jun-13,Battery-related / Cellphone / Charger,29,Paco
+5AM 24-Jun-13,"LPG Leak, Gas, Keresone, Charcoal Stove",30,Sampaloc
+10PM 24-Jun-13,Electrical connection,30,Santa Ana
+11PM 24-Jun-13,Electrical connection,30,Tondo
+1PM 25-Jun-13,Electrical connection,29,Sampaloc
+7PM 26-Jun-13,"LPG Leak, Gas, Keresone, Charcoal Stove",26,Tondo
+11AM 29-Jun-13,Candle,28,Santa Ana
+7PM 29-Jun-13,Electrical connection,28,Quiapo
+11PM 29-Jun-13,Electrical connection,28,Sampaloc
+4PM 30-Jun-13,Cigarette Butt,27,Ermita
+5PM 1-Jul-13,Electrical connection,30,Santa Ana
+8PM 2-Jul-13,Electrical connection,28,Santa Ana
+7AM 3-Jul-13,Air-conditioned Fire/Air-cooler/Fan,27,Tondo
+9AM 3-Jul-13,Electrical connection,27,Santa Ana
+11AM 3-Jul-13,Electrical connection,27,Ermita
+12PM 3-Jul-13,Candle,27,Tondo
+11AM 4-Jul-13,Cigarette Butt,29,Santa Mesa
+3PM 4-Jul-13,Under Investigation,29,Sampaloc
+11AM 5-Jul-13,Electrical connection,29,Ermita
+10PM 5-Jul-13,Cigarette Butt,29,Tondo
+12PM 6-Jul-13,Cigarette Butt,29,Santa Cruz
+11AM 7-Jul-13,"LPG Leak, Gas, Keresone, Charcoal Stove",29,Paco
+3PM 9-Jul-13,Under Investigation,29,Sampaloc
+7PM 9-Jul-13,Electrical connection,29,Santa Ana
+3AM 10-Jul-13,Electrical connection,28,Paco
+9AM 10-Jul-13,Cigarette Butt,28,Tondo
+10PM 11-Jul-13,Electrical connection,28,Santa Ana
+1AM 12-Jul-13,Battery-related / Cellphone / Charger,29,Sampaloc
+9AM 13-Jul-13,"LPG Leak, Gas, Keresone, Charcoal Stove",28,Santa Ana
+11AM 13-Jul-13,Electrical connection,28,San Nicolas
+3PM 13-Jul-13,"LPG Leak, Gas, Keresone, Charcoal Stove",28,Tondo
+5AM 15-Jul-13,Electrical connection,27,Santa Ana
+2PM 15-Jul-13,Electrical connection,27,Santa Ana
+6PM 15-Jul-13,Under Investigation,27,Quiapo
+8PM 15-Jul-13,Electrical connection,27,Ermita
+11AM 19-Jul-13,Electrical connection,29,Santa Cruz
+8PM 19-Jul-13,Electrical connection,29,Pandacan
+2PM 20-Jul-13,"LPG Leak, Gas, Keresone, Charcoal Stove",27,Intramuros
+7PM 20-Jul-13,"LPG Leak, Gas, Keresone, Charcoal Stove",27,Quiapo
+3AM 21-Jul-13,Electrical connection,31,Sampaloc
+6PM 21-Jul-13,Under Investigation,31,Tondo
+2AM 22-Jul-13,Under Investigation,29,Malate
+11AM 22-Jul-13,Electrical connection,29,Ermita
+12AM 23-Jul-13,Candle,26,Tondo
+9PM 23-Jul-13,Electrical connection,26,Sampaloc
+8AM 24-Jul-13,Electrical connection,28,Paco
+3AM 25-Jul-13,Electrical connection,29,Tondo
+11PM 25-Jul-13,Electrical connection,29,Pandacan
+6AM 26-Jul-13,Electrical connection,29,Sampaloc
+7PM 26-Jul-13,Electrical connection,29,Santa Cruz
+2PM 27-Jul-13,Electrical connection,28,San Miguel
+2AM 28-Jul-13,Electrical connection,26,Tondo
+6PM 29-Jul-13,Electrical connection,27,Sampaloc
+11AM 30-Jul-13,Electrical connection,28,Ermita
+1AM 1-Aug-13,Under Investigation,27,Tondo
+9PM 2-Aug-13,Electrical connection,28,Santa Cruz
+6PM 3-Aug-13,Electrical connection,27,Tondo
+9PM 3-Aug-13,Electrical connection,27,Santa Cruz
+3PM 5-Aug-13,Electrical connection,30,Tondo
+9PM 5-Aug-13,Electrical connection,30,Sampaloc
+10PM 5-Aug-13,Electrical connection,30,Santa Ana
+10AM 6-Aug-13,Electrical connection,26,Tondo
+11AM 6-Aug-13,Electrical connection,26,Sampaloc
+3PM 6-Aug-13,Open flame,26,Malate
+7AM 7-Aug-13,Under Investigation,27,Tondo
+7AM 8-Aug-13,Electrical connection,30,Paco
+11AM 11-Aug-13,"LPG Leak, Gas, Keresone, Charcoal Stove",27,Tondo
+10AM 13-Aug-13,Under Investigation,28,Binondo
+11AM 13-Aug-13,Candle,28,Tondo
+11AM 13-Aug-13,Electrical connection,28,Tondo
+4PM 13-Aug-13,Electrical connection,28,San Miguel
+7PM 14-Aug-13,Electrical connection,29,Malate
+9PM 15-Aug-13,Electrical connection,30,Sampaloc
+9AM 16-Aug-13,Candle,30,Tondo
+11AM 16-Aug-13,"LPG Leak, Gas, Keresone, Charcoal Stove",30,Sampaloc
+11AM 16-Aug-13,Electrical connection,30,Binondo
+1PM 17-Aug-13,Electrical connection,26,Sampaloc
+9AM 18-Aug-13,Electrical connection,26,Pandacan
+8PM 18-Aug-13,Electrical connection,26,Santa Mesa
+10PM 18-Aug-13,Electrical connection,26,Tondo
+2AM 19-Aug-13,Electrical connection,25,Tondo
+7AM 19-Aug-13,Electrical connection,25,Tondo
+7PM 19-Aug-13,Electrical connection,25,Pandacan
+9PM 19-Aug-13,Electrical connection,25,Sampaloc
+2AM 20-Aug-13,Electrical connection,24,Sampaloc
+10AM 20-Aug-13,Electrical connection,24,Tondo
+9PM 20-Aug-13,Electrical connection,24,Tondo
+3AM 21-Aug-13,Electrical connection,25,Paco
+9AM 21-Aug-13,Electrical connection,25,Tondo
+1PM 21-Aug-13,Electrical connection,25,Ermita
+1PM 21-Aug-13,Electrical connection,25,Sampaloc
+12PM 23-Aug-13,Electrical connection,28,Santa Cruz
+7PM 23-Aug-13,Electrical connection,28,Tondo
+9PM 25-Aug-13,Electrical connection,27,Tondo
+8AM 27-Aug-13,Electrical connection,27,Ermita
+10PM 27-Aug-13,Electrical connection,27,Tondo
+9AM 28-Aug-13,Electrical connection,28,Santa Cruz
+11AM 28-Aug-13,Open flame,28,Binondo
+5AM 29-Aug-13,Electrical connection,30,Sampaloc
+11AM 29-Aug-13,Electrical connection,30,Malate
+6AM 31-Aug-13,Electrical connection,29,Paco
+6PM 1-Sep-13,Cigarette Butt,29,Tondo
+8PM 1-Sep-13,Electrical connection,29,Paco
+5PM 2-Sep-13,Open flame,29,Pandacan
+5PM 2-Sep-13,Under Investigation,29,Sampaloc
+6PM 2-Sep-13,Open flame,29,Sampaloc
+8PM 2-Sep-13,Electrical connection,29,Sampaloc
+12AM 3-Sep-13,Alcohol Lamp Fire,30,Sampaloc
+8PM 3-Sep-13,Electrical connection,30,Paco
+9AM 4-Sep-13,Electrical connection,27,Sampaloc
+3PM 5-Sep-13,Electrical connection,27,Tondo
+1PM 6-Sep-13,Electrical connection,26,Tondo
+8PM 6-Sep-13,Electrical connection,26,Santa Cruz
+2PM 7-Sep-13,"LPG Leak, Gas, Keresone, Charcoal Stove",28,Ermita
+10PM 7-Sep-13,Electrical connection,28,Ermita
+9PM 8-Sep-13,Under Investigation,27,Tondo
+9AM 9-Sep-13,Electrical connection,28,Tondo
+8PM 9-Sep-13,Under Investigation,28,Tondo
+7PM 10-Sep-13,Electrical connection,28,Tondo
+7AM 11-Sep-13,Under Investigation,29,Tondo
+1PM 11-Sep-13,Electrical connection,29,Paco
+7PM 11-Sep-13,"LPG Leak, Gas, Keresone, Charcoal Stove",29,Tondo
+9AM 12-Sep-13,Under Investigation,27,Sampaloc
+3PM 12-Sep-13,Cigarette Butt,27,Tondo
+2AM 13-Sep-13,Under Investigation,27,Santa Cruz
+11PM 13-Sep-13,Electrical connection,27,Santa Ana
+8AM 15-Sep-13,"LPG Leak, Gas, Keresone, Charcoal Stove",25,Santa Ana
+7PM 15-Sep-13,Electrical connection,25,Sampaloc
+3AM 16-Sep-13,Electrical connection,26,Tondo
+6PM 16-Sep-13,Electrical connection,26,Tondo
+7PM 16-Sep-13,Electrical connection,26,Santa Ana
+10PM 16-Sep-13,Electrical connection,26,Paco
+11AM 18-Sep-13,Cigarette Butt,28,Quiapo
+1PM 18-Sep-13,Electrical connection,28,Sampaloc
+1PM 18-Sep-13,Chimney Fire,28,Sampaloc
+5PM 18-Sep-13,Under Investigation,28,Malate
+1PM 19-Sep-13,"LPG Leak, Gas, Keresone, Charcoal Stove",28,Paco
+12AM 21-Sep-13,Under Investigation,28,Tondo
+11AM 21-Sep-13,Cigarette Butt,28,Santa Cruz
+12AM 22-Sep-13,Electrical connection,25,Tondo
+10AM 22-Sep-13,Electrical connection,25,Pandacan
+4AM 23-Sep-13,Under Investigation,24,Santa Cruz
+9AM 23-Sep-13,Electrical connection,24,Tondo
+9AM 23-Sep-13,Under Investigation,24,Santa Cruz
+10AM 23-Sep-13,Under Investigation,24,Tondo
+3PM 23-Sep-13,Under Investigation,24,Sampaloc
+6PM 23-Sep-13,Electrical connection,24,Quiapo
+11AM 24-Sep-13,Electrical connection,26,Santa Cruz
+12PM 24-Sep-13,Air-conditioned Fire/Air-cooler/Fan,26,Santa Cruz
+9AM 25-Sep-13,Electrical connection,27,Paco
+11AM 25-Sep-13,Electrical connection,27,Sampaloc
+6PM 25-Sep-13,Electrical connection,27,Paco
+10PM 25-Sep-13,"LPG Leak, Gas, Keresone, Charcoal Stove",27,Tondo
+7AM 28-Sep-13,Electrical connection,27,Tondo
+11PM 28-Sep-13,Electrical connection,27,Quiapo
+12AM 29-Sep-13,Under Investigation,28,Ermita
+11AM 29-Sep-13,Cigarette Butt,28,Santa Mesa
+6PM 29-Sep-13,Electrical connection,28,San Miguel
+8PM 29-Sep-13,Electrical connection,28,Santa Cruz
+10PM 29-Sep-13,Electrical connection,28,Quiapo
+5AM 30-Sep-13,Electrical connection,27,Quiapo
+1PM 30-Sep-13,Air-conditioned Fire/Air-cooler/Fan,27,Ermita
+6AM 1-Oct-13,"LPG Leak, Gas, Keresone, Charcoal Stove",28,Tondo
+7AM 1-Oct-13,Unattended cooking,28,San Miguel
+9AM 3-Oct-13,Alcohol Lamp Fire,28,Tondo
+3PM 4-Oct-13,Electrical connection,29,Santa Ana
+12PM 5-Oct-13,Electrical connection,29,Intramuros
+7PM 5-Oct-13,Electrical connection,29,Port Area
+9AM 6-Oct-13,Cigarette Butt,26,Pandacan
+12AM 7-Oct-13,Under Investigation,28,Tondo
+10PM 8-Oct-13,Unattended cooking,27,Paco
+9PM 9-Oct-13,Electrical connection,28,Binondo
+11PM 9-Oct-13,Electrical connection,28,Paco
+10PM 10-Oct-13,Electrical connection,28,Port Area
+11PM 10-Oct-13,Candle,28,Paco
+5AM 11-Oct-13,Electrical connection,25,Tondo
+8AM 11-Oct-13,Electrical connection,25,Sampaloc
+7PM 12-Oct-13,Electrical connection,26,Tondo
+12PM 13-Oct-13,"LPG Leak, Gas, Keresone, Charcoal Stove",27,Sampaloc
+2PM 14-Oct-13,Electrical connection,29,Santa Cruz
+7PM 14-Oct-13,Electrical connection,29,Sampaloc
+1PM 15-Oct-13,Air-conditioned Fire/Air-cooler/Fan,28,Intramuros
+5PM 15-Oct-13,Electrical connection,28,Santa Cruz
+6PM 15-Oct-13,Electrical connection,28,Port Area
+8AM 16-Oct-13,Electrical connection,26,Port Area
+10AM 16-Oct-13,Electrical connection,26,Ermita
+9PM 16-Oct-13,Electrical connection,26,Binondo
+2PM 17-Oct-13,Electrical connection,27,Quiapo
+3AM 18-Oct-13,Matress Fire,27,Santa Ana
+11PM 19-Oct-13,Electrical connection,29,Tondo
+8AM 20-Oct-13,"LPG Leak, Gas, Keresone, Charcoal Stove",28,Sampaloc
+1PM 20-Oct-13,Cigarette Butt,28,Sampaloc
+4PM 20-Oct-13,Electrical connection,28,Tondo
+7PM 21-Oct-13,Electrical connection,28,Pandacan
+3AM 22-Oct-13,Air-conditioned Fire/Air-cooler/Fan,28,Sampaloc
+4PM 23-Oct-13,Electrical connection,27,Sampaloc
+5PM 23-Oct-13,Under Investigation,27,Intramuros
+8PM 25-Oct-13,Electrical connection,28,Pandacan
+9AM 26-Oct-13,Electrical connection,26,Sampaloc
+4PM 26-Oct-13,Candle,26,Santa Ana
+7PM 27-Oct-13,Electrical connection,27,Santa Mesa
+8PM 27-Oct-13,"LPG Leak, Gas, Keresone, Charcoal Stove",27,Tondo
+9PM 27-Oct-13,Under Investigation,27,Sampaloc
+3PM 28-Oct-13,Electrical connection,27,Ermita
+11AM 30-Oct-13,Electrical connection,28,Tondo
+12PM 30-Oct-13,Under Investigation,28,Sampaloc
+5PM 31-Oct-13,Electrical connection,28,Sampaloc
+1AM 1-Nov-13,Cigarette Butt,28,Sampaloc
+12PM 1-Nov-13,Candle,28,Quiapo
+11PM 2-Nov-13,Under Investigation,27,Paco
+1AM 2-Nov-13,Electrical connection,27,Tondo
+4PM 2-Nov-13,Under Investigation,27,Binondo
+9PM 4-Nov-13,Under Investigation,28,Sampaloc
+10AM 5-Nov-13,Electrical connection,26,Malate
+10AM 6-Nov-13,Electrical connection,29,Santa Cruz
+6AM 7-Nov-13,Electrical connection,28,Binondo
+8AM 7-Nov-13,Battery-related / Cellphone / Charger,28,Sampaloc
+11AM 7-Nov-13,Matchstick and Lighter,28,Tondo
+5PM 8-Nov-13,Cigarette Butt,26,Ermita
+1AM 9-Nov-13,Under Investigation,29,Santa Mesa
+8AM 9-Nov-13,Electrical connection,29,Santa Cruz
+11AM 9-Nov-13,Electrical connection,29,Santa Ana
+8PM 10-Nov-13,Electrical connection,29,Santa Mesa
+9PM 10-Nov-13,"LPG Leak, Gas, Keresone, Charcoal Stove",29,Malate
+10PM 12-Nov-13,Electrical connection,27,Tondo
+8PM 14-Nov-13,Electrical connection,28,Sampaloc
+8PM 14-Nov-13,Electrical connection,28,San Miguel
+7AM 15-Nov-13,Electrical connection,29,Santa Mesa
+6AM 17-Nov-13,Air-conditioned Fire/Air-cooler/Fan,28,Santa Ana
+9AM 17-Nov-13,Electrical connection,28,Tondo
+6PM 17-Nov-13,Electrical connection,28,Santa Ana
+6PM 19-Nov-13,Electrical connection,26,Santa Cruz
+4PM 19-Nov-13,Electrical connection,26,Sampaloc
+9AM 20-Nov-13,Electrical connection,27,Sampaloc
+12AM 21-Nov-13,Under Investigation,27,Sampaloc
+11AM 21-Nov-13,Electrical connection,27,Paco
+12PM 21-Nov-13,Cigarette Butt,27,Binondo
+7PM 21-Nov-13,Air-conditioned Fire/Air-cooler/Fan,27,Santa Cruz
+6AM 22-Nov-13,Under Investigation,27,Sampaloc
+8PM 22-Nov-13,Open flame,27,Binondo
+10PM 22-Nov-13,Air-conditioned Fire/Air-cooler/Fan,27,Tondo
+5PM 22-Nov-15,Electrical connection,27,Malate
+10AM 24-Nov-13,Candle,27,Tondo
+7PM 24-Nov-13,Electrical connection,27,Tondo
+10PM 26-Nov-13,Electrical connection,27,Sampaloc
+6AM 27-Nov-13,"LPG Leak, Gas, Keresone, Charcoal Stove",28,Malate
+9AM 27-Nov-13,"LPG Leak, Gas, Keresone, Charcoal Stove",28,Sampaloc
+2PM 27-Nov-13,Under Investigation,28,Binondo
+10PM 27-Nov-13,Candle,28,Quiapo
+6PM 28-Nov-13,Electrical connection,29,Pandacan
+4PM 30-Nov-13,Under Investigation,26,Paco
+12PM 2-Dec-13,Electrical connection,27,San Miguel
+8AM 5-Dec-13,Electrical connection,27,Ermita
+6PM 5-Dec-13,Unattended cooking,27,Santa Cruz
+1AM 6-Dec-13,Electrical connection,26,Port Area
+5PM 6-Dec-13,Electrical connection,26,Sampaloc
+11AM 7-Dec-13,Cigarette Butt,27,Pandacan
+1AM 9-Dec-13,Electrical connection,28,Tondo
+4PM 9-Dec-13,Electrical connection,28,Tondo
+9PM 9-Dec-13,Electrical connection,28,Tondo
+9AM 10-Dec-13,Electrical connection,28,Ermita
+3PM 10-Dec-13,Electrical connection,28,Tondo
+6AM 11-Dec-13,Electrical connection,27,Ermita
+9AM 11-Dec-13,Electrical connection,27,Binondo
+9PM 11-Dec-13,Electrical connection,27,Tondo
+9AM 12-Dec-13,Under Investigation,28,Santa Mesa
+9PM 13-Dec-13,Under Investigation,28,Sampaloc
+2AM 14-Dec-13,Electrical connection,29,Ermita
+11AM 16-Dec-13,Electrical connection,27,San Andres
+4PM 16-Dec-13,Electrical connection,27,Tondo
+12AM 17-Dec-13,Electrical connection,29,Tondo
+9PM 18-Dec-13,Electrical connection,28,Ermita
+8AM 19-Dec-13,Air-conditioned Fire/Air-cooler/Fan,28,Ermita
+8PM 21-Dec-13,"LPG Leak, Gas, Keresone, Charcoal Stove",27,Tondo
+1PM 23-Dec-13,Under Investigation,27,Sampaloc
+12AM 24-Dec-13,Under Investigation,27,Malate
+6PM 24-Dec-13,Electrical connection,27,Sampaloc
+6PM 24-Dec-13,Electrical connection,27,Tondo
+7PM 24-Dec-13,Electrical connection,27,Tondo
+11AM 26-Dec-13,Electrical connection,28,Santa Mesa
+2PM 28-Dec-13,Under Investigation,26,Santa Ana
+10PM 28-Dec-13,"LPG Leak, Gas, Keresone, Charcoal Stove",26,Binondo
+11AM 29-Dec-13,Under Investigation,26,Sampaloc
+11AM 30-Dec-13,Under Investigation,27,Santa Cruz
+7PM 30-Dec-13,Electrical connection,27,Sampaloc
+8PM 31-Dec-13,Under Investigation,27,Pandacan
+10PM 31-Dec-13,Electrical connection,27,Pandacan
+10PM 31-Dec-13,Cigarette Butt,27,Tondo
+12AM 1-Jan-14,Under Investigation,27,Binondo
+1AM 1-Jan-14,Electrical connection,27,Binondo
+4AM 1-Jan-14,Firecracker,27,Tondo
+6PM 2-Jan-14,Firecracker,27,Tondo
+9PM 2-Jan-14,Electrical connection,27,Tondo
+10AM 3-Jan-14,Electrical connection,26,Tondo
+4PM 3-Jan-14,Cigarette Butt,26,Binondo
+8AM 4-Jan-14,Cigarette Butt,27,Binondo
+3PM 4-Jan-14,Electrical connection,27,Santa Ana
+2AM 7-Jan-14,Under Investigation,26,Paco
+1PM 7-Jan-14,Cigarette Butt,26,Tondo
+3PM 8-Jan-14,Cigarette Butt,26,Quiapo
+7PM 8-Jan-14,Electrical connection,26,Santa Cruz
+10AM 10-Jan-14,Electrical connection,25,Sampaloc
+12PM 10-Jan-14,"LPG Leak, Gas, Keresone, Charcoal Stove",25,Binondo
+2PM 10-Jan-14,Electrical connection,25,Ermita
+12AM 11-Jan-14,Cigarette Butt,25,Sampaloc
+9AM 11-Jan-14,Matchstick and Lighter,25,Santa Cruz
+10AM 11-Jan-14,Electrical connection,25,Pandacan
+10AM 13-Jan-14,Cigarette Butt,27,Santa Ana
+3PM 13-Jan-14,Open flame,27,San Nicolas
+12AM 14-Jan-14,Cigarette Butt,27,Sampaloc
+9AM 14-Jan-14,Electrical connection,27,Sampaloc
+8PM 14-Jan-14,Electrical connection,27,Santa Cruz
+3AM 15-Jan-14,Under Investigation,26,Santa Ana
+9AM 15-Jan-14,Electrical connection,26,Santa Ana
+2PM 15-Jan-14,"LPG Leak, Gas, Keresone, Charcoal Stove",26,Sampaloc
+5PM 15-Jan-14,Electrical connection,26,Santa Ana
+3PM 16-Jan-14,Under Investigation,26,Tondo
+3AM 18-Jan-14,Cigarette Butt,25,Sampaloc
+10AM 18-Jan-14,Under Investigation,25,Port Area
+6PM 18-Jan-14,Electrical connection,25,Quiapo
+6PM 19-Jan-14,Firecracker,25,Sampaloc
+7AM 20-Jan-14,"LPG Leak, Gas, Keresone, Charcoal Stove",24,Santa Cruz
+3PM 20-Jan-14,Under Investigation,24,Binondo
+7AM 22-Jan-14,Under Investigation,26,Santa Ana
+8PM 22-Jan-14,Electrical connection,26,San Miguel
+8PM 22-Jan-14,Electrical connection,26,Santa Cruz
+11PM 22-Jan-14,Electrical connection,26,Tondo
+1PM 24-Jan-14,Under Investigation,24,Malate
+6PM 24-Jan-14,"LPG Leak, Gas, Keresone, Charcoal Stove",24,Tondo
+7PM 24-Jan-14,Electrical connection,24,Tondo
+10PM 24-Jan-14,Cigarette Butt,24,Tondo
+11AM 25-Jan-14,"LPG Leak, Gas, Keresone, Charcoal Stove",22,Ermita
+7PM 25-Jan-14,Open flame,22,Santa Ana
+6AM 26-Jan-14,Cigarette Butt,24,Santa Cruz
+2PM 26-Jan-14,Electrical connection,24,Santa Cruz
+10AM 27-Jan-14,Arson,27,Tondo
+7AM 28-Jan-14,Under Investigation,25,Pandacan
+9AM 28-Jan-14,Open flame,25,Tondo
+2PM 28-Jan-14,Matchstick and Lighter,25,Tondo
+8PM 28-Jan-14,Under Investigation,25,Sampaloc
+11AM 29-Jan-14,Electrical connection,25,Sampaloc
+4PM 29-Jan-14,Cigarette Butt,25,Santa Ana
+11PM 30-Jan-14,Cigarette Butt,25,Sampaloc
+4PM 31-Jan-14,Cigarette Butt,25,Tondo
+5PM 31-Jan-14,Electrical connection,25,Tondo
+8PM 31-Jan-14,Electrical connection,25,Tondo
+8PM 2-Feb-14,Air-conditioned Fire/Air-cooler/Fan,29,Pandacan
+2AM 2-Feb-14,Cigarette Butt,29,Sampaloc
+1PM 3-Feb-14,Under Investigation,28,Tondo
+7PM 3-Feb-14,Electrical connection,28,Santa Ana
+4AM 4-Feb-14,Candle,28,Sampaloc
+2PM 4-Feb-14,Under Investigation,28,Quiapo
+6PM 4-Feb-14,Electrical connection,28,Sampaloc
+7PM 5-Feb-14,Air-conditioned Fire/Air-cooler/Fan,27,Sampaloc
+2PM 6-Feb-14,Under Investigation,30,Malate
+6PM 6-Feb-14,Electrical connection,30,Sampaloc
+7PM 6-Feb-14,Electrical connection,30,Tondo
+3PM 7-Feb-14,Cigarette Butt,28,Tondo
+3PM 7-Feb-14,Open flame,28,Binondo
+11AM 8-Feb-14,Matchstick and Lighter,23,Sampaloc
+2PM 9-Feb-14,Electrical connection,28,Santa Cruz
+5AM 10-Feb-14,Under Investigation,28,Sampaloc
+9AM 10-Feb-14,Under Investigation,28,Santa Cruz
+10AM 12-Feb-14,Electrical connection,25,Tondo
+4PM 12-Feb-14,Under Investigation,25,Sampaloc
+10AM 13-Feb-14,Open flame,26,Intramuros
+1PM 13-Feb-14,Cigarette Butt,26,Ermita
+3PM 13-Feb-14,"LPG Leak, Gas, Keresone, Charcoal Stove",26,Sampaloc
+7PM 13-Feb-14,Open flame,26,Sampaloc
+9PM 13-Feb-14,Candle,26,Santa Ana
+4PM 14-Feb-14,Electrical connection,26,Intramuros
+5PM 14-Feb-14,Electrical connection,26,Ermita
+5PM 15-Feb-14,Candle,26,Tondo
+9AM 16-Feb-14,Under Investigation,26,Ermita
+2AM 18-Feb-14,Under Investigation,27,Santa Ana
+9AM 18-Feb-14,Cigarette Butt,27,Santa Cruz
+7PM 18-Feb-14,Electrical connection,27,Santa Ana
+1AM 19-Feb-14,Cigarette Butt,25,Tondo
+2PM 19-Feb-14,Cigarette Butt,25,Sampaloc
+9PM 19-Feb-14,Electrical connection,25,Tondo
+10PM 21-Feb-14,Cigarette Butt,26,Paco
+11AM 22-Feb-14,Arson,26,Pandacan
+4AM 24-Feb-14,Cigarette Butt,28,Sampaloc
+8AM 24-Feb-14,Electrical connection,28,Malate
+9AM 24-Feb-14,Electrical connection,28,Malate
+9PM 25-Feb-14,Electrical connection,26,Ermita
+8AM 26-Feb-14,"LPG Leak, Gas, Keresone, Charcoal Stove",26,Sampaloc
+8AM 26-Feb-14,Electrical connection,26,Tondo
+1AM 27-Feb-14,Electrical connection,26,Sampaloc
+6AM 27-Feb-14,Electrical connection,26,Sampaloc
+9AM 28-Feb-14,Under Investigation,27,Sampaloc
+10PM 28-Feb-14,Electrical connection,27,Paco
+8AM 2-Mar-14,Cigarette Butt,27,Sampaloc
+4PM 2-Mar-14,Cigarette Butt,27,Tondo
+8PM 2-Mar-14,Under Investigation,27,Malate
+10AM 3-Mar-14,Cigarette Butt,29,Sampaloc
+12PM 3-Mar-14,"LPG Leak, Gas, Keresone, Charcoal Stove",29,Sampaloc
+12PM 3-Mar-14,Electrical connection,29,Tondo
+11AM 4-Mar-14,Other,28,Sampaloc
+11PM 4-Mar-14,Electrical connection,28,Binondo
+4PM 5-Mar-14,Under Investigation,27,Tondo
+7PM 5-Mar-14,Cigarette Butt,27,Ermita
+7PM 5-Mar-14,Electrical connection,27,Sampaloc
+9PM 5-Mar-14,Electrical connection,27,Santa Mesa
+6PM 6-Mar-14,Electrical connection,28,Pandacan
+9AM 7-Mar-14,Cigarette Butt,26,Tondo
+2PM 7-Mar-14,Electrical connection,26,Tondo
+7PM 7-Mar-14,Electrical connection,26,Tondo
+4PM 8-Mar-14,Electrical connection,26,Santa Cruz
+2PM 9-Mar-14,Electrical connection,27,Pandacan
+7PM 9-Mar-14,Electrical connection,27,Pandacan
+4AM 11-Mar-14,Electrical connection,28,Sampaloc
+11PM 11-Mar-14,Electrical connection,28,Quiapo
+2PM 12-Mar-14,Cigarette Butt,29,Tondo
+8PM 12-Mar-14,Candle,29,Sampaloc
+7PM 13-Mar-14,Electrical connection,29,Pandacan
+10PM 13-Mar-14,Electrical connection,29,Santa Cruz
+12PM 14-Mar-14,Electrical connection,30,Sampaloc
+10PM 15-Mar-14,Electrical connection,29,Quiapo
+11PM 15-Mar-14,Electrical connection,29,Malate
+2PM 16-Mar-14,Candle,28,Malate
+2PM 17-Mar-14,Under Investigation,29,Tondo
+7PM 17-Mar-14,Electrical connection,29,Pandacan
+12AM 19-Mar-14,Open flame,29,Santa Cruz
+2PM 19-Mar-14,Cigarette Butt,29,Quiapo
+2PM 20-Mar-14,Under Investigation,29,Santa Cruz
+12PM 21-Mar-14,Under Investigation,28,Sampaloc
+5PM 21-Mar-14,Arson,28,Quiapo
+6PM 21-Mar-14,Cigarette Butt,28,Ermita
+2PM 22-Mar-14,Cigarette Butt,24,Tondo
+9PM 22-Mar-14,Electrical connection,24,Sampaloc
+12AM 23-Mar-14,Under Investigation,26,Tondo
+1AM 23-Mar-14,Cigarette Butt,26,Sampaloc
+10AM 23-Mar-14,Cigarette Butt,26,Santa Cruz
+10PM 23-Mar-14,Air-conditioned Fire/Air-cooler/Fan,26,Tondo
+4AM 24-Mar-14,"LPG Leak, Gas, Keresone, Charcoal Stove",26,Sampaloc
+5PM 24-Mar-14,Electrical connection,26,San Nicolas
+6PM 24-Mar-14,Electrical connection,26,Pandacan
+8PM 24-Mar-14,Electrical connection,26,Sampaloc
+9PM 24-Mar-14,Electrical connection,26,Malate
+11PM 24-Mar-14,Under Investigation,26,Sampaloc
+12AM 25-Mar-14,Electrical connection,28,Tondo
+12PM 25-Mar-14,Electrical connection,28,Tondo
+8PM 25-Mar-14,"LPG Leak, Gas, Keresone, Charcoal Stove",28,Tondo
+9AM 26-Mar-14,Cigarette Butt,30,Sampaloc
+7PM 26-Mar-14,Electrical connection,30,Santa Ana
+10PM 26-Mar-14,Candle,30,San Nicolas
+4AM 27-Mar-14,Electrical connection,29,Pandacan
+1AM 28-Mar-14,Cigarette Butt,31,Tondo
+2PM 28-Mar-14,Electrical connection,31,Santa Cruz
+1PM 29-Mar-14,Electrical connection,30,Santa Ana
+3PM 30-Mar-14,Electrical connection,29,Ermita
+4PM 30-Mar-14,Under Investigation,29,Ermita
+10PM 30-Mar-14,Under Investigation,29,Binondo
+2PM 31-Mar-14,Matress Fire,30,Tondo
+3PM 31-Mar-14,"LPG Leak, Gas, Keresone, Charcoal Stove",30,Tondo
+6PM 2-Apr-14,Electrical connection,30,Tondo
+9PM 2-Apr-14,Electrical connection,30,Santa Ana
+1AM 3-Apr-14,Chimney Fire,30,Quiapo
+2AM 3-Apr-14,Electrical connection,30,Quiapo
+3PM 3-Apr-14,Cigarette Butt,30,Tondo
+6PM 3-Apr-14,Matchstick and Lighter,30,Santa Ana
+6PM 4-Apr-14,Electrical connection,31,Ermita
+3PM 4-Apr-14,Candle,31,Santa Ana
+5PM 4-Apr-14,Under Investigation,31,Santa Ana
+7PM 4-Apr-14,Cigarette Butt,31,Quiapo
+3PM 5-Apr-14,Electrical connection,30,Santa Ana
+4PM 5-Apr-14,Under Investigation,30,Santa Cruz
+10PM 5-Apr-14,Under Investigation,30,Sampaloc
+2PM 6-Apr-14,Electrical connection,29,Sampaloc
+4PM 6-Apr-14,Electrical connection,29,Tondo
+6PM 6-Apr-14,Electrical connection,29,Sampaloc
+8AM 7-Apr-14,Electrical connection,29,Ermita
+7PM 7-Apr-14,Electrical connection,29,Sampaloc
+9PM 7-Apr-14,Chimney Fire,29,Pandacan
+10AM 8-Apr-14,Electrical connection,29,Tondo
+3PM 8-Apr-14,Acetylene,29,Santa Cruz
+7PM 8-Apr-14,Matchstick and Lighter,29,Tondo
+10PM 8-Apr-14,"LPG Leak, Gas, Keresone, Charcoal Stove",29,Santa Cruz
+12PM 9-Apr-14,Cigarette Butt,29,Tondo
+8AM 10-Apr-14,Under Investigation,29,Quiapo
+3AM 11-Apr-14,Air-conditioned Fire/Air-cooler/Fan,29,Sampaloc
+2PM 11-Apr-14,Electrical connection,29,Ermita
+2PM 11-Apr-14,Electrical connection,29,Ermita
+6PM 12-Apr-14,Electrical connection,29,Tondo
+5AM 13-Apr-14,"LPG Leak, Gas, Keresone, Charcoal Stove",29,Binondo
+6PM 14-Apr-14,Acetylene,29,Sampaloc
+4PM 15-Apr-14,Cigarette Butt,30,Ermita
+11AM 17-Apr-14,Electrical connection,30,San Miguel
+9PM 18-Apr-14,Electrical connection,30,Sampaloc
+2AM 19-Apr-14,Under Investigation,30,Malate
+9PM 19-Apr-14,Electrical connection,30,Sampaloc
+3AM 20-Apr-14,Under Investigation,30,Sampaloc
+9AM 21-Apr-14,Electrical connection,32,Santa Cruz
+11AM 21-Apr-14,Under Investigation,32,Tondo
+3PM 21-Apr-14,Electrical connection,32,Sampaloc
+4PM 21-Apr-14,Open flame,32,Pandacan
+11AM 22-Apr-14,Electrical connection,31,Quiapo
+5PM 22-Apr-14,Acetylene,31,Santa Cruz
+11PM 22-Apr-14,Electrical connection,31,Sampaloc
+10AM 23-Apr-14,Under Investigation,31,Santa Ana
+6PM 23-Apr-14,Cigarette Butt,31,San Miguel
+9PM 23-Apr-14,Electrical connection,31,Pandacan
+3PM 24-Apr-14,Bomb,30,Tondo
+5PM 24-Apr-14,Electrical connection,30,Tondo
+7AM 26-Apr-14,Under Investigation,30,Malate
+2PM 26-Apr-14,Under Investigation,30,Sampaloc
+4PM 26-Apr-14,Cigarette Butt,30,Tondo
+6PM 26-Apr-14,Electrical connection,30,Tondo
+6AM 27-Apr-14,Electrical connection,31,Ermita
+11PM 27-Apr-14,Electrical connection,31,Pandacan
+3AM 28-Apr-14,"LPG Leak, Gas, Keresone, Charcoal Stove",31,Santa Cruz
+1AM 29-Apr-14,Electrical connection,31,Santa Ana
+8AM 29-Apr-14,Electrical connection,31,Tondo
+12PM 29-Apr-14,Under Investigation,31,Binondo
+3PM 29-Apr-14,Under Investigation,31,Malate
+7PM 29-Apr-14,Electrical connection,31,Tondo
+11AM 30-Apr-14,Electrical connection,30,Santa Ana
+9PM 30-Apr-14,Electrical connection,30,Tondo
+11PM 30-Apr-14,Electrical connection,30,Sampaloc
+11PM 1-May-14,Electrical connection,31,Sampaloc
+8AM 2-May-14,Electrical connection,31,Sampaloc
+8AM 2-May-14,Electrical connection,31,Port Area
+8PM 2-May-14,Electrical connection,31,Tondo
+6PM 3-May-14,Electrical connection,29,Tondo
+9PM 3-May-14,Under Investigation,29,Tondo
+7PM 4-May-14,Electrical connection,29,Quiapo
+7PM 4-May-14,Electrical connection,29,Santa Ana
+7PM 6-May-14,Under Investigation,31,Paco
+2AM 7-May-14,Electrical connection,31,Quiapo
+11AM 7-May-14,Under Investigation,31,Binondo
+6AM 8-May-14,Electrical connection,31,Pandacan
+8PM 8-May-14,Electrical connection,31,Tondo
+8AM 9-May-14,Electrical connection,31,Quiapo
+3PM 9-May-14,Air-conditioned Fire/Air-cooler/Fan,31,Santa Ana
+3PM 9-May-14,Electrical connection,31,Paco
+7PM 9-May-14,Cigarette Butt,31,Ermita
+11PM 9-May-14,Electrical connection,31,Port Area
+10AM 10-May-14,Electrical connection,31,Port Area
+10AM 12-May-14,Candle,32,Tondo
+12PM 12-May-14,Cigarette Butt,32,Tondo
+1PM 12-May-14,Cigarette Butt,32,Binondo
+4PM 12-May-14,Electrical connection,32,San Nicolas
+11PM 12-May-14,Electrical connection,32,Paco
+9AM 13-May-14,Electrical connection,32,Paco
+6PM 13-May-14,Electrical connection,32,San Miguel
+7AM 15-May-14,Electrical connection,32,Tondo
+10AM 15-May-14,Open flame,32,Quiapo
+6PM 15-May-14,Electrical connection,32,Sampaloc
+1AM 16-May-14,Electrical connection,32,Santa Ana
+6AM 16-May-14,Electrical connection,32,Tondo
+1AM 17-May-14,Under Investigation,31,Sampaloc
+5PM 17-May-14,Firecracker,31,Santa Cruz
+2PM 18-May-14,Electrical connection,32,Tondo
+2AM 19-May-14,Arson,33,Sampaloc
+12PM 19-May-14,Electrical connection,33,Santa Ana
+7PM 19-May-14,Electrical connection,33,Santa Ana
+11PM 20-May-14,Electrical connection,32,Sampaloc
+11PM 20-May-14,Electrical connection,32,Malate
+12AM 21-May-14,Electrical connection,32,Ermita
+7AM 21-May-14,Electrical connection,32,San Miguel
+6PM 21-May-14,Under Investigation,32,Ermita
+3PM 22-May-14,Electrical connection,31,Ermita
+6PM 22-May-14,"LPG Leak, Gas, Keresone, Charcoal Stove",31,Malate
+6PM 22-May-14,Electrical connection,31,Tondo
+8PM 22-May-14,Electrical connection,31,Quiapo
+8PM 22-May-14,Electrical connection,31,Sampaloc
+6PM 23-May-14,"LPG Leak, Gas, Keresone, Charcoal Stove",32,Tondo
+8PM 23-May-14,Electrical connection,32,Tondo
+9PM 23-May-14,Electrical connection,32,Tondo
+9AM 24-May-14,Electrical connection,32,Tondo
+1PM 24-May-14,Electrical connection,32,Ermita
+12AM 25-May-14,Electrical connection,30,Quiapo
+6AM 25-May-14,Electrical connection,30,Sampaloc
+5PM 25-May-14,Electrical connection,30,Pandacan
+12PM 26-May-14,Electrical connection,30,Sampaloc
+4PM 26-May-14,Electrical connection,30,Sampaloc
+4PM 26-May-14,Electrical connection,30,Santa Ana
+5PM 26-May-14,Electrical connection,30,Tondo
+6PM 26-May-14,"LPG Leak, Gas, Keresone, Charcoal Stove",30,Sampaloc
+9PM 26-May-14,"LPG Leak, Gas, Keresone, Charcoal Stove",30,Santa Cruz
+10PM 26-May-14,Electrical connection,30,Binondo
+10AM 27-May-14,Cigarette Butt,30,Malate
+3PM 27-May-14,Electrical connection,30,Port Area
+8PM 27-May-14,Electrical connection,30,Sampaloc
+10PM 28-May-14,Electrical connection,30,Paco
+3PM 29-May-14,Electrical connection,30,Tondo
+9AM 30-May-14,Open flame,30,Binondo
+10AM 30-May-14,Cigarette Butt,30,Paco
+2PM 31-May-14,Under Investigation,30,Quiapo
+9AM 1-Jul-14,Candle,30,Tondo
+10AM 1-Jul-14,"LPG Leak, Gas, Keresone, Charcoal Stove",30,Tondo
+2PM 1-Jul-14,Electrical connection,30,Tondo
+6AM 2-Jul-14,Electrical connection,30,Tondo
+8PM 3-Jul-14,Under Investigation,30,Tondo
+2AM 4-Jul-14,Electrical connection,29,Paco
+12PM 4-Jul-14,Under Investigation,29,Tondo
+3AM 5-Jul-14,Electrical connection,28,Santa Ana
+2AM 7-Jul-14,Candle,29,Sampaloc
+10PM 7-Jul-14,Electrical connection,29,Pandacan
+5PM 10-Jul-14,Under Investigation,29,Sampaloc
+2PM 11-Jul-14,Air-conditioned Fire/Air-cooler/Fan,29,Sampaloc
+5PM 11-Jul-14,Spontaneous combustion,29,Sampaloc
+10AM 12-Jul-14,Electrical connection,31,Santa Cruz
+1PM 13-Jul-14,Under Investigation,30,Santa Cruz
+7PM 13-Jul-14,Electrical connection,30,Quiapo
+11AM 14-Jul-14,"LPG Leak, Gas, Keresone, Charcoal Stove",30,Malate
+1PM 14-Jul-14,Spontaneous combustion,30,Quiapo
+1PM 14-Jul-14,Electrical connection,30,Sampaloc
+12AM 15-Jul-14,Electrical connection,29,Pandacan
+8AM 15-Jul-14,Under Investigation,29,Paco
+8AM 15-Jul-14,Electrical connection,29,Tondo
+9AM 15-Jul-14,Electrical connection,29,Tondo
+9AM 15-Jul-14,Electrical connection,29,Sampaloc
+4PM 15-Jul-14,Under Investigation,29,Tondo
+5AM 16-Jul-14,Electrical connection,26,Sampaloc
+7AM 16-Jul-14,Electrical connection,26,Sampaloc
+8AM 16-Jul-14,Chimney Fire,26,Santa Cruz
+9AM 16-Jul-14,Electrical connection,26,Malate
+9AM 16-Jul-14,Electrical connection,26,Tondo
+10AM 16-Jul-14,Electrical connection,26,Quiapo
+11AM 16-Jul-14,Candle,26,Tondo
+1PM 16-Jul-14,Electrical connection,26,Pandacan
+1PM 16-Jul-14,Electrical connection,26,Santa Ana
+1PM 16-Jul-14,Electrical connection,26,Sampaloc
+10AM 17-Jul-14,Electrical connection,26,Paco
+12PM 17-Jul-14,Electrical connection,26,Tondo
+12PM 17-Jul-14,Electrical connection,26,Sampaloc
+12PM 17-Jul-14,Electrical connection,26,Sampaloc
+6PM 17-Jul-14,Electrical connection,26,Santa Ana
+6PM 17-Jul-14,Electrical connection,26,Sampaloc
+7PM 18-Jul-14,Electrical connection,29,Tondo
+9AM 19-Jul-14,Electrical connection,28,Sampaloc
+4PM 19-Jul-14,Electrical connection,28,Sampaloc
+7PM 21-Jul-14,Electrical connection,28,Tondo
+1AM 22-Jul-14,Under Investigation,27,Santa Cruz
+7PM 22-Jul-14,Electrical connection,27,Sampaloc
+1AM 23-Jul-14,Electrical connection,27,Santa Ana
+8AM 23-Jul-14,Electrical connection,27,Quiapo
+6PM 23-Jul-14,Electrical connection,27,Santa Cruz
+7PM 23-Jul-14,Electrical connection,27,Santa Cruz
+8PM 23-Jul-14,Electrical connection,27,Santa Ana
+9PM 23-Jul-14,Electrical connection,27,Quiapo
+1AM 25-Jul-14,Alcohol Lamp Fire,29,Tondo
+10AM 26-Jul-14,Spontaneous combustion,28,San Miguel
+4PM 26-Jul-14,Electrical connection,28,Sampaloc
+2AM 27-Jul-14,Electrical connection,28,Sampaloc
+2PM 28-Jul-14,Open flame,28,Ermita
+10PM 28-Jul-14,Air-conditioned Fire/Air-cooler/Fan,28,Sampaloc
+7PM 30-Jul-14,Electrical connection,28,Ermita
+5AM 31-Jul-14,Electrical connection,27,Paco
+2PM 31-Jul-14,Electrical connection,27,Santa Ana
+2PM 1-Aug-14,Electrical connection,27,Binondo
+7PM 3-Aug-14,Under Investigation,28,Malate
+6AM 4-Aug-14,Electrical connection,27,Ermita
+2PM 4-Aug-14,Electrical connection,27,Sampaloc
+6PM 4-Aug-14,Other,27,Sampaloc
+7PM 4-Aug-14,Electrical connection,27,Sampaloc
+8AM 5-Aug-14,Electrical connection,26,Tondo
+9PM 5-Aug-14,Electrical connection,26,Sampaloc
+1PM 6-Aug-14,Electrical connection,28,Sampaloc
+10AM 7-Aug-14,Candle,29,Sampaloc
+4PM 8-Aug-14,Electrical connection,30,Pandacan
+4PM 9-Aug-14,Electrical connection,30,Santa Cruz
+6AM 11-Aug-14,Electrical connection,30,Binondo
+1PM 11-Aug-14,Other,30,Santa Cruz
+8PM 12-Aug-14,Electrical connection,30,Sampaloc
+9AM 13-Aug-14,Electrical connection,30,Santa Ana
+10AM 13-Aug-14,Under Investigation,30,Tondo
+11AM 14-Aug-14,Electrical connection,30,Santa Cruz
+11AM 14-Aug-14,Electrical connection,30,Binondo
+9AM 15-Aug-14,Electrical connection,29,Paco
+7PM 15-Aug-14,Electrical connection,29,Ermita
+3AM 16-Aug-14,Under Investigation,28,Santa Ana
+1PM 16-Aug-14,Under Investigation,29,Sampaloc
+12PM 19-Aug-14,Electrical connection,29,Ermita
+3PM 19-Aug-14,Under Investigation,29,Santa Ana
+8PM 19-Aug-14,Electrical connection,29,Santa Cruz
+1PM 20-Aug-14,Electrical connection,28,Sampaloc
+8PM 20-Aug-14,Candle,28,Santa Cruz
+9PM 20-Aug-14,Under Investigation,28,Pandacan
+12AM 21-Aug-14,Other,29,Sampaloc
+6PM 21-Aug-14,Electrical connection,29,Santa Ana
+8PM 22-Aug-14,Under Investigation,27,Ermita
+5PM 23-Aug-14,Electrical connection,29,Tondo
+7PM 25-Aug-14,Electrical connection,29,Ermita
+7PM 25-Aug-14,Under Investigation,29,Sampaloc
+10PM 25-Aug-14,Electrical connection,29,Tondo
+8AM 26-Aug-14,Electrical connection,26,Tondo
+9AM 26-Aug-14,Electrical connection,26,Santa Ana
+7PM 26-Aug-14,Under Investigation,26,Quiapo
+5AM 26-Aug-14,Electrical connection,26,Ermita
+10PM 27-Aug-14,Electrical connection,29,Tondo
+7PM 29-Aug-14,Electrical connection,27,Sampaloc
+10PM 31-Aug-14,Electrical connection,28,Santa Cruz
+11PM 31-Aug-14,Electrical connection,28,Sampaloc
+10AM 2-Sep-14,Electrical connection,28,Quiapo
+11AM 2-Sep-14,"LPG Leak, Gas, Keresone, Charcoal Stove",28,Sampaloc
+1PM 2-Sep-14,Electrical connection,28,Ermita
+7PM 2-Sep-14,Electrical connection,28,Santa Ana
+10PM 2-Sep-14,Electrical connection,28,Santa Cruz
+6PM 3-Sep-14,Electrical connection,28,Quiapo
+6PM 3-Sep-14,Electrical connection,28,Sampaloc
+8PM 5-Sep-14,Electrical connection,28,Sampaloc
+9PM 5-Sep-14,Under Investigation,28,Malate
+11AM 7-Sep-14,Air-conditioned Fire/Air-cooler/Fan,30,Tondo
+12AM 8-Sep-14,Electrical connection,29,Sampaloc
+1AM 8-Sep-14,Arson,29,Quiapo
+1PM 8-Sep-14,Electrical connection,29,Quiapo
+4PM 9-Sep-14,Electrical connection,27,Tondo
+6AM 12-Sep-14,Electrical connection,30,Sampaloc
+7AM 12-Sep-14,Electrical connection,30,Santa Cruz
+4PM 12-Sep-14,Electrical connection,30,Santa Ana
+8PM 12-Sep-14,Under Investigation,30,Pandacan
+1PM 14-Sep-14,Electrical connection,26,Sampaloc
+5PM 14-Sep-14,Electrical connection,26,Santa Cruz
+5PM 14-Sep-14,Electrical connection,26,Sampaloc
+6PM 14-Sep-14,Electrical connection,26,Sampaloc
+11PM 14-Sep-14,Electrical connection,26,Quiapo
+11PM 15-Sep-14,Arson,28,Sampaloc
+11AM 16-Sep-14,Electrical connection,28,Sampaloc
+11AM 16-Sep-14,Electrical connection,28,Sampaloc
+3AM 17-Sep-14,Electrical connection,30,Sampaloc
+8PM 17-Sep-14,Cigarette Butt,30,Ermita
+2AM 18-Sep-14,Electrical connection,29,Tondo
+5AM 18-Sep-14,Electrical connection,29,Pandacan
+8AM 18-Sep-14,Electrical connection,29,Sampaloc
+9PM 18-Sep-14,Electrical connection,29,Sampaloc
+6AM 19-Sep-14,Electrical connection,25,Sampaloc
+12PM 19-Sep-14,Electrical connection,25,Sampaloc
+6PM 20-Sep-14,Electrical connection,28,Sampaloc
+8PM 20-Sep-14,Under Investigation,28,Sampaloc
+2AM 24-Sep-14,Matress Fire,29,Tondo
+7PM 24-Sep-14,Electrical connection,29,Tondo
+8PM 24-Sep-14,Under Investigation,29,Tondo
+10PM 24-Sep-14,Electrical connection,29,Tondo
+7PM 25-Sep-14,Electrical connection,28,Sampaloc
+5PM 26-Sep-14,Electrical connection,28,Tondo
+2PM 27-Sep-14,Electrical connection,28,Quiapo
+8PM 27-Sep-14,Electrical connection,28,Sampaloc
+11AM 29-Sep-14,Electrical connection,29,Sampaloc
+6AM 30-Sep-14,Under Investigation,29,Santa Ana
+8PM 30-Sep-14,Electrical connection,29,Santa Ana
+8AM 1-Oct-14,Electrical connection,29,Santa Ana
+2PM 1-Oct-14,Open flame,29,Sampaloc
+4PM 1-Oct-14,"LPG Leak, Gas, Keresone, Charcoal Stove",29,Sampaloc
+8PM 1-Oct-14,Electrical connection,29,Santa Cruz
+12AM 2-Oct-14,Electrical connection,28,Sampaloc
+9AM 2-Oct-14,Electrical connection,28,Santa Ana
+5PM 3-Oct-14,"LPG Leak, Gas, Keresone, Charcoal Stove",28,Quiapo
+5AM 3-Oct-14,"LPG Leak, Gas, Keresone, Charcoal Stove",28,Santa Cruz
+7AM 3-Oct-14,Electrical connection,28,Quiapo
+12PM 3-Oct-14,Under Investigation,28,Santa Cruz
+7PM 3-Oct-14,Open flame,28,Tondo
+12AM 4-Oct-14,Under Investigation,29,Santa Ana
+5AM 4-Oct-14,Electrical connection,29,Binondo
+4PM 7-Oct-14,Electrical connection,29,Port Area
+7PM 7-Oct-14,Electrical connection,29,Ermita
+10PM 8-Oct-14,Electrical connection,27,Santa Cruz
+8PM 9-Oct-14,Cigarette Butt,29,Tondo
+11PM 9-Oct-14,Electrical connection,29,Santa Cruz
+4PM 10-Oct-14,Electrical connection,29,Santa Ana
+8PM 10-Oct-14,Cigarette Butt,29,Sampaloc
+5PM 11-Oct-14,Electrical connection,29,Sampaloc
+7PM 11-Oct-14,Electrical connection,29,Sampaloc
+12PM 13-Oct-14,Electrical connection,28,Sampaloc
+1PM 13-Oct-14,Under Investigation,28,Tondo
+6PM 13-Oct-14,Electrical connection,28,Tondo
+10AM 14-Oct-14,Electrical connection,29,Ermita
+12PM 14-Oct-14,Air-conditioned Fire/Air-cooler/Fan,29,Santa Ana
+7AM 18-Oct-14,Cigarette Butt,27,Binondo
+5PM 18-Oct-14,Electrical connection,27,Binondo
+7PM 18-Oct-14,Candle,27,Ermita
+3PM 19-Oct-14,Electrical connection,29,Sampaloc
+11AM 20-Oct-14,Under Investigation,27,Tondo
+5PM 22-Oct-14,Electrical connection,28,Port Area
+5PM 22-Oct-14,Electrical connection,28,Quiapo
+6PM 22-Oct-14,Electrical connection,28,Quiapo
+4AM 24-Oct-14,Electrical connection,27,Santa Cruz
+12PM 24-Oct-14,Electrical connection,27,Ermita
+7AM 25-Oct-14,Electrical connection,28,Ermita
+10AM 26-Oct-14,Electrical connection,28,Tondo
+8PM 27-Oct-14,Electrical connection,28,Tondo
+11AM 28-Oct-14,Electrical connection,28,Tondo
+1PM 28-Oct-14,Cigarette Butt,28,Sampaloc
+5PM 28-Oct-14,Electrical connection,28,San Andres
+11AM 29-Oct-14,Electrical connection,26,Santa Cruz
+7PM 30-Oct-14,Under Investigation,28,Malate
+8PM 30-Oct-14,Electrical connection,28,Pandacan
+2AM 31-Oct-14,Electrical connection,28,Sampaloc
+6PM 31-Oct-14,Electrical connection,28,Tondo
+9PM 1-Nov-14,Electrical connection,29,Santa Cruz
+10PM 1-Nov-14,Under Investigation,29,Binondo
+4PM 5-Nov-14,Open flame,27,Tondo
+10PM 6-Nov-14,Candle,27,Santa Cruz
+3PM 7-Nov-14,Under Investigation,26,Tondo
+4PM 7-Nov-14,Cigarette Butt,26,San Andres
+7PM 7-Nov-14,Electrical connection,26,Binondo
+4AM 8-Nov-14,Under Investigation,27,Tondo
+11AM 8-Nov-14,Candle,27,Quiapo
+7PM 10-Nov-14,"LPG Leak, Gas, Keresone, Charcoal Stove",29,Tondo
+9PM 10-Nov-14,Electrical connection,29,Quiapo
+1AM 12-Nov-14,Electrical connection,29,Paco
+5PM 13-Nov-14,Open flame,28,Santa Cruz
+9PM 13-Nov-14,Under Investigation,28,Binondo
+1PM 14-Nov-14,"Electrical Appliances (kettle, stove, ref, flat iron) (except fan)",27,Ermita
+12AM 15-Nov-14,Under Investigation,25,Binondo
+12AM 15-Nov-14,Under Investigation,25,Tondo
+1PM 15-Nov-14,Electrical connection,25,Santa Cruz
+1AM 16-Nov-14,Under Investigation,28,Tondo
+12PM 16-Nov-14,Electrical connection,28,Tondo
+8PM 16-Nov-14,Electrical connection,28,Tondo
+7PM 18-Nov-14,Under Investigation,29,Quiapo
+10PM 18-Nov-14,Electrical connection,29,Quiapo
+9AM 19-Nov-14,Electrical connection,28,Santa Ana
+10AM 19-Nov-14,Electrical connection,28,Quiapo
+10AM 19-Nov-14,Matchstick and Lighter,28,Santa Ana
+3PM 21-Nov-14,Open flame,28,Sampaloc
+10PM 23-Nov-14,Electrical connection,28,Ermita
+7AM 24-Nov-14,Electrical connection,28,Santa Ana
+9AM 25-Nov-14,Under Investigation,29,Tondo
+11AM 25-Nov-14,Under Investigation,29,Santa Ana
+3AM 26-Nov-14,Under Investigation,29,Malate
+1PM 27-Nov-14,Air-conditioned Fire/Air-cooler/Fan,27,Sampaloc
+6PM 27-Nov-14,Electrical connection,27,Binondo
+7PM 27-Nov-14,"Electrical Appliances (kettle, stove, ref, flat iron) (except fan)",27,Santa Cruz
+3PM 28-Nov-14,Electrical connection,29,Ermita
+5AM 29-Nov-14,Electrical connection,27,Tondo
+6PM 29-Nov-14,Electrical connection,27,Sampaloc
+9PM 30-Nov-14,Candle,28,Tondo
+6AM 1-Dec-14,Electrical connection,27,Santa Cruz
+10AM 1-Dec-14,Acetylene,27,Paco
+11AM 1-Dec-14,Under Investigation,27,Port Area
+1PM 2-Dec-14,Candle,27,Santa Ana
+2AM 3-Dec-14,Under Investigation,29,Malate
+2PM 4-Dec-14,Under Investigation,28,Malate
+6AM 8-Dec-14,Other,27,Ermita
+6PM 8-Dec-14,Candle,27,Tondo
+9PM 9-Dec-14,Cigarette Butt,28,Ermita
+11PM 9-Dec-14,Electrical connection,28,Tondo
+5PM 10-Dec-14,Electrical connection,29,Sampaloc
+5AM 11-Dec-14,Under Investigation,28,Santa Cruz
+7AM 11-Dec-14,Under Investigation,28,Santa Ana
+1PM 13-Dec-14,"Electrical Appliances (kettle, stove, ref, flat iron) (except fan)",26,Sampaloc
+9PM 13-Dec-14,Electrical connection,26,Santa Cruz
+10PM 15-Dec-14,Candle,26,Santa Ana
+8PM 16-Dec-14,Electrical connection,28,Tondo
+7PM 18-Dec-14,Electrical connection,27,Tondo
+9PM 19-Dec-14,Electrical connection,26,Tondo
+5PM 20-Dec-14,Electrical connection,27,Sampaloc
+9PM 22-Dec-14,Under Investigation,27,Santa Cruz
+10PM 22-Dec-14,Under Investigation,27,Santa Ana
+10PM 23-Dec-14,Under Investigation,29,Santa Cruz
+9PM 24-Dec-14,Electrical connection,25,Ermita
+2PM 26-Dec-14,Under Investigation,27,Sampaloc
+6PM 29-Dec-14,Electrical connection,26,Sampaloc
+11AM 31-Dec-14,Electrical connection,26,Santa Ana
+1PM 31-Dec-14,Electrical connection,26,Paco
+1PM 31-Dec-14,Electrical connection,26,Santa Cruz
+12AM 1-Jan-15,Firecracker,23,Tondo
+12AM 1-Jan-15,Electrical connection,23,Tondo
+2AM 1-Jan-15,Under Investigation,23,Malate
+12PM 1-Jan-15,Under Investigation,23,Tondo
+10PM 1-Jan-15,Electrical connection,23,Tondo
+2PM 3-Jan-15,Air-conditioned Fire/Air-cooler/Fan,26,Santa Mesa
+8AM 4-Jan-15,Electrical connection,26,Santa Mesa
+11AM 5-Jan-15,Under Investigation,26,Binondo
+12PM 6-Jan-15,Open flame,26,Binondo
+2AM 7-Jan-15,Under Investigation,26,Binondo
+12PM 11-Jan-15,Air-conditioned Fire/Air-cooler/Fan,24,Tondo
+9PM 11-Jan-15,Candle,24,Santa Cruz
+6PM 12-Jan-15,Under Investigation,27,Tondo
+5PM 13-Jan-15,Under Investigation,26,San Andres
+10AM 14-Jan-15,Electrical connection,25,Ermita
+7PM 15-Jan-15,Electrical connection,26,San Miguel
+11PM 15-Jan-15,Under Investigation,26,Tondo
+7AM 16-Jan-15,Under Investigation,27,Tondo
+7PM 16-Jan-15,Under Investigation,27,Pandacan
+9AM 17-Jan-15,Under Investigation,26,Port Area
+12PM 17-Jan-15,"LPG Leak, Gas, Keresone, Charcoal Stove",26,Sampaloc
+1PM 18-Jan-15,Electrical connection,22,Tondo
+3PM 18-Jan-15,Electrical connection,22,Malate
+5PM 18-Jan-15,Under Investigation,22,Santa Ana
+1AM 19-Jan-15,Electrical connection,26,Tondo
+10PM 19-Jan-15,Electrical connection,26,Sampaloc
+12AM 21-Jan-15,Electrical connection,28,Santa Cruz
+11PM 21-Jan-15,Cigarette Butt,28,Pandacan
+9AM 22-Jan-15,Under Investigation,27,Santa Cruz
+2PM 24-Jan-15,Open flame,26,Santa Cruz
+5AM 24-Jan-15,Cigarette Butt,26,Santa Cruz
+7PM 24-Jan-15,Electrical connection,26,Santa Ana
+8PM 24-Jan-15,Electrical connection,26,Malate
+1AM 25-Jan-15,Electrical connection,26,Tondo
+1AM 25-Jan-15,Electrical connection,26,Santa Mesa
+5AM 25-Jan-15,Under Investigation,26,Tondo
+11AM 25-Jan-15,Acetylene,26,Tondo
+7AM 26-Jan-15,Electrical connection,28,Binondo
+6PM 25-Jan-15,Under Investigation,26,Tondo
+6PM 25-Jan-15,Electrical connection,28,Port Area
+8PM 29-Jan-15,Electrical connection,26,Binondo
+12PM 31-Jan-15,Electrical connection,25,Tondo
+5PM 31-Jan-15,Electrical connection,25,Binondo
+11AM 1-Feb-15,Electrical connection,25,Sampaloc
+9AM 1-Feb-15,Air-conditioned Fire/Air-cooler/Fan,25,Santa Ana
+10AM 3-Feb-15,Electrical connection,26,Santa Cruz
+10AM 3-Feb-15,Electrical connection,26,Tondo
+4PM 3-Feb-15,Open flame,26,Paco
+8PM 3-Feb-15,Cigarette Butt,26,Santa Cruz
+12AM 4-Feb-15,Under Investigation,26,Santa Cruz
+3PM 4-Feb-15,Under Investigation,26,Tondo
+7PM 5-Feb-15,"LPG Leak, Gas, Keresone, Charcoal Stove",26,Sampaloc
+8PM 5-Feb-15,Electrical connection,26,Tondo
+3AM 6-Feb-15,Electrical connection,25,Sampaloc
+5PM 8-Feb-15,Electrical connection,27,Tondo
+10PM 8-Feb-15,Electrical connection,27,Santa Cruz
+11PM 10-Feb-15,Candle,26,Pandacan
+9AM 10-Feb-15,Electrical connection,26,Sampaloc
+11AM 10-Feb-15,Under Investigation,26,Sampaloc
+12AM 10-Feb-15,Under Investigation,26,Santa Cruz
+1PM 10-Feb-15,Electrical connection,26,Sampaloc
+5PM 10-Feb-15,Cigarette Butt,26,Binondo
+5PM 10-Feb-15,Under Investigation,26,Sampaloc
+7PM 10-Feb-15,"LPG Leak, Gas, Keresone, Charcoal Stove",26,Malate
+6PM 11-Feb-15,Electrical connection,26,Santa Mesa
+4AM 23-Feb-15,Under Investigation,26,Santa Cruz
+11AM 24-Feb-15,Matchstick and Lighter,28,Sampaloc
+2PM 25-Feb-15,Electrical connection,28,Tondo
+2PM 26-Feb-15,Electrical connection,28,Tondo
+10PM 27-Feb-15,Electrical connection,28,Malate
+3AM 28-Feb-15,Electrical connection,28,Malate
+9AM 14-Feb-15,Electrical connection,28,Tondo
+1AM 15-Feb-15,Cigarette Butt,27,Sampaloc
+3AM 15-Feb-15,Electrical connection,27,Sampaloc
+8AM 15-Feb-15,Under Investigation,27,Tondo
+10AM 16-Feb-15,Electrical connection,28,Ermita
+1AM 17-Feb-15,Cigarette Butt,28,Santa Cruz
+9PM 17-Feb-15,Under Investigation,28,Tondo
+10PM 17-Feb-15,Under Investigation,28,Tondo
+9PM 18-Feb-15,Electrical connection,27,Santa Ana
+5AM 19-Feb-15,Electrical connection,25,Santa Cruz
+11AM 19-Feb-15,Under Investigation,25,Malate
+4AM 20-Feb-15,Under Investigation,26,Tondo
+11AM 20-Feb-15,Open flame,26,Tondo
+1PM 21-Feb-15,Arson,25,Sampaloc
+12PM 21-Feb-15,Under Investigation,25,Santa Cruz
+2PM 21-Feb-15,Electrical connection,25,Paco
+11AM 22-Feb-15,Electrical connection,27,Sampaloc
+12PM 22-Feb-15,Under Investigation,27,Tondo
+5PM 22-Feb-15,Under Investigation,27,Santa Cruz
+6AM 24-Feb-15,Under Investigation,28,Quiapo
+6PM 24-Feb-15,Cigarette Butt,28,Santa Cruz
+5PM 26-Feb-15,Electrical connection,28,Santa Mesa
+4PM 27-Feb-15,Electrical connection,28,Binondo
+11PM 27-Feb-15,Electrical connection,28,Sampaloc
+2AM 28-Feb-15,Under Investigation,28,Sampaloc
+9AM 1-Mar-15,Under Investigation,28,Ermita
+10AM 1-Mar-15,Electrical connection,28,Sampaloc
+11AM 2-Mar-15,Open flame,28,Santa Cruz
+6AM 2-Mar-15,Under Investigation,28,Binondo
+6AM 2-Mar-15,Electrical connection,28,Sampaloc
+7AM 2-Mar-15,Under Investigation,28,Tondo
+1AM 3-Mar-15,Under Investigation,27,Tondo
+9AM 3-Mar-15,Electrical connection,27,Tondo
+10AM 3-Mar-15,Cigarette Butt,27,Tondo
+7AM 4-Mar-15,Under Investigation,28,Sampaloc
+11AM 4-Mar-15,Electrical connection,28,Santa Cruz
+9AM 4-Mar-15,Candle,28,Tondo
+6AM 5-Mar-15,Electrical connection,27,Sampaloc
+2AM 5-Mar-15,Under Investigation,27,Santa Ana
+2AM 5-Mar-15,Under Investigation,27,Tondo
+5AM 5-Mar-15,Electrical connection,27,Tondo
+6AM 5-Mar-15,Under Investigation,27,Tondo
+9AM 6-Mar-15,"LPG Leak, Gas, Keresone, Charcoal Stove",28,Pandacan
+1AM 7-Mar-15,Electrical connection,28,Tondo
+10AM 8-Mar-15,Electrical connection,28,Tondo
+5AM 9-Mar-15,Cigarette Butt,28,Santa Cruz
+2AM 11-Mar-15,Electrical connection,24,Santa Cruz
+3AM 11-Mar-15,Electrical connection,24,Sampaloc
+9AM 11-Mar-15,Electrical connection,24,Ermita
+12PM 12-Mar-15,Cigarette Butt,27,Tondo
+7AM 13-Mar-15,Candle,26,Tondo
+12PM 13-Mar-15,Electrical connection,26,Santa Cruz
+1AM 14-Mar-15,Electrical connection,27,Santa Cruz
+12PM 16-Mar-15,Open flame,28,Tondo
+3AM 17-Mar-15,Electrical connection,28,Port Area
+3AM 18-Mar-15,Cigarette Butt,27,Ermita
+8AM 18-Mar-15,Electrical connection,27,Tondo
+7AM 19-Mar-15,Electrical connection,28,Santa Cruz
+11AM 20-Mar-15,Electrical connection,28,Pandacan
+3AM 21-Mar-15,Candle,30,Tondo
+10AM 21-Mar-15,Electrical connection,30,Sampaloc
+11AM 23-Mar-15,Electrical connection,27,Santa Mesa
+6AM 24-Mar-15,Candle,28,San Miguel
+11AM 25-Mar-15,Arson,28,Malate
+8AM 28-Mar-15,Electrical connection,29,Tondo
+10AM 29-Mar-15,Spontaneous combustion,30,Santa Ana
+2AM 29-Mar-15,Electrical connection,30,Tondo
+10AM 30-Mar-15,"LPG Leak, Gas, Keresone, Charcoal Stove",29,Santa Cruz
+9AM 30-Mar-15,Cigarette Butt,29,Sampaloc
+10AM 30-Mar-15,Electrical connection,29,Tondo
+7AM 30-Mar-15,Cigarette Butt,29,Sampaloc
+1AM 31-Mar-15,Electrical connection,30,Tondo
+2AM 31-Mar-15,Spontaneous combustion,30,Tondo
+6AM 31-Mar-15,Electrical connection,30,Sampaloc
+7AM 31-Mar-15,Under Investigation,30,Paco
+9AM 31-Mar-15,Cigarette Butt,30,Paco
+12PM 1-Apr-15,Electrical connection,29,Tondo
+12PM 1-Apr-15,Cigarette Butt,29,Tondo
+3AM 2-Apr-15,Electrical connection,30,Santa Ana
+3AM 5-Apr-15,Under Investigation,29,Tondo
+4AM 7-Apr-15,Electrical connection,30,Tondo
+5AM 7-Apr-15,Under Investigation,30,Sampaloc
+11AM 7-Apr-15,Electrical connection,30,Tondo
+1AM 8-Apr-15,Electrical connection,29,Tondo
+10AM 8-Apr-15,Under Investigation,29,Sampaloc
+3AM 12-Apr-15,Arson,30,Tondo
+11AM 13-Apr-15,Under Investigation,30,Tondo
+10AM 16-Apr-15,Under Investigation,31,Sampaloc
+1AM 17-Apr-15,Arson,32,Tondo
+5AM 18-Apr-15,Under Investigation,32,San Andres
+2AM 20-Apr-15,Electrical connection,32,Malate
+9AM 20-Apr-15,Electrical connection,32,Port Area
+4AM 21-Apr-15,Under Investigation,30,San Miguel
+11AM 23-Apr-15,Under Investigation,30,Binondo
+2AM 28-Apr-15,Electrical connection,31,San Miguel
+5AM 3-May-15,Arson,30,Tondo
+8AM 5-May-15,Under Investigation,31,Santa Mesa
+4AM 5-May-15,"Electrical Appliances (kettle, stove, ref, flat iron) (except fan)",31,Ermita
+2AM 6-May-15,Under Investigation,30,Santa Cruz
+2AM 9-May-15,Under Investigation,29,Tondo
+6AM 11-May-15,Under Investigation,31,Santa Ana
+5AM 13-May-15,Under Investigation,32,Santa Mesa
+5AM 15-May-15,Electrical connection,30,San Andres
+3AM 16-May-15,Candle,32,Tondo
+10AM 16-May-15,Electrical connection,32,Tondo
+3AM 18-May-15,Under Investigation,30,Sampaloc
+4AM 18-May-15,Open flame,30,Santa Cruz
+4AM 18-May-15,Arson,30,Santa Cruz
+2AM 22-May-15,Candle,31,Santa Cruz
+8AM 22-May-15,Air-conditioned Fire/Air-cooler/Fan,31,Intramuros
+11AM 24-May-15,Under Investigation,32,Tondo
+2AM 25-May-15,Cigarette Butt,32,Santa Cruz
+10AM 27-May-15,Under Investigation,30,Ermita
+5AM 30-May-15,Electrical connection,30,Malate
+10AM 30-May-15,Electrical connection,30,Sampaloc
+10AM 30-May-15,Electrical connection,30,San Miguel
+10AM 30-May-15,Electrical connection,30,Tondo
+2AM 31-May-15,Electrical connection,30,Malate
+2AM 31-May-15,Electrical connection,30,Quiapo
+10PM 1-Jun-15,Candle,31,Santa Cruz
+3PM 2-Jun-15,Open flame,32,Tondo
+5PM 2-Jun-15,Open flame,32,Tondo
+7PM 2-Jun-15,Open flame,32,Ermita
+11PM 3-Jun-15,Electrical connection,31,Santa Cruz
+9PM 7-Jun-15,Electrical connection,30,Tondo
+4PM 8-Jun-15,Electrical connection,30,Sampaloc
+7PM 8-Jun-15,Electrical connection,30,Tondo
+10PM 8-Jun-15,Electrical connection,30,Santa Ana
+5AM 9-Jun-15,"LPG Leak, Gas, Keresone, Charcoal Stove",28,Santa Mesa
+7PM 16-Jun-15,Electrical connection,20,San Nicolas
+8PM 16-Jun-15,Electrical connection,29,Ermita
+4PM 17-Jun-15,Open flame,28,Ermita
+7AM 18-Jun-15,Electrical connection,29,Binondo
+6AM 19-Jun-15,Electrical connection,30,Pandacan
+3PM 20-Jun-15,Cigarette Butt,30,Sampaloc
+5PM 20-Jun-15,Under Investigation,30,Quiapo
+12AM 20-Jun-15,Electrical connection,30,Pandacan
+12AM 23-Jun-15,Electrical connection,29,Ermita
+12AM 24-Jun-15,Electrical connection,31,Sampaloc
+10AM 25-Jun-15,Under Investigation,31,Tondo
+6PM 25-Jun-15,Electrical connection,31,Pandacan
+12AM 26-Jun-15,Electrical connection,31,Pandacan
+12AM 26-Jun-15,Electrical connection,31,Santa Ana
+6PM 26-Jun-15,Electrical connection,31,Tondo
+8PM 26-Jun-15,Under Investigation,31,San Andres
+6AM 27-Jun-15,Electrical connection,31,Tondo
+9AM 27-Jun-15,Electrical connection,31,Sampaloc
+7PM 27-Jun-15,Electrical connection,31,Sampaloc
+12AM 29-Jun-15,Arson,30,Tondo
+2AM 30-Jun-15,Under Investigation,30,Quiapo
+11AM 30-Jun-15,Electrical connection,30,Quiapo
+1AM 1-Jul-15,Electrical connection,31,Santa Mesa
+4AM 2-Jul-15,Electrical connection,30,Tondo
+6PM 2-Jul-15,Under Investigation,30,Sampaloc
+11AM 3-Jul-15,Under Investigation,30,Binondo
+10AM 4-Jul-15,Arson,29,Sampaloc
+7PM 4-Jul-15,Arson,29,Santa Cruz
+2PM 4-Jul-15,Battery-related / Cellphone / Charger,29,Malate
+8AM 5-Jul-15,Electrical connection,27,Tondo
+9PM 5-Jul-15,Under Investigation,27,Sampaloc
+1PM 6-Jul-15,Electrical connection,24,Sampaloc
+6PM 6-Jul-15,Under Investigation,24,Tondo
+7PM 6-Jul-15,Electrical connection,24,Tondo
+9PM 7-Jul-15,Candle,28,Tondo
+10PM 7-Jul-15,Electrical connection,28,Sampaloc
+2PM 8-Jul-15,Electrical connection,27,Sampaloc
+5AM 9-Jul-15,Electrical connection,26,Binondo
+7PM 9-Jul-15,Electrical connection,26,Santa Ana
+12PM 10-Jul-15,Electrical connection,27,Tondo
+4PM 11-Jul-15,Electrical connection,29,Tondo
+3PM 12-Jul-15,Under Investigation,29,Tondo
+8AM 14-Jul-15,Under Investigation,29,Tondo
+2AM 15-Jul-15,Open flame,30,Santa Cruz
+6PM 16-Jul-15,Electrical connection,30,Tondo
+4PM 17-Jul-15,Electrical connection,29,Tondo
+10AM 18-Jul-15,"LPG Leak, Gas, Keresone, Charcoal Stove",29,Sampaloc
+11AM 18-Jul-15,Under Investigation,29,Ermita
+12PM 19-Jul-15,Under Investigation,31,Tondo
+9PM 19-Jul-15,Electrical connection,31,Tondo
+10PM 19-Jul-15,Electrical connection,31,Santa Mesa
+11PM 19-Jul-15,Electrical connection,31,Santa Ana
+11AM 20-Jul-15,Candle,30,Tondo
+1PM 20-Jul-15,"LPG Leak, Gas, Keresone, Charcoal Stove",30,Santa Ana
+6PM 22-Jul-15,Electrical connection,30,Santa Ana
+7PM 22-Jul-15,Electrical connection,30,Ermita
+9PM 22-Jul-15,Electrical connection,30,Sampaloc
+7PM 24-Jul-15,"LPG Leak, Gas, Keresone, Charcoal Stove",29,San Andres
+12AM 25-Jul-15,Electrical connection,29,San Andres
+1PM 26-Jul-15,"LPG Leak, Gas, Keresone, Charcoal Stove",29,Quiapo
+1PM 26-Jul-15,Electrical connection,29,Tondo
+9AM 27-Jul-15,"LPG Leak, Gas, Keresone, Charcoal Stove",27,Tondo
+12AM 28-Jul-15,Cigarette Butt,28,Malate
+10PM 28-Jul-15,Electrical connection,28,Santa Ana
+2AM 29-Jul-15,Electrical connection,28,Malate
+8AM 30-Jul-15,Electrical connection,28,Tondo
+10AM 31-Jul-15,Under Investigation,30,Sampaloc
+1PM 31-Jul-15,Electrical connection,30,Tondo
+10AM 1-Aug-15,Electrical connection,29,Santa Ana
+9AM 1-Aug-15,Electrical connection,29,Port Area
+8AM 2-Aug-15,Electrical connection,28,Santa Ana
+8AM 2-Aug-15,Electrical connection,28,Quiapo
+12PM 3-Aug-15,Open flame,29,Santa Mesa
+5AM 4-Aug-15,Candle,29,Tondo
+5AM 4-Aug-15,Candle,29,Tondo
+8AM 5-Aug-15,Electrical connection,30,Malate
+10AM 5-Aug-15,Electrical connection,30,Malate
+10AM 6-Aug-15,Under Investigation,29,Ermita
+2PM 6-Aug-15,Under Investigation,29,Quiapo
+6AM 9-Aug-15,Electrical connection,28,Port Area
+5AM 9-Aug-15,Electrical connection,28,Sampaloc
+11AM 10-Aug-15,Electrical connection,27,Tondo
+12PM 10-Aug-15,Electrical connection,27,Malate
+9AM 10-Aug-15,Electrical connection,27,Tondo
+9AM 11-Aug-15,Electrical connection,30,Santa Cruz
+10AM 11-Aug-15,Electrical connection,30,Pandacan
+8AM 12-Aug-15,Cigarette Butt,28,Sampaloc
+8AM 13-Aug-15,Electrical connection,28,Santa Cruz
+9AM 13-Aug-15,Under Investigation,28,Malate
+2AM 13-Aug-15,Electrical connection,28,Tondo
+12PM 14-Aug-15,"LPG Leak, Gas, Keresone, Charcoal Stove",29,Sampaloc
+9AM 14-Aug-15,Electrical connection,29,Sampaloc
+8AM 17-Aug-15,Electrical connection,30,Santa Cruz
+8AM 17-Aug-15,Electrical connection,30,Santa Mesa
+9AM 18-Aug-15,Electrical connection,30,Malate
+2AM 19-Aug-15,Electrical connection,30,Tondo
+1AM 20-Aug-15,Electrical connection,28,Quiapo
+4AM 20-Aug-15,Under Investigation,28,Binondo
+10AM 20-Aug-15,Electrical connection,28,Binondo
+2AM 22-Aug-15,"LPG Leak, Gas, Keresone, Charcoal Stove",28,Santa Cruz
+3AM 24-Aug-15,Electrical connection,27,Quiapo
+4AM 27-Aug-15,Under Investigation,30,Binondo
+9AM 31-Aug-15,Electrical connection,29,Santa Ana
+6AM 9/1/2015,Electrical connection,30,Sampaloc
+9AM 9/2/2015,Candle,29,Sampaloc
+3AM 9/2/2015,Electrical connection,29,Santa Ana
+2AM 9/3/2015,Electrical connection,30,Sampaloc
+6AM 9/5/2015,Electrical connection,28,Tondo
+6AM 9/5/2015,Electrical connection,28,Tondo
+11AM 9/5/2015,Candle,28,San Andres
+11AM 9/5/2015,Electrical connection,28,Tondo
+9AM 9/6/2015,Electrical connection,29,Santa Ana
+11AM 9/7/2015,Electrical connection,28,Paco
+9AM 9/8/2015,Electrical connection,29,Santa Mesa
+9AM 9/9/2015,Electrical connection,31,Tondo
+8AM 9/10/2015,Under Investigation,29,Tondo
+5AM 9/10/2015,Electrical connection,29,Tondo
+9AM 9/10/2015,Air-conditioned Fire/Air-cooler/Fan,29,Santa Cruz
+7AM 9/11/2015,Electrical connection,28,Tondo
+9AM 9/12/2015,Under Investigation,29,Tondo
+3AM 9/14/2015,Under Investigation,28,Tondo
+2AM 9/16/2015,Electrical connection,28,Santa Mesa
+9AM 9/17/2015,"LPG Leak, Gas, Keresone, Charcoal Stove",29,Sampaloc
+4AM 9/18/2015,Cigarette Butt,30,Ermita
+10AM 9/19/2015,Under Investigation,28,Tondo
+8AM 9/19/2015,Air-conditioned Fire/Air-cooler/Fan,28,Tondo
+6AM 9/20/2015,Under Investigation,29,Sampaloc
+7AM 9/20/2015,Under Investigation,29,Sampaloc
+9AM 9/21/2015,Electrical connection,28,Sampaloc
+3AM 9/21/2015,Electrical connection,28,Ermita
+10AM 9/22/2015,Electrical connection,30,Ermita
+11AM 9/22/2015,Air-conditioned Fire/Air-cooler/Fan,30,Tondo
+7AM 9/23/2015,Under Investigation,29,Santa Cruz
+8AM 9/23/2015,Electrical connection,29,Santa Ana
+6AM 9/24/2015,"LPG Leak, Gas, Keresone, Charcoal Stove",29,Tondo
+8AM 9/25/2015,Under Investigation,31,Sampaloc
+4AM 9/26/2015,"LPG Leak, Gas, Keresone, Charcoal Stove",30,Santa Mesa
+6AM 9/26/2015,"LPG Leak, Gas, Keresone, Charcoal Stove",30,Quiapo
+7AM 9/26/2015,Electrical connection,30,Sampaloc
+8AM 9/26/2015,Electrical connection,30,Santa Ana
+10AM 9/26/2015,Electrical connection,30,Tondo
+5AM 9/26/2015,Electrical connection,30,Santa Ana
+1AM 9/29/2015,Other,30,Santa Cruz
+6AM 9/30/2015,Cigarette Butt,30,Santa Ana
+11AM 2-Nov-15,Electrical connection,28,Santa Cruz
+7AM 3-Nov-15,Electrical connection,30,Ermita
+12PM 4-Nov-15,Electrical connection,30,Sampaloc
+3AM 5-Nov-15,Under Investigation,31,Sampaloc
+3AM 5-Nov-15,Electrical connection,31,San Miguel
+7AM 5-Nov-15,Open flame,31,Tondo
+7AM 6-Nov-15,Under Investigation,30,Tondo
+9AM 6-Nov-15,Electrical connection,30,San Miguel
+5AM 7-Nov-15,Electrical connection,30,Santa Cruz
+6AM 7-Nov-15,Candle,30,San Andres
+11AM 8-Nov-15,"LPG Leak, Gas, Keresone, Charcoal Stove",30,Tondo
+8AM 8-Nov-15,Cigarette Butt,30,Paco
+11AM 9-Nov-15,Under Investigation,27,Binondo
+1AM 10-Nov-15,Under Investigation,30,Tondo
+5AM 10-Nov-15,Under Investigation,30,San Andres
+8AM 10-Nov-15,Under Investigation,30,Tondo
+9AM 11-Nov-15,Electrical connection,30,Tondo
+8AM 12-Nov-15,Electrical connection,29,Quiapo
+10AM 12-Nov-15,Electrical connection,29,Ermita
+12PM 12-Nov-15,Under Investigation,29,Tondo
+9AM 14-Nov-15,Electrical connection,27,Sampaloc
+12PM 14-Nov-15,Electrical connection,27,Paco
+11AM 15-Nov-15,"LPG Leak, Gas, Keresone, Charcoal Stove",29,Santa Mesa
+12PM 15-Nov-15,Electrical connection,29,Sampaloc
+5AM 15-Nov-15,Under Investigation,29,Tondo
+6AM 15-Nov-15,Under Investigation,29,Santa Mesa
+9AM 15-Nov-15,"LPG Leak, Gas, Keresone, Charcoal Stove",29,Santa Ana
+11AM 16-Nov-15,"Electrical Appliances (kettle, stove, ref, flat iron) (except fan)",30,Malate
+4AM 17-Nov-15,Under Investigation,30,Ermita
+12PM 20-Nov-15,"LPG Leak, Gas, Keresone, Charcoal Stove",28,Santa Mesa
+11AM 20-Nov-15,Electrical connection,28,Tondo
+6AM 20-Nov-15,Acetylene,28,Binondo
+1AM 21-Nov-15,Battery-related / Cellphone / Charger,27,Binondo
+7AM 22-Nov-15,Other,28,Paco
+9AM 24-Nov-15,Under Investigation,28,Malate
+3AM 25-Nov-15,Cigarette Butt,29,Ermita
+8AM 26-Nov-15,Electrical connection,28,Tondo
+9AM 27-Nov-15,Battery-related / Cellphone / Charger,31,Quiapo
+1AM 28-Nov-15,Air-conditioned Fire/Air-cooler/Fan,29,Binondo
+9AM 28-Nov-15,Electrical connection,29,Santa Cruz
+5AM 29-Nov-15,Candle,28,Tondo
+12PM 29-Nov-15,Air-conditioned Fire/Air-cooler/Fan,28,Tondo
+7AM 29-Nov-15,Electrical connection,28,Tondo
+9AM 29-Nov-15,Electrical connection,28,Pandacan
+5AM 1-Dec-15,Electrical connection,28,Santa Cruz
+3AM 3-Dec-15,Under Investigation,28,Santa Cruz
+6AM 3-Dec-15,Under Investigation,28,Malate
+7AM 3-Dec-15,Electrical connection,28,Santa Cruz
+2AM 4-Dec-15,Cigarette Butt,29,Santa Cruz
+9AM 4-Dec-15,"LPG Leak, Gas, Keresone, Charcoal Stove",29,Santa Cruz
+9AM 5-Dec-15,Electrical connection,28,Santa Cruz
+11AM 5-Dec-15,Unattended cooking,28,Sampaloc
+1AM 7-Dec-15,Under Investigation,29,Santa Cruz
+1AM 7-Dec-15,Other,29,Tondo
+4AM 8-Dec-15,Open flame,29,Ermita
+7AM 9-Dec-15,Electrical connection,29,Santa Ana
+1AM 10-Dec-15,Under Investigation,29,Ermita
+1AM 10-Dec-15,Cigarette Butt,29,Ermita
+3AM 10-Dec-15,Welding,29,Sampaloc
+3AM 10-Dec-15,Cigarette Butt,29,Ermita
+5AM 10-Dec-15,Spontaneous combustion,29,Santa Cruz
+11AM 12-Dec-15,Under Investigation,30,Tondo
+4AM 13-Dec-15,Candle,29,Sampaloc
+11AM 14-Dec-15,Cigarette Butt,28,Tondo
+7AM 15-Dec-15,Electrical connection,25,Santa Cruz
+9AM 15-Dec-15,Candle,25,Santa Cruz
+12PM 16-Dec-15,Electrical connection,25,Tondo
+4AM 17-Dec-15,Under Investigation,25,Tondo
+4AM 19-Dec-15,Electrical connection,24,Tondo
+8AM 20-Dec-15,Electrical connection,27,Paco
+11AM 20-Dec-15,Electrical connection,27,Tondo
+11AM 20-Dec-15,Electrical connection,27,Santa Cruz
+12PM 20-Dec-15,Under Investigation,27,Tondo
+1AM 20-Dec-15,Under Investigation,27,Binondo
+6AM 20-Dec-15,Electrical connection,27,Tondo
+12PM 21-Dec-15,Electrical connection,29,Santa Cruz
+2AM 21-Dec-15,Candle,29,Santa Ana
+9AM 21-Dec-15,Arson,29,Santa Cruz
+11AM 22-Dec-15,Electrical connection,29,Tondo
+6AM 22-Dec-15,Electrical connection,29,Tondo
+9AM 24-Dec-15,Under Investigation,28,Santa Mesa
+1AM 25-Dec-15,Under Investigation,27,Tondo
+6AM 26-Dec-15,Electrical connection,27,Ermita
+5AM 27-Dec-15,Open flame,28,Santa Mesa
+10AM 28-Dec-15,Cigarette Butt,27,Binondo
+10AM 29-Dec-15,Electrical connection,27,Santa Cruz
+11AM 29-Dec-15,Electrical connection,27,Santa Ana
+3PM 29-Dec-15,Open flame,27,Intramuros
+8AM 30-Dec-15,Electrical connection,28,Santa Mesa
+12PM 30-Dec-15,Candle,28,Tondo
+9AM 31-Dec-15,Open flame,26,Sampaloc
+1AM 31-Dec-15,Under Investigation,26,Sampaloc
+10AM 31-Dec-15,Candle,26,Sampaloc
+3AM 1/1/2016,Firecracker,27,Tondo
+7PM 1/1/2016,Under Investigation,27,Binondo
+2AM 1/1/2016,Under Investigation,27,Pandacan
+10AM 1/3/2016,Under Investigation,28,Malate
+11AM 1/3/2016,Electrical connection,28,Tondo
+6PM 1/5/2016,Electrical connection,28,Santa Mesa
+2AM 1/6/2016,Electrical connection,26,Santa Cruz
+3AM 1/7/2016,Under Investigation,28,Santa Mesa
+5AM 1/7/2016,Candle,28,Quiapo
+6PM 1/7/2016,Electrical connection,28,Quiapo
+10AM 1/8/2016,Electrical connection,28,Sampaloc
+10AM 1/8/2016,Candle,28,Santa Cruz
+12PM 1/8/2016,Open flame,28,Binondo
+7PM 1/8/2016,Electrical connection,28,Santa Cruz
+5PM 1/10/2016,Open flame,28,Tondo
+2PM 1/11/2016,"LPG Leak, Gas, Keresone, Charcoal Stove",29,Santa Mesa
+1AM 1/12/2016,Electrical connection,28,Santa Mesa
+4PM 1/12/2016,Cigarette Butt,28,Port Area
+2PM 1/13/2016,Under Investigation,27,Tondo
+9AM 1/14/2016,Open flame,28,Paco
+11AM 1/14/2016,Open flame,28,Santa Mesa
+12PM 1/14/2016,Electrical connection,28,Tondo
+8PM 1/14/2016,Electrical connection,28,Tondo
+4PM 1/17/2016,Electrical connection,28,Santa Mesa
+12PM 1/18/2016,Electrical connection,28,Ermita
+1PM 1/18/2016,Cigarette Butt,28,San Andres
+6PM 1/18/2016,Electrical connection,28,Tondo
+6AM 1/19/2016,Electrical connection,29,Tondo
+11AM 1/20/2016,Under Investigation,29,Santa Mesa
+8PM 1/20/2016,Under Investigation,29,Malate
+4AM 1/22/2016,Under Investigation,28,Santa Cruz
+4AM 1/22/2016,Under Investigation,28,Sampaloc
+5AM 1/25/2016,Cigarette Butt,28,Ermita
+12PM 1/25/2016,Arson,28,Sampaloc
+10PM 1/25/2016,Under Investigation,28,Paco
+12PM 1/26/2016,Electrical connection,28,Santa Cruz
+10PM 1/26/2016,Electrical connection,28,Santa Mesa
+6AM 1/26/2016,Other,28,Pandacan
+12PM 1/27/2016,Electrical connection,28,Tondo
+12PM 1/27/2016,Cigarette Butt,28,Intramuros
+12PM 1/27/2016,Air-conditioned Fire/Air-cooler/Fan,28,Tondo
+3AM 1/28/2016,Electrical connection,29,Tondo
+7PM 1/28/2016,Under Investigation,29,Tondo
+6PM 1/28/2016,Open flame,29,Tondo
+2PM 1/30/2016,Cigarette Butt,26,Tondo
+8PM 1/30/2016,Electrical connection,26,Ermita
+8PM 1/30/2016,Under Investigation,26,Tondo
+9PM 1/30/2016,Under Investigation,26,Malate
+4AM 1/30/2016,Under Investigation,26,Binondo
+8AM 1/31/2016,"LPG Leak, Gas, Keresone, Charcoal Stove",29,Santa Ana
+8AM 1/31/2016,Electrical connection,29,Port Area
+11AM 1/31/2016,Electrical connection,29,Binondo
+9PM 1/31/2016,Electrical connection,29,Tondo
+8PM 2/1/2016,Electrical connection,28,Sampaloc
+9PM 2/1/2016,Electrical connection,28,Paco
+4PM 2/2/2016,Electrical connection,29,Tondo
+9PM 2/2/2016,Air-conditioned Fire/Air-cooler/Fan,29,Tondo
+2AM 2/4/2016,Arson,28,Sampaloc
+10AM 2/4/2016,Under Investigation,28,Binondo
+11AM 2/4/2016,Electrical connection,28,Santa Cruz
+3PM 2/4/2016,Electrical connection,28,Santa Ana
+3PM 2/4/2016,Matchstick and Lighter,28,Sampaloc
+4PM 2/4/2016,Electrical connection,28,Tondo
+5PM 2/4/2016,Under Investigation,28,Santa Mesa
+11AM 2/6/2016,Electrical connection,25,Tondo
+8PM 2/6/2016,Electrical connection,25,Santa Cruz
+12AM 2/8/2016,Electrical connection,26,Santa Mesa
+4AM 2/8/2016,Under Investigation,26,Sampaloc
+3PM 2/8/2016,Electrical connection,26,Tondo
+7PM 2/8/2016,Electrical connection,26,Sampaloc
+5PM 2/9/2016,Unattended cooking,25,Santa Cruz
+2AM 2/10/2016,Under Investigation,28,Sampaloc
+3AM 2/10/2016,Electrical connection,28,Santa Cruz
+10AM 2/11/2016,Electrical connection,28,Sampaloc
+12PM 2/11/2016,Under Investigation,28,Tondo
+8PM 2/11/2016,Open flame,28,Ermita
+10PM 2/11/2016,Electrical connection,28,Tondo
+10PM 2/11/2016,Alcohol Lamp Fire,28,Tondo
+7AM 2/12/2016,Electrical connection,28,Malate
+2PM 2/12/2016,Under Investigation,28,Santa Cruz
+7PM 2/13/2016,Battery-related / Cellphone / Charger,28,Sampaloc
+3PM 2/14/2016,Electrical connection,28,Sampaloc
+11PM 2/14/2016,Electrical connection,28,Santa Mesa
+8AM 2/15/2016,Air-conditioned Fire/Air-cooler/Fan,27,Santa Cruz
+8PM 2/15/2016,Electrical connection,27,Sampaloc
+12PM 2/16/2016,Under Investigation,27,Sampaloc
+4PM 2/16/2016,Electrical connection,27,Intramuros
+7AM 2/17/2016,Under Investigation,27,Santa Cruz
+9PM 2/17/2016,Under Investigation,27,Santa Mesa
+5PM 2/18/2016,Under Investigation,27,Sampaloc
+11AM 2/20/2016,Electrical connection,28,Tondo
+2PM 2/20/2016,Electrical connection,28,Santa Mesa
+6PM 2/20/2016,Cigarette Butt,28,Ermita
+8AM 2/21/2016,Arson,28,Tondo
+2PM 2/21/2016,Open flame,28,Sampaloc
+3PM 2/22/2016,Under Investigation,29,Santa Ana
+8PM 2/22/2016,Open flame,29,Tondo
+10PM 2/22/2016,Electrical connection,29,Tondo
+12AM 2/23/2016,Electrical connection,29,Sampaloc
+5AM 2/23/2016,Electrical connection,29,Tondo
+8PM 2/23/2016,Matress Fire,29,Quiapo
+4AM 2/24/2016,Electrical connection,27,Santa Mesa
+1PM 2/24/2016,Air-conditioned Fire/Air-cooler/Fan,27,Binondo
+11AM 2/25/2016,Electrical connection,28,Santa Cruz
+7PM 2/25/2016,Matress Fire,28,Quiapo
+8AM 2/26/2016,Electrical connection,27,Tondo
+2PM 2/26/2016,Electrical connection,27,Intramuros
+1AM 2/28/2016,Under Investigation,28,Tondo
+7AM 2/28/2016,Candle,28,Sampaloc
+9AM 2/29/2016,Electrical connection,28,Tondo
+4AM 3/1/2016,Cigarette Butt,28,Santa Cruz
+6PM 3/1/2016,Electrical connection,28,Sampaloc
+7PM 3/1/2016,Arson,28,Quiapo
+7PM 3/1/2016,Electrical connection,28,Tondo
+12PM 3/2/2016,Open flame,27,Tondo
+3PM 3/2/2016,Open flame,27,San Miguel
+12PM 3/3/2016,Electrical connection,27,Santa Ana
+8AM 3/4/2016,Electrical connection,27,Ermita
+5AM 3/5/2016,Electrical connection,29,Pandacan
+11AM 3/5/2016,Open flame,29,Sampaloc
+8PM 3/5/2016,"LPG Leak, Gas, Keresone, Charcoal Stove",29,Tondo
+11PM 3/5/2016,Electrical connection,29,San Andres
+7AM 3/6/2016,Under Investigation,30,Malate
+6PM 3/7/2016,Electrical connection,29,Tondo
+8PM 3/7/2016,Electrical connection,29,Tondo
+12PM 3/8/2016,Under Investigation,29,Binondo
+12AM 3/9/2016,Under Investigation,30,Tondo
+2PM 3/10/2016,Electrical connection,31,Santa Ana
+10PM 3/10/2016,Electrical connection,31,Tondo
+8AM 3/12/2016,Under Investigation,29,San Andres
+1AM 3/14/2016,Other,30,Santa Mesa
+6AM 3/14/2016,Electrical connection,30,Santa Cruz
+3PM 3/14/2016,Candle,30,Santa Ana
+12PM 3/14/2016,Arson,30,Port Area
+7PM 3/15/2016,Electrical connection,29,Tondo
+8PM 3/17/2016,Welding,29,Ermita
+1PM 3/17/2016,"LPG Leak, Gas, Keresone, Charcoal Stove",29,Tondo
+11AM 3/19/2016,Under Investigation,30,Tondo
+1PM 3/19/2016,Air-conditioned Fire/Air-cooler/Fan,30,Santa Mesa
+9PM 3/19/2016,Under Investigation,30,Santa Mesa
+5PM 3/20/2016,Under Investigation,30,Tondo
+11PM 3/20/2016,Under Investigation,30,Tondo
+12PM 3/22/2016,Electrical connection,30,Sampaloc
+6PM 3/22/2016,Open flame,30,Quiapo
+8PM 3/22/2016,Arson,30,Quiapo
+2AM 3/23/2016,Open flame,31,Quiapo
+9AM 3/23/2016,Open flame,31,Santa Mesa
+9AM 3/24/2016,Matchstick and Lighter,30,Sampaloc
+12PM 3/24/2016,Electrical connection,30,Paco
+1PM 3/24/2016,Electrical connection,30,Tondo
+4AM 3/25/2016,Under Investigation,31,Malate
+7PM 3/25/2016,Electrical connection,31,Sampaloc
+11PM 3/25/2016,Electrical connection,31,Pandacan
+1AM 3/27/2016,Open flame,29,Santa Cruz
+11AM 3/27/2016,Electrical connection,29,Malate
+3PM 3/27/2016,Electrical connection,29,Intramuros
+8PM 3/27/2016,Electrical connection,29,Malate
+2PM 3/28/2016,Under Investigation,29,Ermita
+4PM 3/28/2016,Candle,29,Tondo
+7PM 3/29/2016,Candle,29,Tondo
+9AM 3/30/2016,Electrical connection,30,Malate
+11AM 3/30/2016,Electrical connection,30,Tondo
+10PM 3/30/2016,Electrical connection,30,Santa Mesa
+10PM 3/30/2016,Unattended cooking,30,Tondo
+6PM 3/31/2016,Open flame,29,Paco
+11PM 3/31/2016,Electrical connection,29,Sampaloc
+2PM 4/1/2016,Electrical connection,29,Sampaloc
+8PM 4/1/2016,Electrical connection,29,Santa Mesa
+9AM 4/2/2016,Under Investigation,30,Sampaloc
+7PM 4/2/2016,Open flame,30,Santa Mesa
+1PM 4/4/2016,Candle,29,Tondo
+4PM 4/4/2016,Open flame,29,Santa Ana
+6PM 4/4/2016,Electrical connection,29,Sampaloc
+11AM 4/5/2016,Open flame,30,Santa Mesa
+5PM 4/5/2016,Cigarette Butt,30,Paco
+4AM 4/6/2016,Under Investigation,30,Tondo
+11PM 4/7/2016,Under Investigation,30,Santa Cruz
+2AM 4/8/2016,Under Investigation,31,Malate
+12AM 4/9/2016,Under Investigation,30,Malate
+9AM 4/9/2016,Under Investigation,30,Santa Cruz
+6PM 4/9/2016,Under Investigation,30,Quiapo
+7PM 4/9/2016,Cigarette Butt,30,Tondo
+9AM 4/11/2016,Electrical connection,31,Santa Mesa
+10AM 4/11/2016,Open flame,31,Santa Cruz
+11PM 4/11/2016,Electrical connection,31,Tondo
+4AM 4/12/2016,Electrical connection,31,Sampaloc
+1PM 4/12/2016,Electrical connection,31,Binondo
+8PM 4/12/2016,Electrical connection,31,Malate
+9PM 4/12/2016,Electrical connection,31,Santa Ana
+12PM 4/12/2016,Electrical connection,31,Tondo
+1AM 4/13/2016,Electrical connection,31,Sampaloc
+2AM 4/13/2016,Electrical connection,31,Malate
+3AM 4/13/2016,Other,31,Pandacan
+9PM 4/13/2016,Open flame,31,Santa Mesa
+10PM 4/13/2016,Electrical connection,31,Santa Ana
+11PM 4/13/2016,Electrical connection,31,San Andres
+9PM 4/14/2016,Electrical connection,32,Santa Ana
+10PM 4/14/2016,Electrical connection,32,Santa Ana
+10PM 4/14/2016,Electrical connection,32,Santa Ana
+10PM 4/14/2016,Electrical connection,32,Sampaloc
+11PM 4/14/2016,Electrical connection,32,Santa Ana
+10AM 4/15/2016,Electrical connection,32,Paco
+3PM 4/15/2016,Electrical connection,32,Tondo
+1AM 4/16/2016,Candle,32,Tondo
+8AM 4/16/2016,Under Investigation,32,Sampaloc
+11PM 4/16/2016,Electrical connection,32,Sampaloc
+11AM 4/17/2016,Arson,32,Santa Cruz
+4PM 4/17/2016,Under Investigation,32,Malate
+6PM 4/18/2016,Electrical connection,31,Tondo
+7PM 4/18/2016,Electrical connection,31,Tondo
+9PM 4/18/2016,Electrical connection,31,Tondo
+11PM 4/18/2016,Electrical connection,31,Tondo
+7AM 4/19/2016,Chimney Fire,32,Tondo
+9AM 4/19/2016,Electrical connection,32,Santa Mesa
+6PM 4/19/2016,Open flame,32,Sampaloc
+9PM 4/19/2016,Electrical connection,32,Binondo
+1AM 4/20/2016,Electrical connection,29,Sampaloc
+3PM 4/20/2016,Cigarette Butt,29,Tondo
+8AM 4/21/2016,Under Investigation,32,Santa Mesa
+8PM 4/21/2016,Electrical connection,32,Santa Cruz
+2AM 4/22/2016,Electrical connection,28,Malate
+10PM 4/22/2016,Electrical connection,28,Santa Mesa
+6AM 4/23/2016,Electrical connection,31,Santa Cruz
+10AM 4/23/2016,Cigarette Butt,31,Tondo
+12PM 4/23/2016,Electrical connection,31,Sampaloc
+2PM 4/23/2016,Electrical connection,31,Sampaloc
+10AM 4/25/2016,Electrical connection,31,Santa Ana
+3PM 4/25/2016,Under Investigation,31,Tondo
+10PM 4/25/2016,"LPG Leak, Gas, Keresone, Charcoal Stove",31,Tondo
+8AM 4/26/2016,Under Investigation,31,Santa Cruz
+10AM 4/27/2016,Electrical connection,28,Binondo
+10AM 4/27/2016,Under Investigation,28,Paco
+12PM 4/27/2016,Electrical connection,28,Tondo
+1PM 4/27/2016,Electrical connection,28,Tondo
+9PM 4/27/2016,Under Investigation,28,Sampaloc
+1AM 4/28/2016,Arson,32,Malate
+7AM 4/28/2016,Electrical connection,32,Port Area
+9PM 4/28/2016,Electrical connection,32,Santa Cruz
+10PM 4/28/2016,Electrical connection,32,Tondo
+10PM 4/28/2016,Electrical connection,32,Tondo
+11PM 4/28/2016,Electrical connection,32,Santa Mesa
+11PM 4/28/2016,Electrical connection,32,Sampaloc
+12AM 4/29/2016,Electrical connection,31,Paco
+12AM 4/29/2016,Electrical connection,31,Sampaloc
+12AM 4/29/2016,Electrical connection,31,Santa Mesa
+1PM 4/29/2016,Cigarette Butt,31,Tondo
+10PM 4/29/2016,Electrical connection,31,Santa Ana
+12AM 4/30/2016,Electrical connection,30,Tondo
+9PM 4/30/2016,Electrical connection,30,Tondo
+7PM 5/1/2016,Open flame,32,Ermita
+9PM 5/1/2016,Electrical connection,32,San Andres
+12AM 5/2/2016,Electrical connection,32,Sampaloc
+10AM 5/2/2016,"LPG Leak, Gas, Keresone, Charcoal Stove",32,Santa Mesa
+10PM 5/2/2016,Electrical connection,32,Sampaloc
+12PM 5/2/2016,Electrical connection,32,Tondo
+2PM 5/3/2016,Under Investigation,30,Tondo
+8AM 5/4/2016,Cigarette Butt,32,Tondo
+8PM 5/4/2016,Open flame,32,Tondo
+1AM 5/5/2016,Electrical connection,31,Pandacan
+12PM 5/5/2016,"LPG Leak, Gas, Keresone, Charcoal Stove",31,Tondo
+3PM 5/5/2016,Under Investigation,31,Sampaloc
+1AM 5/6/2016,Electrical connection,33,Sampaloc
+10AM 5/6/2016,Electrical connection,33,Pandacan
+6PM 5/6/2016,Electrical connection,33,Santa Mesa
+9PM 5/6/2016,Open flame,33,Malate
+7PM 5/8/2016,Open flame,32,Tondo
+9AM 5/8/2016,Air-conditioned Fire/Air-cooler/Fan,32,Malate
+5PM 5/8/2016,Electrical connection,32,Santa Ana
+1AM 5/9/2016,Under Investigation,32,Tondo
+6AM 5/9/2016,Electrical connection,32,Santa Cruz
+9AM 5/9/2016,Open flame,32,Malate
+5PM 5/9/2016,Electrical connection,32,Sampaloc
+6PM 5/10/2016,"LPG Leak, Gas, Keresone, Charcoal Stove",33,Tondo
+8PM 5/10/2016,Electrical connection,33,Santa Ana
+10PM 5/10/2016,Open flame,33,Ermita
+11PM 5/10/2016,Electrical connection,33,Quiapo
+11AM 5/11/2016,Electrical connection,32,Tondo
+4PM 5/11/2016,Electrical connection,32,Ermita
+7PM 5/11/2016,Open flame,32,Santa Ana
+8PM 5/11/2016,Electrical connection,32,Tondo
+10PM 5/11/2016,Electrical connection,32,Malate
+10PM 5/11/2016,Electrical connection,32,Sampaloc
+11PM 5/11/2016,Electrical connection,32,Sampaloc
+11PM 5/11/2016,Electrical connection,32,Santa Mesa
+11AM 5/12/2016,Electrical connection,30,Santa Cruz
+10PM 5/12/2016,Electrical connection,30,Tondo
+12AM 5/13/2016,Electrical connection,32,Tondo
+12PM 5/13/2016,Electrical connection,32,Tondo
+5AM 5/14/2016,Electrical connection,31,Tondo
+7PM 5/14/2016,Under Investigation,31,Ermita
+12PM 5/15/2016,Electrical connection,32,Santa Ana
+8PM 5/15/2016,Open flame,32,Santa Ana
+9PM 5/15/2016,Electrical connection,32,Binondo
+7PM 5/16/2016,Electrical connection,30,Tondo
+11PM 5/16/2016,Electrical connection,30,Santa Ana
+12AM 5/17/2016,Electrical connection,31,Sampaloc
+4AM 5/17/2016,Electrical connection,31,Santa Cruz
+8AM 5/18/2016,Electrical connection,30,Sampaloc
+9AM 5/18/2016,Cigarette Butt,30,Tondo
+4PM 5/18/2016,Electrical connection,30,Pandacan
+7AM 5/19/2016,Electrical connection,29,Sampaloc
+1PM 5/20/2016,Under Investigation,30,Sampaloc
+10PM 5/20/2016,Electrical connection,30,Santa Ana
+12PM 5/21/2016,Electrical connection,31,Ermita
+5PM 5/21/2016,Under Investigation,31,Santa Cruz
+5PM 5/23/2016,Under Investigation,31,Sampaloc
+10PM 5/23/2016,Electrical connection,31,Port Area
+12PM 5/24/2016,Open flame,30,Sampaloc
+12PM 5/24/2016,"LPG Leak, Gas, Keresone, Charcoal Stove",30,Tondo
+4PM 5/24/2016,Candle,30,Tondo
+11AM 5/25/2016,Under Investigation,30,Santa Ana
+6PM 5/25/2016,Electrical connection,30,Sampaloc
+12AM 5/26/2016,Electrical connection,30,Tondo
+8AM 5/26/2016,Electrical connection,30,Santa Ana
+1PM 5/26/2016,Electrical connection,30,Ermita
+8PM 5/26/2016,"LPG Leak, Gas, Keresone, Charcoal Stove",30,Quiapo
+3AM 5/27/2016,Under Investigation,31,Tondo
+10AM 5/27/2016,Electrical connection,31,Santa Cruz
+4PM 5/27/2016,Electrical connection,31,Paco
+5AM 5/28/2016,Electrical connection,31,Tondo
+8PM 5/28/2016,Electrical connection,31,Santa Cruz
+9PM 5/28/2016,Electrical connection,31,Santa Ana
+9AM 5/29/2016,Electrical connection,31,Port Area
+2PM 5/30/2016,Electrical connection,30,Ermita
+4PM 5/30/2016,Under Investigation,30,Tondo
+8PM 5/30/2016,Electrical connection,30,Santa Ana
+11PM 5/30/2016,Electrical connection,30,Sampaloc
+10AM 6/1/2016,Electrical connection,30,Tondo
+6PM 6/1/2016,Under Investigation,30,Tondo
+3PM 6/2/2016,Welding,29,Sampaloc
+3AM 6/3/2016,Open flame,31,Santa Ana
+8PM 6/3/2016,Electrical connection,31,Sampaloc
+6PM 6/4/2016,Electrical connection,31,Santa Ana
+6PM 6/4/2016,Under Investigation,31,Santa Cruz
+9PM 6/4/2016,Open flame,31,Santa Ana
+5PM 6/5/2016,Under Investigation,31,Quiapo
+11PM 6/5/2016,Under Investigation,31,Pandacan
+11PM 6/5/2016,Electrical connection,31,Sampaloc
+8PM 6/6/2016,Electrical connection,29,Tondo
+9AM 6/7/2016,Electrical connection,30,Santa Mesa
+9PM 6/7/2016,Under Investigation,30,San Nicolas
+9PM 6/7/2016,Electrical connection,30,Santa Ana
+9PM 6/7/2016,Electrical connection,30,San Andres
+6PM 6/10/2016,Under Investigation,30,Pandacan
+6PM 6/11/2016,Under Investigation,30,San Miguel
+9PM 6/12/2016,Electrical connection,30,Tondo
+9PM 6/12/2016,Electrical connection,30,Sampaloc
+10AM 6/13/2016,Electrical connection,30,Paco
+10PM 6/13/2016,Electrical connection,30,Tondo
+3AM 6/13/2016,Under Investigation,30,Sampaloc
+8PM 6/14/2016,Electrical connection,31,Tondo
+11AM 6/16/2016,Electrical connection,30,Intramuros
+1PM 6/16/2016,Electrical connection,30,Intramuros
+9PM 6/16/2016,Electrical connection,30,Santa Mesa
+10PM 6/16/2016,Electrical connection,30,Santa Mesa
+7PM 6/17/2016,Electrical connection,31,Pandacan
+10PM 6/17/2016,Electrical connection,31,Santa Mesa
+10PM 6/18/2016,Electrical connection,31,Tondo
+7AM 6/19/2016,Under Investigation,31,Tondo
+10AM 6/19/2016,Electrical connection,31,San Andres
+1PM 6/19/2016,"LPG Leak, Gas, Keresone, Charcoal Stove",31,Santa Mesa
+11PM 6/19/2016,Electrical connection,31,Tondo
+11PM 6/19/2016,Cigarette Butt,31,Sampaloc
+10AM 6/20/2016,Candle,30,Santa Cruz
+10AM 6/20/2016,Open flame,30,Malate
+1PM 6/20/2016,Electrical connection,30,Ermita
+7PM 6/20/2016,Electrical connection,30,Port Area
+9PM 6/20/2016,Electrical connection,30,Tondo
+10PM 6/20/2016,Electrical connection,30,Sampaloc
+4AM 6/21/2016,Electrical connection,30,Tondo
+5PM 6/21/2016,Electrical connection,30,Tondo
+6PM 6/21/2016,Electrical connection,30,Quiapo
+8PM 6/21/2016,Electrical connection,30,Tondo
+9PM 6/21/2016,Electrical connection,30,Tondo
+10PM 6/21/2016,Electrical connection,30,Sampaloc
+11PM 6/21/2016,Electrical connection,30,Quiapo
+12AM 6/22/2016,Electrical connection,28,Sampaloc
+12PM 6/22/2016,"Electrical Appliances (kettle, stove, ref, flat iron) (except fan)",28,Ermita
+2PM 6/22/2016,Electrical connection,28,Pandacan
+8PM 6/22/2016,Air-conditioned Fire/Air-cooler/Fan,28,Tondo
+9PM 6/22/2016,Electrical connection,28,Sampaloc
+11PM 6/22/2016,Alcohol Lamp Fire,28,Sampaloc
+3AM 6/23/2016,Under Investigation,30,Tondo
+9PM 6/23/2016,Electrical connection,30,Santa Ana
+10PM 6/23/2016,Electrical connection,30,Santa Ana
+11PM 6/24/2016,Under Investigation,30,Santa Mesa
+8PM 6/25/2016,Electrical connection,31,San Miguel
+9PM 6/25/2016,Electrical connection,31,Santa Ana
+1PM 6/26/2016,Under Investigation,28,Santa Mesa
+5PM 6/26/2016,Open flame,28,Quiapo
+11PM 6/26/2016,Electrical connection,28,Santa Ana
+3AM 6/27/2016,Under Investigation,29,Paco
+10AM 6/27/2016,Arson,29,Tondo
+3PM 6/27/2016,Electrical connection,29,Paco
+6PM 6/27/2016,Electrical connection,29,Sampaloc
+10PM 6/27/2016,Candle,29,Sampaloc
+10PM 6/27/2016,Electrical connection,29,Malate
+9AM 6/28/2016,Electrical connection,30,Quiapo
+6PM 6/29/2016,Air-conditioned Fire/Air-cooler/Fan,29,Sampaloc
+4PM 6/30/2016,Electrical connection,29,Tondo
+5PM 6/30/2016,Under Investigation,29,Sampaloc
+9AM 7/1/2016,Electrical connection,30,Santa Cruz
+11AM 7/1/2016,Electrical connection,30,Tondo
+2PM 7/1/2016,Electrical connection,30,Tondo
+8PM 7/1/2016,Electrical connection,30,Malate
+1AM 7/2/2016,Electrical connection,30,Sampaloc
+8PM 7/2/2016,Under Investigation,30,Santa Ana
+9PM 7/2/2016,Under Investigation,30,Santa Mesa
+7AM 7/3/2016,Other,28,Ermita
+7PM 7/3/2016,Arson,28,Quiapo
+9AM 7/5/2016,Electrical connection,28,Sampaloc
+9AM 7/6/2016,Electrical connection,29,Tondo
+4AM 7/6/2016,Open flame,29,Santa Ana
+9PM 7/7/2016,"LPG Leak, Gas, Keresone, Charcoal Stove",27,Santa Ana
+7AM 7/8/2016,Electrical connection,26,Sampaloc
+8AM 7/9/2016,Arson,27,Sampaloc
+11AM 7/10/2016,Electrical connection,28,Ermita
+6PM 7/10/2016,Electrical connection,28,Santa Ana
+9PM 7/10/2016,Air-conditioned Fire/Air-cooler/Fan,28,Tondo
+9PM 7/10/2016,Electrical connection,28,Malate
+6PM 7/11/2016,Open flame,27,Sampaloc
+7PM 7/11/2016,Electrical connection,27,Santa Cruz
+9PM 7/11/2016,Electrical connection,27,Tondo
+11PM 7/11/2016,Electrical connection,27,Paco
+8PM 7/12/2016,Electrical connection,30,Quiapo
+3PM 7/13/2016,Electrical connection,30,Malate
+8PM 7/14/2016,Air-conditioned Fire/Air-cooler/Fan,28,Ermita
+11PM 7/15/2016,Electrical connection,30,Quiapo
+8PM 7/16/2016,Other,30,Tondo
+3AM 7/17/2016,Under Investigation,30,Tondo
+7AM 7/17/2016,Electrical connection,30,Pandacan
+8PM 7/20/2016,Electrical connection,30,Sampaloc
+9PM 7/20/2016,Electrical connection,30,Port Area
+3PM 7/21/2016,Electrical connection,29,Santa Cruz
+8PM 7/21/2016,Electrical connection,29,Tondo
+11PM 7/21/2016,Electrical connection,29,Tondo
+10AM 7/23/2016,Under Investigation,29,Ermita
+4PM 7/23/2016,Open flame,29,Santa Ana
+12PM 7/24/2016,Electrical connection,29,Malate
+5PM 7/24/2016,Electrical connection,29,Binondo
+8PM 7/24/2016,Electrical connection,29,Tondo
+9PM 7/24/2016,Electrical connection,29,Paco
+1PM 7/26/2016,Electrical connection,31,Tondo
+3PM 7/26/2016,"LPG Leak, Gas, Keresone, Charcoal Stove",31,Tondo
+7PM 7/26/2016,Electrical connection,31,Pandacan
+10PM 7/26/2016,Electrical connection,31,Santa Cruz
+12PM 7/27/2016,Electrical connection,30,Malate
+12PM 7/28/2016,Unattended cooking,30,Santa Ana
+7PM 7/28/2016,Electrical connection,30,Santa Cruz
+7PM 7/28/2016,Electrical connection,30,San Andres
+10PM 7/28/2016,Electrical connection,30,Pandacan
+10PM 7/28/2016,Electrical connection,30,Santa Mesa
+5PM 8/1/2016,Electrical connection,29,Tondo
+8PM 8/1/2016,Electrical connection,29,Tondo
+2PM 8/2/2016,Open flame,29,Port Area
+1PM 8/3/2016,Cigarette Butt,30,Santa Cruz
+4PM 8/3/2016,"LPG Leak, Gas, Keresone, Charcoal Stove",30,Santa Ana
+11PM 8/3/2016,Electrical connection,30,Sampaloc
+10AM 8/4/2016,Electrical connection,30,Santa Cruz
+5PM 8/4/2016,Electrical connection,30,Ermita
+10PM 8/4/2016,Electrical connection,30,Tondo
+2PM 8/5/2016,Air-conditioned Fire/Air-cooler/Fan,29,Malate
+6PM 8/5/2016,Electrical connection,29,Sampaloc
+1AM 8/6/2016,Arson,28,Sampaloc
+1AM 8/6/2016,Electrical connection,28,Ermita
+6AM 8/6/2016,Under Investigation,28,Tondo
+7PM 8/7/2016,Electrical connection,29,Pandacan
+9PM 8/7/2016,Electrical connection,29,Santa Cruz
+9AM 8/8/2016,Electrical connection,30,Sampaloc
+7AM 8/8/2016,Electrical connection,30,Paco
+10AM 8/10/2016,Under Investigation,26,Santa Cruz
+10PM 8/10/2016,Electrical connection,26,Santa Mesa
+1AM 8/11/2016,Electrical connection,28,Sampaloc
+6AM 8/11/2016,Electrical connection,28,Santa Ana
+4PM 8/11/2016,Electrical connection,28,Tondo
+5PM 8/11/2016,Open flame,28,Tondo
+9PM 8/11/2016,Electrical connection,28,Quiapo
+5PM 8/12/2016,Electrical connection,27,Tondo
+7PM 8/12/2016,Electrical connection,27,Tondo
+8PM 8/12/2016,Electrical connection,27,Tondo
+9PM 8/12/2016,Electrical connection,27,Sampaloc
+12AM 8/13/2016,Electrical connection,25,Tondo
+10AM 8/13/2016,Electrical connection,25,Sampaloc
+11AM 8/13/2016,Electrical connection,25,Tondo
+1PM 8/13/2016,Electrical connection,25,Pandacan
+2PM 8/13/2016,Electrical connection,25,Santa Ana
+3PM 8/13/2016,Electrical connection,25,Santa Mesa
+8PM 8/13/2016,Electrical connection,25,Tondo
+8AM 8/14/2016,Electrical connection,28,Santa Cruz
+8AM 8/14/2016,Electrical connection,28,Santa Mesa
+8AM 8/14/2016,Electrical connection,28,Sampaloc
+2PM 8/14/2016,Electrical connection,28,Sampaloc
+5PM 8/14/2016,Electrical connection,28,Sampaloc
+7PM 8/14/2016,Candle,28,Port Area
+8PM 8/14/2016,Electrical connection,28,Sampaloc
+10PM 8/14/2016,Electrical connection,28,Sampaloc
+10PM 8/14/2016,Electrical connection,28,Sampaloc
+1AM 8/15/2016,Under Investigation,29,Paco
+2PM 8/15/2016,Electrical connection,29,Sampaloc
+6PM 8/15/2016,Electrical connection,29,Sampaloc
+10PM 8/15/2016,Electrical connection,29,Sampaloc
+3AM 8/16/2016,Electrical connection,28,Tondo
+11AM 8/16/2016,Electrical connection,28,Santa Ana
+9AM 8/17/2016,Electrical connection,30,Sampaloc
+1PM 8/17/2016,Electrical connection,30,Tondo
+3AM 8/18/2016,Electrical connection,30,Paco
+12PM 8/18/2016,Electrical connection,30,Malate
+3PM 8/18/2016,Electrical connection,30,Santa Ana
+8PM 8/18/2016,Electrical connection,30,Tondo
+3AM 8/19/2016,Air-conditioned Fire/Air-cooler/Fan,29,San Miguel
+4PM 8/19/2016,Open flame,29,Tondo
+5PM 8/19/2016,Electrical connection,29,Intramuros
+6PM 8/19/2016,Electrical connection,29,Paco
+7PM 8/19/2016,Electrical connection,29,Santa Cruz
+5PM 8/20/2016,Electrical connection,28,Tondo
+12AM 8/21/2016,Electrical connection,28,Sampaloc
+1AM 8/21/2016,Electrical connection,28,Tondo
+7AM 8/21/2016,Electrical connection,28,Sampaloc
+5PM 8/21/2016,Electrical connection,28,Tondo
+10PM 8/21/2016,Electrical connection,28,Santa Ana
+11PM 8/21/2016,Electrical connection,28,Port Area
+2AM 8/22/2016,Electrical connection,30,Pandacan
+8PM 8/22/2016,Electrical connection,30,Sampaloc
+10AM 8/23/2016,Open flame,29,Santa Mesa
+8PM 8/23/2016,Electrical connection,29,Sampaloc
+9PM 8/23/2016,Electrical connection,29,Tondo
+9PM 8/23/2016,"LPG Leak, Gas, Keresone, Charcoal Stove",29,Santa Mesa
+4AM 8/24/2016,Electrical connection,30,Santa Cruz
+2PM 8/24/2016,Under Investigation,30,Binondo
+2PM 8/25/2016,Arson,29,Tondo
+6PM 8/25/2016,Cigarette Butt,29,Binondo
+11AM 8/26/2016,Electrical connection,28,Santa Mesa
+8AM 8/27/2016,Electrical connection,29,Santa Ana
+10PM 8/27/2016,Electrical connection,29,Sampaloc
+1AM 8/28/2016,Candle,28,Tondo
+7PM 8/28/2016,Arson,28,Tondo
+2AM 8/29/2016,Electrical connection,28,Binondo
+12PM 8/29/2016,Open flame,28,Tondo
+7PM 8/30/2016,Electrical connection,29,Santa Cruz
+10AM 8/31/2016,Electrical connection,29,Sampaloc
+2PM 9/1/2016,Electrical connection,30,Santa Ana
+6PM 9/1/2016,Open flame,30,Sampaloc
+1AM 9/2/2016,Electrical connection,30,Tondo
+6PM 9/2/2016,Under Investigation,30,Sampaloc
+10AM 9/3/2016,Electrical connection,30,Malate
+7PM 9/4/2016,Electrical connection,28,Port Area
+8PM 9/4/2016,Electrical connection,28,Malate
+11PM 9/4/2016,Electrical connection,28,Sampaloc
+9PM 9/5/2016,Electrical connection,29,Sampaloc
+10PM 9/5/2016,Electrical connection,29,Sampaloc
+5AM 9/7/2016,Electrical connection,29,Sampaloc
+10AM 9/7/2016,Open flame,29,Sampaloc
+1AM 9/8/2016,Open flame,28,Santa Mesa
+2PM 9/8/2016,Electrical connection,28,Tondo
+5PM 9/8/2016,Electrical connection,28,Malate
+7PM 9/9/2016,Under Investigation,28,Tondo
+8PM 9/9/2016,Under Investigation,28,Port Area
+1PM 9/9/2016,Electrical connection,28,Santa Mesa
+5PM 9/10/2016,Under Investigation,30,Binondo
+1AM 9/11/2016,Open flame,31,Santa Cruz
+8PM 9/11/2016,Under Investigation,31,Malate
+12AM 9/12/2016,Electrical connection,30,Tondo
+7AM 9/12/2016,Cigarette Butt,30,Tondo
+1PM 9/12/2016,Under Investigation,30,Sampaloc
+5PM 9/13/2016,Open flame,29,Sampaloc
+8AM 9/14/2016,Air-conditioned Fire/Air-cooler/Fan,29,Ermita
+12AM 9/15/2016,Candle,29,Tondo
+11AM 9/15/2016,Under Investigation,29,Ermita
+8PM 9/15/2016,Electrical connection,29,Santa Ana
+9PM 9/15/2016,Cigarette Butt,29,Sampaloc
+11AM 9/16/2016,Electrical connection,28,Ermita
+11AM 9/16/2016,Electrical connection,28,Santa Cruz
+5PM 9/16/2016,Electrical connection,28,Tondo
+7AM 9/17/2016,Electrical connection,28,Tondo
+2AM 9/18/2016,Under Investigation,28,Sampaloc
+7PM 9/18/2016,Arson,28,San Andres
+7PM 9/18/2016,Under Investigation,28,Sampaloc
+12PM 9/19/2016,Electrical connection,29,Tondo
+8PM 9/19/2016,Electrical connection,29,Sampaloc
+2PM 9/20/2016,Electrical connection,28,Quiapo
+7AM 9/21/2016,Electrical connection,28,Sampaloc
+11AM 9/21/2016,Electrical connection,28,Sampaloc
+1PM 9/21/2016,Electrical connection,28,Tondo
+9PM 9/21/2016,Electrical connection,28,Quiapo
+1PM 9/22/2016,Under Investigation,28,Sampaloc
+9PM 9/22/2016,Electrical connection,28,Sampaloc
+5AM 9/23/2016,Electrical connection,29,Quiapo
+4PM 9/23/2016,Electrical connection,29,Binondo
+6PM 9/23/2016,Cigarette Butt,29,Tondo
+11PM 9/23/2016,Candle,29,Tondo
+1PM 9/24/2016,Electrical connection,28,Sampaloc
+5PM 9/25/2016,Electrical connection,29,Santa Mesa
+10PM 9/25/2016,"LPG Leak, Gas, Keresone, Charcoal Stove",29,Sampaloc
+10PM 9/25/2016,Electrical connection,29,Santa Mesa
+11PM 9/26/2016,Electrical connection,29,Sampaloc
+6AM 9/27/2016,Under Investigation,29,Sampaloc
+7PM 9/27/2016,Electrical connection,29,Malate
+4PM 9/28/2016,Electrical connection,27,Malate
+2AM 9/29/2016,Electrical connection,27,San Andres
+11AM 9/29/2016,Open flame,27,Santa Mesa
+2PM 10/2/2016,Electrical connection,30,Tondo
+9AM 10/4/2016,Electrical connection,27,Ermita
+8PM 10/4/2016,Electrical connection,28,Ermita
+9AM 10/5/2016,Electrical connection,28,Port Area
+5AM 10/6/2016,Arson,28,Tondo
+11AM 10/6/2016,Open flame,28,Tondo
+7AM 10/7/2016,Electrical connection,29,Santa Cruz
+12PM 10/10/2016,Electrical connection,29,Tondo
+7PM 10/9/2016,Electrical connection,29,Santa Ana
+10AM 10/10/2016,Electrical connection,29,Sampaloc
+7PM 10/10/2016,Electrical connection,29,Santa Cruz
+7PM 10/10/2016,Electrical connection,29,Tondo
+4AM 10/11/2016,Electrical connection,28,Tondo
+1PM 10/11/2016,"LPG Leak, Gas, Keresone, Charcoal Stove",28,Tondo
+7PM 10/13/2016,Electrical connection,28,Santa Ana
+5PM 10/13/2016,Arson,28,Malate
+4AM 10/14/2016,Open flame,29,Tondo
+2PM 10/14/2016,Electrical connection,29,Binondo
+7PM 10/14/2016,Electrical connection,29,Port Area
+9PM 10/14/2016,Electrical connection,29,Sampaloc
+12PM 10/15/2016,Electrical connection,28,Tondo
+12AM 10/16/2016,Electrical connection,28,Santa Cruz
+1PM 10/18/2016,Electrical connection,29,San Miguel
+7PM 10/18/2016,Electrical connection,29,Sampaloc
+8PM 10/19/2016,Electrical connection,29,Tondo
+9AM 10/21/2016,"LPG Leak, Gas, Keresone, Charcoal Stove",30,Tondo
+5AM 10/22/2016,"LPG Leak, Gas, Keresone, Charcoal Stove",31,Santa Mesa
+6AM 10/22/2016,Open flame,31,Malate
+8PM 10/23/2016,Electrical connection,30,San Andres
+11AM 10/24/2016,Under Investigation,30,Sampaloc
+4PM 10/24/2016,Electrical connection,30,Pandacan
+2AM 10/25/2016,Electrical connection,30,Tondo
+6PM 10/25/2016,Electrical connection,30,Paco
+11PM 10/25/2016,Under Investigation,30,Binondo
+11PM 10/25/2016,Candle,30,Tondo
+9AM 10/26/2016,Open flame,29,Binondo
+9AM 10/29/2016,Electrical connection,30,Santa Ana
+7PM 10/29/2016,Electrical connection,30,Santa Mesa
+9PM 10/29/2016,Firecracker,30,Sampaloc
+11PM 10/29/2016,Electrical connection,30,Sampaloc
+10AM 10/30/2016,Under Investigation,30,Sampaloc
+8PM 10/30/2016,Electrical connection,30,Intramuros
+3AM 10/31/2016,Electrical connection,29,Quiapo
+5AM 11/1/2016,Electrical connection,29,Sampaloc
+10AM 11/2/2016,Electrical connection,27,Santa Cruz
+5PM 11/2/2016,Candle,27,Tondo
+12AM 11/3/2016,Electrical connection,28,Tondo
+9AM 11/2/2016,Under Investigation,27,Port Area
+3PM 11/2/2016,Open flame,27,Tondo
+6PM 11/2/2016,Electrical connection,27,Santa Ana
+11AM 11/4/2016,Under Investigation,26,Santa Mesa
+11PM 11/4/2016,Electrical connection,26,Santa Ana
+1PM 11/5/2016,Electrical connection,29,Santa Cruz
+4AM 11/6/2016,Under Investigation,29,Santa Ana
+5PM 11/6/2016,Open flame,29,Binondo
+6PM 11/6/2016,Electrical connection,29,Santa Ana
+1PM 11/7/2016,Under Investigation,29,Sampaloc
+6AM 11/9/2016,Electrical connection,29,Santa Cruz
+9AM 11/9/2016,Electrical connection,29,Santa Mesa
+3PM 11/9/2016,Electrical connection,29,Sampaloc
+12PM 11/10/2016,Electrical connection,28,Tondo
+6PM 11/10/2016,Electrical connection,28,Santa Ana
+6PM 11/10/2016,Electrical connection,28,Santa Ana
+9PM 11/11/2016,Electrical connection,28,Santa Cruz
+9PM 11/12/2016,Electrical connection,29,Sampaloc
+3PM 11/13/2016,Electrical connection,29,Santa Ana
+12AM 11/14/2016,Electrical connection,30,Port Area
+11AM 11/14/2016,Other,30,Sampaloc
+6PM 11/14/2016,Battery-related / Cellphone / Charger,30,Sampaloc
+12AM 11/15/2016,Electrical connection,26,Tondo
+2PM 11/15/2016,Electrical connection,26,Santa Mesa
+7PM 11/15/2016,Electrical connection,26,Tondo
+10PM 11/15/2016,Electrical connection,26,Port Area
+6PM 11/16/2016,Electrical connection,29,Pandacan
+8PM 11/16/2016,Electrical connection,29,Quiapo
+7PM 11/17/2016,Under Investigation,30,Binondo
+8PM 11/17/2016,Electrical connection,30,Santa Cruz
+1AM 11/18/2016,Electrical connection,29,Santa Mesa
+2AM 11/18/2016,Open flame,29,Tondo
+11AM 11/18/2016,"LPG Leak, Gas, Keresone, Charcoal Stove",29,Santa Cruz
+5PM 11/18/2016,Open flame,29,Santa Cruz
+7PM 11/18/2016,Electrical connection,29,Pandacan
+8PM 11/18/2016,Electrical connection,29,Port Area
+8PM 11/18/2016,Electrical connection,29,Paco
+10PM 11/18/2016,Open flame,29,Tondo
+10PM 11/18/2016,Electrical connection,29,Sampaloc
+1AM 11/19/2016,Electrical connection,28,Santa Mesa
+5PM 11/19/2016,Electrical connection,28,Tondo
+8PM 11/19/2016,Electrical connection,28,Port Area
+5PM 11/20/2016,Under Investigation,30,Paco
+11PM 11/20/2016,Electrical connection,30,Santa Ana
+5AM 11/21/2016,Open flame,30,Santa Cruz
+6PM 11/21/2016,Under Investigation,30,Santa Mesa
+10PM 11/21/2016,Electrical connection,30,Pandacan
+7AM 11/22/2016,"LPG Leak, Gas, Keresone, Charcoal Stove",29,Pandacan
+1PM 11/22/2016,Electrical connection,29,Sampaloc
+8AM 11/25/2016,Electrical connection,25,Santa Mesa
+12PM 11/25/2016,Electrical connection,25,Ermita
+1PM 11/25/2016,Electrical connection,25,Santa Mesa
+9PM 11/26/2016,Electrical connection,26,Sampaloc
+9AM 11/27/2016,Electrical connection,29,Santa Mesa
+2PM 11/27/2016,Air-conditioned Fire/Air-cooler/Fan,29,Malate
+1AM 11/28/2016,Air-conditioned Fire/Air-cooler/Fan,30,Pandacan
+4PM 11/29/2016,Under Investigation,30,Malate
+9AM 11/30/2016,Electrical connection,30,Tondo
+6PM 11/30/2016,Electrical connection,30,Paco
+10PM 11/30/2016,Electrical connection,30,Pandacan
+11PM 11/30/2016,"LPG Leak, Gas, Keresone, Charcoal Stove",30,Paco
+11AM 12/1/2016,Unattended cooking,28,Sampaloc
+2PM 12/1/2016,Cigarette Butt,28,San Andres
+9PM 12/1/2016,Electrical connection,28,San Andres
+1AM 12/2/2016,Open flame,27,Ermita
+9AM 12/2/2016,Electrical connection,27,San Miguel
+10AM 12/2/2016,Candle,27,Tondo
+7PM 12/2/2016,Electrical connection,27,Santa Cruz
+9AM 12/3/2016,Electrical connection,28,Sampaloc
+9PM 12/3/2016,Electrical connection,28,Tondo
+1AM 12/4/2016,Under Investigation,29,Sampaloc
+6AM 12/4/2016,Under Investigation,29,Tondo
+9PM 12/4/2016,Electrical connection,29,Santa Ana
+6PM 12/5/2016,Air-conditioned Fire/Air-cooler/Fan,28,Malate
+10PM 12/6/2016,Electrical connection,29,Tondo
+11AM 12/7/2016,Open flame,29,Tondo
+10PM 12/7/2016,Cigarette Butt,29,Santa Cruz
+6AM 12/9/2016,Electrical connection,29,Santa Mesa
+2PM 12/8/2016,Electrical connection,28,Santa Cruz
+9PM 12/11/2016,Electrical connection,29,Malate
+11AM 12/12/2016,Electrical connection,28,Santa Cruz
+1PM 12/13/2016,Cigarette Butt,27,Paco
+7PM 12/13/2016,Electrical connection,27,San Miguel
+8PM 12/13/2016,Electrical connection,27,Port Area
+10PM 12/12/2016,Electrical connection,28,Tondo
+10PM 12/13/2016,Under Investigation,27,Ermita
+11AM 12/14/2016,Electrical connection,28,Santa Cruz
+11AM 12/15/2016,Electrical connection,26,San Miguel
+4PM 12/15/2016,Electrical connection,26,Tondo
+11PM 12/15/2016,Candle,26,Tondo
+8AM 12/16/2016,Open flame,26,Tondo
+3PM 12/16/2016,Electrical connection,26,Santa Mesa
+5PM 12/17/2016,Electrical connection,26,Sampaloc
+9AM 12/18/2016,Under Investigation,26,Sampaloc
+2AM 12/19/2016,Electrical connection,28,Tondo
+1PM 12/19/2016,Under Investigation,28,San Miguel
+8AM 12/20/2016,"LPG Leak, Gas, Keresone, Charcoal Stove",31,Ermita
+3PM 12/20/2016,Under Investigation,31,Tondo
+10AM 12/21/2016,Open flame,28,Sampaloc
+9PM 12/21/2016,Air-conditioned Fire/Air-cooler/Fan,28,Santa Cruz
+2PM 12/22/2016,Under Investigation,28,Port Area
+7AM 12/23/2016,Electrical connection,28,Santa Cruz
+10PM 12/23/2016,Electrical connection,28,Sampaloc
+12AM 12/25/2016,Electrical connection,29,Binondo
+11AM 12/25/2016,Under Investigation,25,Santa Cruz
+3PM 12/25/2016,Firecracker,25,Santa Cruz
+7PM 12/25/2016,Open flame,25,Malate
+7PM 12/25/2016,Electrical connection,25,Tondo
+3PM 12/26/2016,Under Investigation,27,Sampaloc
+6PM 12/26/2016,Electrical connection,27,Tondo
+8PM 12/26/2016,Electrical connection,27,Santa Ana
+7AM 12/27/2016,Arson,30,Paco
+10AM 12/28/2016,Electrical connection,30,Santa Mesa
+11AM 12/29/2016,Under Investigation,29,Sampaloc
+4PM 12/29/2016,Under Investigation,29,Santa Ana
+10PM 12/29/2016,Electrical connection,29,Santa Ana
+6AM 12/31/2016,Electrical connection,27,Tondo
+11AM 12/31/2016,Electrical connection,27,Sampaloc
+12PM 12/31/2016,Open flame,27,Sampaloc
+10PM 12/31/2016,Electrical connection,27,Paco
